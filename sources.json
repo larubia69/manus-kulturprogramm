@@ -1,0 +1,67 @@
+[
+  {
+    "name": "Villa Rot",
+    "url": "https://villa-rot.de/",
+    "enabled": true
+  },
+  {
+    "name": "Stellwerk Schelklingen",
+    "url": "https://www.stellwerk-schelklingen.com/",
+    "enabled": true
+  },
+  {
+    "name": "Bonanzbar",
+    "url": "https://bonanzbar.jimdofree.com/",
+    "enabled": true
+  },
+  {
+    "name": "ROXY Ulm",
+    "url": "https://www.roxy.ulm.de/programm/programm.php",
+    "enabled": true
+  },
+  {
+    "name": "Club Manufaktur",
+    "url": "https://www.club-manufaktur.de/kategorie/alle-events/",
+    "enabled": true
+  },
+  {
+    "name": "Birkenried",
+    "url": "https://www.birkenried.de/termine/",
+    "enabled": true
+  },
+  {
+    "name": "Aegis Literatur",
+    "url": "https://aegis-literatur.buchhandlung.de/shop/magazine/152252/veranstaltungen.html",
+    "enabled": true
+  },
+  {
+    "name": "Livegigs Ulm",
+    "url": "https://www.livegigs.de/venues/ulm",
+    "enabled": true
+  },
+  {
+    "name": "Pauluskirche",
+    "url": "https://www.pauluskirche-ulm.de/kirchen-musik.html",
+    "enabled": true
+  },
+  {
+    "name": "DONAU 3 FM",
+    "url": "https://www.donau3fm.de/regionale-events/",
+    "enabled": true
+  },
+  {
+    "name": "Rausgegangen Ulm",
+    "url": "https://rausgegangen.de/ulm/",
+    "enabled": true
+  },
+  {
+    "name": "Was geht?",
+    "url": "https://www.wasgehtapp.de/index.php?radius=20&select_ort=1&ort=Ulm&x=9.98489&y=48.3917&region=01",
+    "enabled": true
+  },
+  {
+    "name": "GOLD",
+    "url": "https://dasgold.org/programm/",
+    "enabled": true
+  }
+]
