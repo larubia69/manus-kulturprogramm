@@ -11,7 +11,7 @@ def load_sources():
  data=json.loads((ROOT/'sources.json').read_text(encoding='utf-8'))
  return [(x['name'].strip(), x['url'].strip()) for x in data if x.get('enabled',True) and x.get('name') and x.get('url','').startswith(('https://','http://'))]
 MONTHS={'jan':1,'feb':2,'mär':3,'mae':3,'mar':3,'apr':4,'mai':5,'may':5,'jun':6,'jul':7,'aug':8,'sep':9,'okt':10,'oct':10,'nov':11,'dez':12,'dec':12}
-SKIP=re.compile(r'kino|kinofilm|filmvorführung|familienkonzert|kinder|familienprogramm|kids\b|jugendtheater|geschlossene gesellschaft|privatveranstaltung',re.I)
+SKIP=re.compile(r'kino|kinofilm|filmvorführung|familienkonzert|kinder|familienprogramm|kids\b|jugendtheater|geschlossene gesellschaft|privatveranstaltung|kurzfilm|filmfestival|filmabend|wochenmarkt|gottesdienst|kindertheater|puppentheater|kasperle|kinderfest',re.I)
 def clean_text(value):
  """Decode nested HTML entities and remove HTML tags from event text."""
  text=str(value or '')
@@ -312,12 +312,78 @@ def parse_birkenried(soup,base):
  """Only accept explicit Event schema from the embedded Eventfrog listing."""
  return ld_events(soup,'Birkenried',base)
 
+
+# Additional source-specific readers. Prefer exact dates to guessing.
+def parse_pfleghof(soup,base):
+    result=[]
+    # Langenau publishes each event as a date/time/title block. Read in document order.
+    lines=[x.strip() for x in soup.get_text('\n',strip=True).splitlines() if x.strip()]
+    date_re=re.compile(r'^(?:Mo|Di|Mi|Do|Fr|Sa|So)\.?(?:\s*\([^)]*\))?,?\s*(\d{1,2})\.(\d{1,2})\.(\d{2,4})\b',re.I)
+    for i,line in enumerate(lines):
+        m=date_re.search(line)
+        if not m:continue
+        year=int(m[3]);year+=2000 if year<100 else 0
+        try:day=dt.date(year,int(m[2]),int(m[1])).isoformat()
+        except ValueError:continue
+        window=lines[i+1:i+13]
+        time_match=next((re.search(r'\b([01]?\d|2[0-3]):[0-5]\d\b',t) for t in window if re.search(r'\b([01]?\d|2[0-3]):[0-5]\d\b',t)),None)
+        # Skip an optional end-date (for multi-day workshops) before the clock time.
+        time_index=next((j for j,t in enumerate(window) if re.search(r'\b\d{1,2}:\d{2}\b',t)),None)
+        if time_index is None:continue
+        candidates=window[time_index+1:time_index+5]
+        title=next((t for t in candidates if len(t)>3 and t.lower() not in ('image','veranstaltungsort:','veranstalter:') and not t.lower().startswith(('veranstaltungsort','veranstalter'))),None)
+        if not title:continue
+        desc=' '.join(window[time_index+2:time_index+5])
+        if SKIP.search(title+' '+desc):continue
+        # The source is a venue listing; ignore items whose named venue isn't Pfleghof.
+        nearby=' '.join(window[:10]).lower()
+        if 'veranstaltungsort:' in nearby and 'pfleghof' not in nearby and 'kultur' not in nearby:continue
+        event=record(day,title,'Pfleghof Langenau',base,time_match.group(0) if time_match else '',desc)
+        if event:result.append(event)
+    return result
+
+def parse_theater_ulm(soup,base):
+    result=[]
+    # Calendar entries: 'November 7 Samstag, 19:00 Uhr' followed by a stage and heading.
+    full_months={'januar':1,'februar':2,'märz':3,'maerz':3,'april':4,'mai':5,'juni':6,'juli':7,'august':8,'september':9,'oktober':10,'november':11,'dezember':12}
+    text=soup.get_text('\n',strip=True)
+    # The page displays year in month navigation, and may span two calendar years.
+    listed=re.findall(r'(Januar|Februar|März|April|Mai|Juni|Juli|August|September|Oktober|November|Dezember)\s+(20\d{2})',text,re.I)
+    month_year={full_months[a.lower()]:int(b) for a,b in listed}
+    for heading in soup.find_all(['h2','h3','h4']):
+        title=heading.get_text(' ',strip=True)
+        if not 3<len(title)<180 or SKIP.search(title):continue
+        node=heading.parent
+        for _ in range(4):
+            if not node:break
+            block=node.get_text(' ',strip=True)
+            match=re.search(r'(Januar|Februar|März|April|Mai|Juni|Juli|August|September|Oktober|November|Dezember)\s+(\d{1,2})\s+(?:Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Samstag|Sonntag),?\s*(\d{1,2}:\d{2})\s*Uhr',block,re.I)
+            if match and len(block)<1200:
+                month=full_months[match[1].lower()];year=month_year.get(month)
+                if year is None:
+                    now=dt.date.today();year=now.year+(month<now.month-2)
+                try:date=dt.date(year,month,int(match[2])).isoformat()
+                except ValueError:break
+                href=heading.find('a',href=True) or node.find('a',href=True)
+                link=urljoin(base,href['href']) if href else base
+                label=block.lower()
+                genre='Bühne' if any(k in label for k in ('schauspiel','tanztheater','musiktheater','oper','operette','ballett')) else 'Konzerte' if 'konzert' in label else category(title)
+                ev=record(date,title,'Theater Ulm',link,match[3],genre=genre)
+                if ev:result.append(ev)
+                break
+            node=node.parent
+    return result
+
 def run():
  report=[];found=[]
  for name,url in load_sources():
   try:
    # Month-based venue pages for ROXY and Pauluskirche
    urls=[url]
+   if name=='Theater Ulm':
+    urls=['https://www.theater-ulm.de/spielplan']
+   if name=='Pfleghof Langenau':
+    urls=['https://www.langenau.de/de/erleben/pfleghof/veranstaltung']
    if name=='Villa Rot':
     urls=['https://villa-rot.de/programm/ausstellungen/','https://villa-rot.de/programm/konzerte/','https://villa-rot.de/programm/veranstaltungen/']
    if name=='Birkenried':
@@ -345,6 +411,8 @@ def run():
      raise
     results+=ld_events(soup,name,u)
     if name=='GOLD':results+=parse_gold(soup,u)
+    elif name=='Pfleghof Langenau':results+=parse_pfleghof(soup,u)
+    elif name=='Theater Ulm':results+=parse_theater_ulm(soup,u)
     elif name=='Bonanzbar':results+=parse_bonanz(soup,u)
     elif name=='Stellwerk Schelklingen':results+=parse_stellwerk(soup,u)
     elif name=='ROXY Ulm':

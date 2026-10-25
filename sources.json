@@ -63,5 +63,70 @@
     "name": "GOLD",
     "url": "https://dasgold.org/programm/",
     "enabled": true
+  },
+  {
+    "name": "Kunstwerk Ulm",
+    "url": "https://www.kunstwerk-ulm.de/",
+    "enabled": true
+  },
+  {
+    "name": "Sauschdall",
+    "url": "https://sauschdall.de/",
+    "enabled": true
+  },
+  {
+    "name": "Fiddlers Green Pub",
+    "url": "https://fiddlersgreenpub.de/programm/events/",
+    "enabled": true
+  },
+  {
+    "name": "Pfleghof Langenau",
+    "url": "https://www.langenau.de/de/erleben/pfleghof/veranstaltung",
+    "enabled": true
+  },
+  {
+    "name": "Veranstaltungskalender Ulm/Neu-Ulm",
+    "url": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/",
+    "enabled": true
+  },
+  {
+    "name": "Stadt Ulm Veranstaltungskalender",
+    "url": "https://www.ulm.de/sonderseiten/veranstaltungskalender",
+    "enabled": true
+  },
+  {
+    "name": "Theater Ulm",
+    "url": "https://www.theater-ulm.de/spielplan",
+    "enabled": true
+  },
+  {
+    "name": "Caponniere 4",
+    "url": "https://nu.neu-ulm.de/neu-ulm-erleben/veranstaltungsorte/caponniere",
+    "enabled": true
+  },
+  {
+    "name": "Edwin-Scharff-Haus",
+    "url": "https://edwin-scharff-haus.de/",
+    "enabled": true
+  },
+  {
+    "name": "Eventim Neu-Ulm",
+    "url": "https://www.eventim.de/cityd/neu-ulm-175/",
+    "enabled": true
+  },
+  {
+    "name": "Eventim Ulm",
+    "url": "https://www.eventim.de/city/ulm-87/",
+    "enabled": true
+  },
+  {
+    "name": "Kultur in Ulm",
+    "url": "https://www.kultur-in-ulm.de/",
+    "enabled": true
+  },
+  {
+    "name": "UlmTickets",
+    "url": "https://www.ulmtickets.de/uebersicht",
+    "enabled": true
   }
 ]
