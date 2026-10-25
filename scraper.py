@@ -20,7 +20,7 @@ def clean_text(value):
   if decoded==text:break
   text=decoded
  text=BeautifulSoup(text,'html.parser').get_text(' ',strip=True)
- return ' '.join(text.replace('\xa0',' ').split())
+ return ' '.join(text.replace('\\n',' ').replace('\xa0',' ').split())
 
 def short_description(value,limit=220):
  text=clean_text(value)
@@ -148,12 +148,104 @@ def parse_roxy(soup,base):
     if ev:out.append(ev)
     break
  return out
+
+# Conservative site-specific importers. A missing date means no event is added.
+def parse_villa_exhibitions(soup,base):
+ out=[]
+ for heading in soup.find_all(['h2','h3','h4']):
+  name=clean_text(heading.get_text(' ',strip=True))
+  if not name or name.lower() in ('programm','ausstellungen','konzerte'):continue
+  parent=heading.parent
+  context=clean_text(parent.get_text(' ',strip=True)) if parent else ''
+  if not re.search(r'\d{2}\.\d{2}\.20\d{2}',context):
+   context=clean_text(parent.parent.get_text(' ',strip=True))[:350] if parent and parent.parent else context
+  m=re.search(r'(\d{2})\.(\d{2})\.(20\d{2})\s*[–—-]\s*(\d{2})\.(\d{2})\.(20\d{2})',context)
+  if not m:continue
+  try:start=dt.date(int(m[3]),int(m[2]),int(m[1]));end=dt.date(int(m[6]),int(m[5]),int(m[4]))
+  except ValueError:continue
+  if end<dt.date.today():continue
+  # In the calendar, an ongoing exhibition is represented from today onward.
+  display=max(start,dt.date.today())
+  link=heading.find('a',href=True) or (parent.find('a',href=True) if parent else None)
+  ev=record(display.isoformat(),name,'Villa Rot',urljoin(base,link['href']) if link else base,details=f'Ausstellung vom {start:%d.%m.%Y} bis {end:%d.%m.%Y}; Öffnungszeiten auf der Originalseite.',genre='Kunst',end=end.isoformat())
+  if ev:out.append(ev)
+ return out
+
+def parse_paulus(soup,base,year,month):
+ out=[]
+ # Calendar table cells start with day of month and contain event links.
+ for td in soup.select('td'):
+  text=clean_text(td.get_text(' ',strip=True))
+  m=re.match(r'^(\d{1,2})(?!\d)',text)
+  if not m:continue
+  try:day=dt.date(year,month,int(m[1])).isoformat()
+  except ValueError:continue
+  for a in td.find_all('a',href=True):
+   title=clean_text(a.get_text(' ',strip=True))
+   if len(title)<5 or re.match(r'^\d+$',title):continue
+   ev=record(day,title,'Pauluskirche',urljoin(base,a['href']),genre='Konzerte')
+   if ev:out.append(ev)
+ return out
+
+def parse_roxy_v2(soup,base,year,month):
+ out=[]
+ # Event links are marked by their explicit genre on the programme page.
+ genres={'Konzert':'Konzerte','Comedy':'Bühne','Kabarett':'Bühne','Theater':'Bühne','Bühne':'Bühne','Lesung':'Literatur','Party':'Club','Tanz':'Club','Treffpunkt':'Literatur'}
+ heading_re=re.compile(r'^(Konzert|Comedy|Kabarett|Theater|Bühne|Lesung|Party|Tanz|Treffpunkt)\b',re.I)
+ for a in soup.select('a[href]'):
+  raw=clean_text(a.get_text(' ',strip=True))
+  match=heading_re.match(raw)
+  if not match or len(raw)<12:continue
+  if re.search(r'familienkonzert|kinder|jugendmesse|ABGESAGT|verschoben',raw,re.I):continue
+  label=match[1];title=raw[match.end():].strip(' –-')
+  if len(title)<4:continue
+  # Ascend to a local programme entry, accepting only a single unambiguous date.
+  node=a; day=None;tm=''
+  for _ in range(7):
+   node=node.parent
+   if not node:break
+   t=clean_text(node.get_text(' ',strip=True))
+   dates=re.findall(r'\b(?:Mo|Di|Mi|Do|Fr|Sa|So)\s+(\d{1,2})(?=\s|$)',t)
+   if len(set(dates))==1:
+    day=int(dates[0]); times=re.findall(r'\b(\d{1,2}:\d{2})\s*H\b',t)
+    if len(set(times))==1:tm=times[0]
+    break
+   if len(set(dates))>1:break
+  if day is None:
+   # ROXY often separates the weekday and day into adjacent HTML nodes.
+   previous=[]
+   for x in a.previous_elements:
+    if isinstance(x,str):
+     v=clean_text(x)
+     if v:previous.append(v)
+    if len(previous)>=90:break
+   chronological=list(reversed(previous))
+   for i in range(len(chronological)-2,-1,-1):
+    token=chronological[i]
+    if re.fullmatch(r'Mo|Di|Mi|Do|Fr|Sa|So',token):
+     following=chronological[i+1]
+     md=re.fullmatch(r'0?[1-9]|[12]\d|3[01]',following)
+     if md:
+      day=int(following)
+      nearby=' '.join(chronological[i+2:])
+      times=re.findall(r'\b(\d{1,2}:\d{2})\s*H\b',nearby)
+      if times:tm=times[-1]
+      break
+   if day is None:continue
+  try:date=dt.date(year,month,day).isoformat()
+  except ValueError:continue
+  ev=record(date,title,'ROXY Ulm',urljoin(base,a['href']),tm,genre=genres.get(label,'Konzerte'))
+  if ev:out.append(ev)
+ return out
+
 def run():
  report=[];found=[]
  for name,url in load_sources():
   try:
    # Month-based venue pages for ROXY and Pauluskirche
    urls=[url]
+   if name=='Villa Rot':
+    urls=['https://villa-rot.de/programm/ausstellungen/','https://villa-rot.de/programm/konzerte/','https://villa-rot.de/programm/veranstaltungen/']
    if name=='ROXY Ulm':
     today=dt.date.today();urls=[]
     for k in range(3):
@@ -166,11 +258,21 @@ def run():
      urls.append(f'{url}?month={y}{m:02d}')
    results=[]
    for u in urls:
-    soup=fetch(u);results+=ld_events(soup,name,u)
+    try:soup=fetch(u)
+    except requests.RequestException:
+     if len(urls)>1:continue
+     raise
+    results+=ld_events(soup,name,u)
     if name=='GOLD':results+=parse_gold(soup,u)
     elif name=='Bonanzbar':results+=parse_bonanz(soup,u)
     elif name=='Stellwerk Schelklingen':results+=parse_stellwerk(soup,u)
-    elif name=='ROXY Ulm':results+=parse_roxy(soup,u)
+    elif name=='ROXY Ulm':
+     match=re.search(r'[?&]j=(\d{4})&m=(\d{1,2})',u)
+     if match:results+=parse_roxy_v2(soup,u,int(match[1]),int(match[2]))
+    elif name=='Villa Rot' and '/ausstellungen/' in u:results+=parse_villa_exhibitions(soup,u)
+    elif name=='Pauluskirche':
+     match=re.search(r'month=(\d{4})(\d{2})',u)
+     if match:results+=parse_paulus(soup,u,int(match[1]),int(match[2]))
    count=len(results);found+=results
    report.append(dict(name=name,url=url,state='ok' if count else 'needs_parser',count=count,note='' if count else 'Seite erreichbar, aber keine zuverlässig erkannten zukünftigen Termine'))
   except Exception as exc:
