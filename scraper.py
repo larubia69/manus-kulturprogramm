@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Manus Kulturprogramm: publicly accessible event listings, conservative parsing."""
-import json,re,hashlib,datetime as dt,time
+import json,re,hashlib,datetime as dt,time,html
 from pathlib import Path
 from urllib.parse import urljoin
 import requests
@@ -12,22 +12,51 @@ def load_sources():
  return [(x['name'].strip(), x['url'].strip()) for x in data if x.get('enabled',True) and x.get('name') and x.get('url','').startswith(('https://','http://'))]
 MONTHS={'jan':1,'feb':2,'mär':3,'mae':3,'mar':3,'apr':4,'mai':5,'may':5,'jun':6,'jul':7,'aug':8,'sep':9,'okt':10,'oct':10,'nov':11,'dez':12,'dec':12}
 SKIP=re.compile(r'kino|kinofilm|filmvorführung|familienkonzert|kinder|familienprogramm|kids\b|jugendtheater|geschlossene gesellschaft|privatveranstaltung',re.I)
-def category(text):
- t=text.lower()
- if re.search(r'party|dj\b|disco|clubnacht|dancefloor|tanzparty|90.s',t):return 'Club'
- if re.search(r'ausstellung|galerie|vernissage|kunst|exhibition',t):return 'Kunst'
- if re.search(r'comedy|kabarett|theater|bühne|slam|schauspiel',t):return 'Bühne'
- if re.search(r'lesung|buch|literatur|workshop|vortrag|diskussion|talk',t):return 'Literatur'
+def clean_text(value):
+ """Decode nested HTML entities and remove HTML tags from event text."""
+ text=str(value or '')
+ for _ in range(4):
+  decoded=html.unescape(text)
+  if decoded==text:break
+  text=decoded
+ text=BeautifulSoup(text,'html.parser').get_text(' ',strip=True)
+ return ' '.join(text.replace('\xa0',' ').split())
+
+def short_description(value,limit=220):
+ text=clean_text(value)
+ if len(text)<=limit:return text
+ fragment=text[:limit+1]
+ # Prefer ending at a sentence boundary; otherwise at a word boundary.
+ breaks=list(re.finditer(r'[.!?](?=\s|$)',fragment))
+ if breaks and breaks[-1].end()>=limit//2:
+  return fragment[:breaks[-1].end()].strip()
+ return fragment[:limit].rsplit(' ',1)[0].rstrip(' ,;:–-')+' …'
+
+def category(text,details=''):
+ """Classify using title first, not potentially unrelated description keywords."""
+ title=clean_text(text).lower()
+ extra=clean_text(details).lower()
+ rules=[
+  ('Club',r'party|\bdj\b|disco|clubnacht|dancefloor|tanz|dance|rave|90.s|nachtleben'),
+  ('Kunst',r'ausstellung|galerie|vernissage|\bkunst\b|exhibition'),
+  ('Bühne',r'comedy|kabarett|theater|bühne|poetry\s*slam|schauspiel|impro'),
+  ('Literatur',r'lesung|buch|literatur|workshop|vortrag|diskussion|\btalk\b|stammtisch|gespräch|podium')]
+ for name,pattern in rules:
+  if re.search(pattern,title,re.I):return name
+ # Only use explicitly marked event types in descriptions, not incidental mentions.
+ for name,pattern in rules:
+  if re.search(r'(?:kategorie|genre|veranstaltungsart|format)\s*[:\-]\s*(?:'+pattern+r')\b',extra,re.I):return name
  return 'Konzerte'
 def valid(date,title):
  try: day=dt.date.fromisoformat(date)
  except (ValueError,TypeError):return False
  return day >= dt.date.today()-dt.timedelta(days=1) and day <= dt.date.today()+dt.timedelta(days=420) and bool(title.strip()) and not SKIP.search(title)
 def record(date,title,place,url,time='',details='',genre=None,end=None):
- title=' '.join(title.split())
+ title=clean_text(title)
+ details=clean_text(details)
  if not valid(date,title):return None
  key=(date+'|'+title.lower()+'|'+place.lower()).encode()
- return dict(id=hashlib.sha256(key).hexdigest()[:16],date=date,title=title,place=place,genre=genre or category(title+' '+details),time=time,url=url,details=details[:220],end=end)
+ return dict(id=hashlib.sha256(key).hexdigest()[:16],date=date,title=title,place=place,genre=genre or category(title,details),time=time,url=url,details=short_description(details),end=end)
 def fetch(url):
  r=requests.get(url,headers={'User-Agent':'Manus Kulturprogramm/1.0 (personal noncommercial events indexer)'},timeout=9)
  r.raise_for_status();return BeautifulSoup(r.text,'html.parser')
@@ -48,7 +77,7 @@ def ld_events(soup,name,base):
    match=re.match(r'(\d{4}-\d\d-\d\d)(?:T(\d\d:\d\d))?',start)
    if not match:continue
    title=str(item.get('name') or '')
-   desc=re.sub('<[^>]+>',' ',str(item.get('description') or ''))
+   desc=clean_text(item.get('description') or '')
    if SKIP.search(title+' '+desc[:100]):continue
    ev=record(match[1],title,name,str(item.get('url') or base),match[2] or '',desc)
    if ev:found.append(ev)
@@ -65,7 +94,7 @@ def parse_gold(soup,base):
   title=link.get_text(' ',strip=True)
   if not title or title.lower()=='more…':continue
   date=f'{m[3]}-{m[2]}-{m[1]}'
-  ev=record(date,title,'GOLD',urljoin(base,link['href']),f'{int(m[4]):02d}:00' if m[4] else '',str(txt),category(title+' '+str(txt)))
+  ev=record(date,title,'GOLD',urljoin(base,link['href']),f'{int(m[4]):02d}:00' if m[4] else '',str(txt),category(title,str(txt)))
   if ev:out.append(ev)
  return out
 def parse_bonanz(soup,base):
