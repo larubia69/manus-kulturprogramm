@@ -238,6 +238,80 @@ def parse_roxy_v2(soup,base,year,month):
   if ev:out.append(ev)
  return out
 
+
+# Additional importers: conservative extraction, dates required; false matches are skipped.
+GERMAN_MONTHS={'januar':1,'februar':2,'maerz':3,'märz':3,'april':4,'mai':5,'juni':6,'juli':7,'august':8,'september':9,'oktober':10,'november':11,'dezember':12,
+               'jan':1,'feb':2,'mär':3,'mar':3,'apr':4,'jun':6,'jul':7,'aug':8,'sep':9,'okt':10,'nov':11,'dez':12}
+
+def upcoming_date(day,month,year=None):
+ today=dt.date.today()
+ if year is not None:
+  try:return dt.date(int(year),int(month),int(day)).isoformat()
+  except ValueError:return None
+ for year_option in (today.year,today.year+1):
+  try:candidate=dt.date(year_option,int(month),int(day))
+  except ValueError:return None
+  if candidate>=today-dt.timedelta(days=1):return candidate.isoformat()
+ return None
+
+def parse_rausgegangen(soup,base):
+ """Read dated public event links, avoiding relative dates and undated recommendations."""
+ out=[]
+ # e.g. 'Fr, 06. Nov | 20:00 Mina Richman ... Aegis Café 23,00 €'
+ pattern=re.compile(r'^(?:Mo|Di|Mi|Do|Fr|Sa|So),?\s+(\d{1,2})\.\s*([A-Za-zäöüÄÖÜ]+)\s*\|\s*(\d{1,2}:\d{2})\s+(.+)$',re.I)
+ for a in soup.select('a[href]'):
+  raw=clean_text(a.get_text(' ',strip=True))
+  m=pattern.match(raw)
+  if not m:continue
+  mon=GERMAN_MONTHS.get(m[2].lower().rstrip('.'))
+  if not mon:continue
+  date=upcoming_date(m[1],mon)
+  if not date:continue
+  # On this aggregator, venue/price usually trail the title. Link destination supplies event details.
+  # Prefer heading text for title when provided, otherwise strip trailing price/ticket information.
+  title_node=a.find(['h2','h3','h4'])
+  title=clean_text(title_node.get_text(' ',strip=True)) if title_node else m[4]
+  title=re.split(r'\s+(?:ab|from)\s+\d+[,.]\d+\s*€|\s+\d+[,.]\d+\s*€|\s+Free admission\b',title,1,flags=re.I)[0]
+  title=re.sub(r'\s+(?:WIN|PRESENTED)$','',title,flags=re.I).strip()
+  # Without a distinct title node, this can include a venue name. Cap conservatively.
+  if len(title)>120 or len(title)<5:continue
+  url=urljoin(base,a['href'])
+  if not url.startswith('https://rausgegangen.de/') or url.rstrip('/')==base.rstrip('/'):continue
+  ev=record(date,title,'Rausgegangen Ulm',url,m[3],genre=category(title))
+  if ev:out.append(ev)
+ return out
+
+def parse_livegigs(soup,base):
+ """Find events with explicit year beside linked names in the venue overview."""
+ out=[]
+ # The page groups dates, artist links and categories in venue cards. Only extract
+ # when a bounded card provides an unambiguous full date and event link.
+ for a in soup.find_all('a',href=True):
+  href=a['href']
+  if not re.search(r'/events?/|/konzerte/|/gigs/',href,re.I):continue
+  title=clean_text(a.get_text(' ',strip=True))
+  if not 5<=len(title)<=105 or re.search(r'^(Tickets|Termine|Konzert|Details)$',title,re.I):continue
+  parent=a
+  for depth in range(1,5):
+   parent=parent.parent
+   if parent is None:break
+   # Stop before a group of venues; never assign an adjacent venue's date.
+   raw=clean_text(parent.get_text(' ',strip=True))
+   if len(raw)>750:break
+   m=re.search(r'\b(\d{1,2})\s*\.?\s*(Jan|Feb|Mär|Mar|Apr|Mai|Jun|Jul|Aug|Sep|Okt|Nov|Dez)\.?\s*(20\d{2})\b',raw,re.I)
+   if not m:continue
+   month=MONTHS.get(m[2].lower()[:3]);date=upcoming_date(m[1],month,m[3]) if month else None
+   if not date:break
+   tm=re.search(r'\b(\d{1,2}:\d{2})\s*Uhr',raw,re.I)
+   ev=record(date,title,'Livegigs Ulm',urljoin(base,href),tm[1] if tm else '')
+   if ev:out.append(ev)
+   break
+ return out
+
+def parse_birkenried(soup,base):
+ """Only accept explicit Event schema from the embedded Eventfrog listing."""
+ return ld_events(soup,'Birkenried',base)
+
 def run():
  report=[];found=[]
  for name,url in load_sources():
@@ -246,6 +320,13 @@ def run():
    urls=[url]
    if name=='Villa Rot':
     urls=['https://villa-rot.de/programm/ausstellungen/','https://villa-rot.de/programm/konzerte/','https://villa-rot.de/programm/veranstaltungen/']
+   if name=='Birkenried':
+    # Public Eventfrog embed used by the Birkenried dates page.
+    try:
+     main=fetch(url)
+     embeds=[urljoin(url,x.get('src','')) for x in main.select('iframe[src]') if 'eventfrog' in x.get('src','').lower()]
+     urls=[url]+embeds[:1]
+    except requests.RequestException:pass
    if name=='ROXY Ulm':
     today=dt.date.today();urls=[]
     for k in range(3):
@@ -270,6 +351,9 @@ def run():
      match=re.search(r'[?&]j=(\d{4})&m=(\d{1,2})',u)
      if match:results+=parse_roxy_v2(soup,u,int(match[1]),int(match[2]))
     elif name=='Villa Rot' and '/ausstellungen/' in u:results+=parse_villa_exhibitions(soup,u)
+    elif name=='Rausgegangen Ulm':results+=parse_rausgegangen(soup,u)
+    elif name=='Livegigs Ulm':results+=parse_livegigs(soup,u)
+    elif name=='Birkenried':results+=parse_birkenried(soup,u)
     elif name=='Pauluskirche':
      match=re.search(r'month=(\d{4})(\d{2})',u)
      if match:results+=parse_paulus(soup,u,int(match[1]),int(match[2]))
