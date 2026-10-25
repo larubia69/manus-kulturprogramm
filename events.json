@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T15:30:28.990889+00:00",
+  "generatedAt": "2026-10-25T15:41:31.194650+00:00",
   "events": [
     {
       "id": "c0962d037b42e3d2",
@@ -9,6 +9,83 @@
       "genre": "Konzerte",
       "time": "",
       "url": "https://www.stellwerk-schelklingen.com/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "1a2f41d91e896489",
+      "date": "2026-10-24",
+      "title": "Candle light",
+      "place": "Pauluskirche",
+      "genre": "Konzerte",
+      "time": "",
+      "url": "https://www.pauluskirche-ulm.de/termine/candle-light-8.html",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "0e53071b6bad4299",
+      "date": "2026-10-24",
+      "title": "Edelfummelflohmarkt — IWC ist Organisator Dress for less! 10:00 - 14:00 H",
+      "place": "ROXY Ulm",
+      "genre": "Literatur",
+      "time": "",
+      "url": "https://www.roxy.ulm.de/programm/programm.php?m=10&j=2026&vid=5555",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "7938ada8a7d45b11",
+      "date": "2026-10-24",
+      "title": "Musa Dagh LIVE 2026",
+      "place": "ROXY Ulm",
+      "genre": "Konzerte",
+      "time": "",
+      "url": "https://www.roxy.ulm.de/programm/programm.php?m=10&j=2026&vid=5534",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "5ff58a758ec500da",
+      "date": "2026-10-25",
+      "title": "Licht unter die Haut",
+      "place": "Villa Rot",
+      "genre": "Kunst",
+      "time": "",
+      "url": "https://villa-rot.de/programm/ausstellungen/licht-unter-die-haut/",
+      "details": "Ausstellung vom 25.10.2026 bis 07.02.2027; Öffnungszeiten auf der Originalseite.",
+      "end": "2027-02-07"
+    },
+    {
+      "id": "3e14ac72e15d810f",
+      "date": "2026-10-25",
+      "title": "Open Rehearsal mit Pablo Sansalvador ChoreoLab TanzSüd 2026",
+      "place": "ROXY Ulm",
+      "genre": "Club",
+      "time": "17:00",
+      "url": "https://www.roxy.ulm.de/programm/programm.php?m=10&j=2026&vid=5695",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "299f9c73dc12f1bc",
+      "date": "2026-10-28",
+      "title": "Fabian Köster — ausverkauft Jahre — Reporter (fast) ohne Grenzen",
+      "place": "ROXY Ulm",
+      "genre": "Bühne",
+      "time": "20:00",
+      "url": "https://www.roxy.ulm.de/programm/programm.php?m=10&j=2026&vid=5448",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "30208fdd95546efd",
+      "date": "2026-10-29",
+      "title": "Jazzchor Freiburg meets Joo Kraus Infusion",
+      "place": "ROXY Ulm",
+      "genre": "Konzerte",
+      "time": "20:00",
+      "url": "https://www.roxy.ulm.de/programm/programm.php?m=10&j=2026&vid=5630",
       "details": "",
       "end": null
     },
@@ -57,6 +134,28 @@
       "end": null
     },
     {
+      "id": "9d1b9bb0ca5ddefa",
+      "date": "2026-10-31",
+      "title": "Halloween — letzte Tickets verfügbar! Die beste Gruselparty der Region",
+      "place": "ROXY Ulm",
+      "genre": "Club",
+      "time": "21:00",
+      "url": "https://www.roxy.ulm.de/programm/programm.php?m=10&j=2026&vid=5671",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "6dec1b634cc0173a",
+      "date": "2026-11-03",
+      "title": "Mother’s Cake Fall 2026",
+      "place": "ROXY Ulm",
+      "genre": "Konzerte",
+      "time": "20:00",
+      "url": "https://www.roxy.ulm.de/programm/programm.php?m=11&j=2026&vid=5673",
+      "details": "",
+      "end": null
+    },
+    {
       "id": "18602fb0ad62eef4",
       "date": "2026-11-04",
       "title": "Josef-Otto Freudenreich – Vortrag und Diskussion – Der herbeigeschriebene Erfolg für die AfD – Moderation Alexander Roth",
@@ -64,7 +163,40 @@
       "genre": "Literatur",
       "time": "19:30",
       "url": "https://www.club-manufaktur.de/event/josef-otto-freudenreich-vortrag-und-diskussion-der-herbeigeschriebene-erfolg-fuer-die-afd-moderation-alexander-roth/",
-      "details": "Josef-Otto Freudenreich \\nVortrag und Diskussion \\nDer herbeigeschriebene Erfolg für die AfD \\nDie (seriösen) Medien - Wegbereiter des Rechtsextremismus?",
+      "details": "Josef-Otto Freudenreich Vortrag und Diskussion Der herbeigeschriebene Erfolg für die AfD Die (seriösen) Medien - Wegbereiter des Rechtsextremismus? Moderation Alexander Roth Taugt eine „Brandmauer“ gegen die AfD?",
+      "end": null
+    },
+    {
+      "id": "058e1d9f06ab7c33",
+      "date": "2026-11-05",
+      "title": "Open Rehearsal mit Emi Miyoshi ChoreoLab TanzSüd 2026",
+      "place": "ROXY Ulm",
+      "genre": "Club",
+      "time": "17:00",
+      "url": "https://www.roxy.ulm.de/programm/programm.php?m=11&j=2026&vid=5697",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "2f12b4201a8c816f",
+      "date": "2026-11-06",
+      "title": "Tanzworkshop mit Emi Miyoshi ChoreoLab TanzSüd 2026",
+      "place": "ROXY Ulm",
+      "genre": "Club",
+      "time": "",
+      "url": "https://www.roxy.ulm.de/programm/programm.php?m=11&j=2026&vid=5698",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "bd221ecbe6c666b2",
+      "date": "2026-11-06",
+      "title": "Yasi Hofer Trio Best Of Tour 2026",
+      "place": "ROXY Ulm",
+      "genre": "Konzerte",
+      "time": "",
+      "url": "https://www.roxy.ulm.de/programm/programm.php?m=11&j=2026&vid=5563",
+      "details": "",
       "end": null
     },
     {
@@ -90,6 +222,28 @@
       "end": null
     },
     {
+      "id": "8c001850c538c3bf",
+      "date": "2026-11-07",
+      "title": "Science Slam Wissenschaft unterhaltsam!",
+      "place": "ROXY Ulm",
+      "genre": "Bühne",
+      "time": "20:00",
+      "url": "https://www.roxy.ulm.de/programm/programm.php?m=11&j=2026&vid=5518",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "9c551c1f1e2bc517",
+      "date": "2026-11-07",
+      "title": "Ulan & Bator 25 Jahre Ulan & Bator - Überraschungszwei",
+      "place": "ROXY Ulm",
+      "genre": "Bühne",
+      "time": "20:00",
+      "url": "https://www.roxy.ulm.de/programm/programm.php?m=11&j=2026&vid=5700",
+      "details": "",
+      "end": null
+    },
+    {
       "id": "78a1c64b8c337f66",
       "date": "2026-11-07",
       "title": "WaveTanzen in der Manufaktur – Tanze deine Welle!",
@@ -97,7 +251,40 @@
       "genre": "Club",
       "time": "20:00",
       "url": "https://www.club-manufaktur.de/event/wavetanzen-in-der-manufaktur-tanze-deine-welle-3/2026-11-07/",
-      "details": "WaveTanzen gibt dir die Möglichkeit, den ganzen Körper intensiv zu bewegen und dabei emotionale und mentale Anspannung loszulassen. \\n",
+      "details": "WaveTanzen gibt dir die Möglichkeit, den ganzen Körper intensiv zu bewegen und dabei emotionale und mentale Anspannung loszulassen.",
+      "end": null
+    },
+    {
+      "id": "67108d367dfb8a9c",
+      "date": "2026-11-08",
+      "title": "Caveman Du sammeln - ich jagen!",
+      "place": "ROXY Ulm",
+      "genre": "Bühne",
+      "time": "",
+      "url": "https://www.roxy.ulm.de/programm/programm.php?m=11&j=2026&vid=5497",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "6ff4536b3e39196e",
+      "date": "2026-11-08",
+      "title": "Studio Ulmer Musikfreunde",
+      "place": "Pauluskirche",
+      "genre": "Konzerte",
+      "time": "",
+      "url": "https://www.pauluskirche-ulm.de/termine/studio-ulmer-musikfreunde-3.html",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "df70224b2d4aa1c6",
+      "date": "2026-11-09",
+      "title": "ROXY singt! — AUSVERKAUFT Aus voller Kehle für die Seele",
+      "place": "ROXY Ulm",
+      "genre": "Bühne",
+      "time": "20:00",
+      "url": "https://www.roxy.ulm.de/programm/programm.php?m=11&j=2026&vid=5516",
+      "details": "",
       "end": null
     },
     {
@@ -112,6 +299,17 @@
       "end": null
     },
     {
+      "id": "6bb44ed85f188853",
+      "date": "2026-11-13",
+      "title": "El Flecha Negra Mucho Picante Caliente",
+      "place": "ROXY Ulm",
+      "genre": "Konzerte",
+      "time": "20:00",
+      "url": "https://www.roxy.ulm.de/programm/programm.php?m=11&j=2026&vid=5380",
+      "details": "",
+      "end": null
+    },
+    {
       "id": "f54a1ed1f683eb84",
       "date": "2026-11-13",
       "title": "LITTLE BARRIE (UK) – Support: 250cc",
@@ -119,7 +317,7 @@
       "genre": "Konzerte",
       "time": "20:30",
       "url": "https://www.club-manufaktur.de/event/little-barrie-uk/",
-      "details": "Wer zunächst mit dem Bandnamen nichts anfangen kann, kennt Little Barrie sicherlich durch den prägnanten Titelsong zur Serie „Better Call Saul“, der ihren charakteristischen Sound eindrucksvoll auf den Punkt bringt. \\n",
+      "details": "Wer zunächst mit dem Bandnamen nichts anfangen kann, kennt Little Barrie sicherlich durch den prägnanten Titelsong zur Serie „Better Call Saul“, der ihren charakteristischen Sound eindrucksvoll auf den Punkt bringt.",
       "end": null
     },
     {
@@ -134,6 +332,28 @@
       "end": null
     },
     {
+      "id": "58978cfff30a6075",
+      "date": "2026-11-14",
+      "title": "Poetry Slam — Moderiert von Ko Bylanzky Große Worte auf der großen Bühne",
+      "place": "ROXY Ulm",
+      "genre": "Bühne",
+      "time": "20:00",
+      "url": "https://www.roxy.ulm.de/programm/programm.php?m=11&j=2026&vid=5509",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "43c741620b5d0d32",
+      "date": "2026-11-14",
+      "title": "What Moves Us? — + Nachgespräch auf Engl. (20 min) ChoreoLab TanzSüd 2026",
+      "place": "ROXY Ulm",
+      "genre": "Club",
+      "time": "20:00",
+      "url": "https://www.roxy.ulm.de/programm/programm.php?m=11&j=2026&vid=5687",
+      "details": "",
+      "end": null
+    },
+    {
       "id": "3b7bd93a169d39ca",
       "date": "2026-11-14",
       "title": "JEREMY PINNELL & BAND (USA)",
@@ -141,7 +361,62 @@
       "genre": "Konzerte",
       "time": "20:30",
       "url": "https://www.club-manufaktur.de/event/jeremy-pinnell-usa/",
-      "details": "Jeremy Pinnell wuchs in der Nähe des Ohio River auf und kam schon früh mit einer musikalischen Vielfalt in Berührung, die so grenzenlos war wie der Himmel über dem Mittleren Westen. \\n",
+      "details": "Jeremy Pinnell wuchs in der Nähe des Ohio River auf und kam schon früh mit einer musikalischen Vielfalt in Berührung, die so grenzenlos war wie der Himmel über dem Mittleren Westen.",
+      "end": null
+    },
+    {
+      "id": "3aca8996f473f5af",
+      "date": "2026-11-15",
+      "title": "Ulmer Kantorei Johannes Brahms: Ein deutsches Requiem",
+      "place": "Pauluskirche",
+      "genre": "Konzerte",
+      "time": "",
+      "url": "https://www.pauluskirche-ulm.de/termine/ulmer-kantorei-johannes-brahms-ein-deutsches-requiem.html",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "e4a9ba2b323c2590",
+      "date": "2026-11-15",
+      "title": "Hagen Rether LIEBE",
+      "place": "ROXY Ulm",
+      "genre": "Bühne",
+      "time": "18:00",
+      "url": "https://www.roxy.ulm.de/programm/programm.php?m=11&j=2026&vid=5498",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "55f7a33d877d91f2",
+      "date": "2026-11-15",
+      "title": "What Moves Us? ChoreoLab TanzSüd 2026",
+      "place": "ROXY Ulm",
+      "genre": "Club",
+      "time": "18:00",
+      "url": "https://www.roxy.ulm.de/programm/programm.php?m=11&j=2026&vid=5692",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "9d3cbf24bc48f54c",
+      "date": "2026-11-16",
+      "title": "Open Stage — Moderation: Ariane Müller Die Überraschungsshow",
+      "place": "ROXY Ulm",
+      "genre": "Bühne",
+      "time": "20:00",
+      "url": "https://www.roxy.ulm.de/programm/programm.php?m=11&j=2026&vid=5512",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "4aa3ca966d7a5244",
+      "date": "2026-11-18",
+      "title": "Philharmonisches Orchester der Stadt Ulm Orchesterkonzert",
+      "place": "Pauluskirche",
+      "genre": "Konzerte",
+      "time": "",
+      "url": "https://www.pauluskirche-ulm.de/termine/philharmonisches-orchester-der-stadt-ulm-orchesterkonzert.html",
+      "details": "",
       "end": null
     },
     {
@@ -156,6 +431,17 @@
       "end": null
     },
     {
+      "id": "18fcdb8091cbbd96",
+      "date": "2026-11-19",
+      "title": "Das CelloDuo Wintertournee 2026 Das Beste aus Rock & Pop",
+      "place": "Pauluskirche",
+      "genre": "Konzerte",
+      "time": "",
+      "url": "https://www.pauluskirche-ulm.de/termine/das-celloduo-wintertournee-2026-das-beste-aus-rock-pop.html",
+      "details": "",
+      "end": null
+    },
+    {
       "id": "ed8daa627b7915a1",
       "date": "2026-11-19",
       "title": "Jazz Jam",
@@ -167,6 +453,28 @@
       "end": null
     },
     {
+      "id": "c49c7fc752bc53ca",
+      "date": "2026-11-19",
+      "title": "SALÒ Hardcore Ist Tot Tour 2026",
+      "place": "ROXY Ulm",
+      "genre": "Konzerte",
+      "time": "20:00",
+      "url": "https://www.roxy.ulm.de/programm/programm.php?m=11&j=2026&vid=5505",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "a71c9f872fbfd591",
+      "date": "2026-11-20",
+      "title": "Jan Philipp Zymny Illegale Straßentherapie",
+      "place": "ROXY Ulm",
+      "genre": "Bühne",
+      "time": "20:00",
+      "url": "https://www.roxy.ulm.de/programm/programm.php?m=11&j=2026&vid=5276",
+      "details": "",
+      "end": null
+    },
+    {
       "id": "339372996536b229",
       "date": "2026-11-20",
       "title": "TRAMHAUS (NL)",
@@ -175,6 +483,17 @@
       "time": "20:30",
       "url": "https://www.club-manufaktur.de/event/tramhaus-nl/",
       "details": "Tramhaus ist eine fünfköpfige Band aus Rotterdam, die seit ihrer Gründung 2020 mit energiegeladenen Live-Auftritten und einem mitreißenden Sound zwischen Post-Hardcore, Shoegaze und Punkrock begeistert.",
+      "end": null
+    },
+    {
+      "id": "09d1c3ace94f5ac7",
+      "date": "2026-11-21",
+      "title": "Eure Mütter — ausverkauft Perlen vor die Säue! Das BEST OF zum Jubiläum",
+      "place": "ROXY Ulm",
+      "genre": "Bühne",
+      "time": "20:00",
+      "url": "https://www.roxy.ulm.de/programm/programm.php?m=11&j=2026&vid=5406",
+      "details": "",
       "end": null
     },
     {
@@ -196,7 +515,51 @@
       "genre": "Konzerte",
       "time": "20:30",
       "url": "https://www.club-manufaktur.de/event/the-wedding-present-uk/",
-      "details": "The Wedding Present spielen 2026 eine Reihe von Konzerten in Deutschland, um den 35. Geburtstag der Veröffentlichung ihres wegweisenden Albums „Seamonsters“ zu feiern. \\n",
+      "details": "The Wedding Present spielen 2026 eine Reihe von Konzerten in Deutschland, um den 35. Geburtstag der Veröffentlichung ihres wegweisenden Albums „Seamonsters“ zu feiern.",
+      "end": null
+    },
+    {
+      "id": "977b723176ac1433",
+      "date": "2026-11-22",
+      "title": "Ecstatic Shiva Dance Mit DJ Klaus Fumy",
+      "place": "ROXY Ulm",
+      "genre": "Club",
+      "time": "",
+      "url": "https://www.roxy.ulm.de/programm/programm.php?m=11&j=2026&vid=5699",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "2099a72686a8b975",
+      "date": "2026-11-22",
+      "title": "Michael Nast \"Generation Dating Burnout“-Lesetour",
+      "place": "ROXY Ulm",
+      "genre": "Literatur",
+      "time": "",
+      "url": "https://www.roxy.ulm.de/programm/programm.php?m=11&j=2026&vid=5432",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "c0d5c960bf4a1b3d",
+      "date": "2026-11-23",
+      "title": "Internationales Solo-Tanz-Theater Festival Stuttgart Preisträger:innentour 2026",
+      "place": "ROXY Ulm",
+      "genre": "Club",
+      "time": "20:00",
+      "url": "https://www.roxy.ulm.de/programm/programm.php?m=11&j=2026&vid=5690",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "ffe9a610aa84dfa2",
+      "date": "2026-11-25",
+      "title": "BOSSE — letzte Tickets verfügbar! Stabile Poesie Clubtour 2026",
+      "place": "ROXY Ulm",
+      "genre": "Konzerte",
+      "time": "20:00",
+      "url": "https://www.roxy.ulm.de/programm/programm.php?m=11&j=2026&vid=5651",
+      "details": "",
       "end": null
     },
     {
@@ -211,6 +574,28 @@
       "end": null
     },
     {
+      "id": "6f06434d2112620c",
+      "date": "2026-11-26",
+      "title": "Magic Gregorian Night Klang der Mönche",
+      "place": "Pauluskirche",
+      "genre": "Konzerte",
+      "time": "",
+      "url": "https://www.pauluskirche-ulm.de/termine/magic-gregorian-night-klang-der-moenche.html",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "703298e19bb6066c",
+      "date": "2026-11-26",
+      "title": "Ingmar Stadelmann Solo: Stadelmann liest Höcke - ein satirischer Diskurs kurz vor der Machtergreifung",
+      "place": "ROXY Ulm",
+      "genre": "Bühne",
+      "time": "19:33",
+      "url": "https://www.roxy.ulm.de/programm/programm.php?m=11&j=2026&vid=5465",
+      "details": "",
+      "end": null
+    },
+    {
       "id": "fd7fb6e31c84a1c0",
       "date": "2026-11-27",
       "title": "Yes, I’m Very Tired Now",
@@ -219,6 +604,39 @@
       "time": "",
       "url": "https://dasgold.org/konzert/yes-im-very-tired-now/",
       "details": "27.11.2026 | | Schweiz",
+      "end": null
+    },
+    {
+      "id": "ca3231151d815427",
+      "date": "2026-11-27",
+      "title": "RIAN — AUSVERKAUFT BLUMENDISKO TOUR 2026",
+      "place": "ROXY Ulm",
+      "genre": "Konzerte",
+      "time": "18:45",
+      "url": "https://www.roxy.ulm.de/programm/programm.php?m=11&j=2026&vid=5469",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "4ac97bdf5fb66d18",
+      "date": "2026-11-28",
+      "title": "Bläserphilharmonie Blaustein",
+      "place": "Pauluskirche",
+      "genre": "Konzerte",
+      "time": "",
+      "url": "https://www.pauluskirche-ulm.de/termine/blaeserphilharmonie-blaustein-6.html",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "382b7c6b2e8c133a",
+      "date": "2026-11-28",
+      "title": "Robbie & Friends Aktion 100.000",
+      "place": "ROXY Ulm",
+      "genre": "Konzerte",
+      "time": "",
+      "url": "https://www.roxy.ulm.de/programm/programm.php?m=11&j=2026&vid=5711",
+      "details": "",
       "end": null
     },
     {
@@ -240,7 +658,18 @@
       "genre": "Club",
       "time": "22:00",
       "url": "https://www.club-manufaktur.de/event/80er-90er-2000er-2010er-party-feat-dj-major-tom-2/2026-11-28/",
-      "details": "Einlass ab 22 Uhr! \\nEinlass ab 18 Jahren! \\n",
+      "details": "Einlass ab 22 Uhr! Einlass ab 18 Jahren!",
+      "end": null
+    },
+    {
+      "id": "074a802dbec0eea5",
+      "date": "2026-11-30",
+      "title": "Bürgerimpulse: Frieden sichern – was können wir tun? Staat, Gesellschaft, Bundeswehr und NATO – Ein Impuls von Generalleutnant Kai Rohrschneider",
+      "place": "ROXY Ulm",
+      "genre": "Bühne",
+      "time": "19:00",
+      "url": "https://www.roxy.ulm.de/programm/programm.php?m=11&j=2026&vid=5719",
+      "details": "",
       "end": null
     },
     {
@@ -251,7 +680,18 @@
       "genre": "Literatur",
       "time": "19:30",
       "url": "https://www.club-manufaktur.de/event/michael-kraske-und-dirk-laabs-lesung-und-diskussion-widersetzt-euch/",
-      "details": "Wie wir gemeinsam den neuen Faschismus besiegen \\n Wie wir den Aufstieg der Rechten stoppen – eine praktische Anleitung für alle.",
+      "details": "Wie wir gemeinsam den neuen Faschismus besiegen Wie wir den Aufstieg der Rechten stoppen – eine praktische Anleitung für alle.",
+      "end": null
+    },
+    {
+      "id": "dc5883e180376aeb",
+      "date": "2026-12-03",
+      "title": "Nightwash Live — AUSVERKAUFT",
+      "place": "ROXY Ulm",
+      "genre": "Bühne",
+      "time": "20:00",
+      "url": "https://www.roxy.ulm.de/programm/programm.php?m=12&j=2026&vid=5394",
+      "details": "",
       "end": null
     },
     {
@@ -266,6 +706,28 @@
       "end": null
     },
     {
+      "id": "bcbe7fdf676484cc",
+      "date": "2026-12-04",
+      "title": "Moving Toppings Put the flag away!",
+      "place": "ROXY Ulm",
+      "genre": "Club",
+      "time": "20:00",
+      "url": "https://www.roxy.ulm.de/programm/programm.php?m=12&j=2026&vid=5683",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "a6dc67764981521b",
+      "date": "2026-12-04",
+      "title": "Weihnachten mit Sarah Straub Lamettasongs",
+      "place": "ROXY Ulm",
+      "genre": "Konzerte",
+      "time": "20:00",
+      "url": "https://www.roxy.ulm.de/programm/programm.php?m=12&j=2026&vid=5504",
+      "details": "",
+      "end": null
+    },
+    {
       "id": "bf9fb8369adb732a",
       "date": "2026-12-04",
       "title": "SHAKING HAND (UK)",
@@ -273,7 +735,18 @@
       "genre": "Konzerte",
       "time": "20:30",
       "url": "https://www.club-manufaktur.de/event/shaking-hand-uk/",
-      "details": "Die britische Newcomer Post-Rock Band Shaking Hand aus Manchester spielt im November und Dezember ihre ersten Deutschland-Konzerte. \\n",
+      "details": "Die britische Newcomer Post-Rock Band Shaking Hand aus Manchester spielt im November und Dezember ihre ersten Deutschland-Konzerte.",
+      "end": null
+    },
+    {
+      "id": "f181310ba473569e",
+      "date": "2026-12-05",
+      "title": "Anders feat. Choriosity A-cappella-Pop",
+      "place": "ROXY Ulm",
+      "genre": "Konzerte",
+      "time": "",
+      "url": "https://www.roxy.ulm.de/programm/programm.php?m=12&j=2026&vid=5710",
+      "details": "",
       "end": null
     },
     {
@@ -284,6 +757,17 @@
       "genre": "Konzerte",
       "time": "",
       "url": "https://www.stellwerk-schelklingen.com/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "15271de0261ce078",
+      "date": "2026-12-05",
+      "title": "Moving Toppings Put the flag away!",
+      "place": "ROXY Ulm",
+      "genre": "Club",
+      "time": "",
+      "url": "https://www.roxy.ulm.de/programm/programm.php?m=12&j=2026&vid=5684",
       "details": "",
       "end": null
     },
@@ -306,7 +790,7 @@
       "genre": "Club",
       "time": "20:00",
       "url": "https://www.club-manufaktur.de/event/wavetanzen-in-der-manufaktur-tanze-deine-welle-3/2026-12-05/",
-      "details": "WaveTanzen gibt dir die Möglichkeit, den ganzen Körper intensiv zu bewegen und dabei emotionale und mentale Anspannung loszulassen. \\n",
+      "details": "WaveTanzen gibt dir die Möglichkeit, den ganzen Körper intensiv zu bewegen und dabei emotionale und mentale Anspannung loszulassen.",
       "end": null
     },
     {
@@ -321,6 +805,17 @@
       "end": null
     },
     {
+      "id": "8016aa876b09ab20",
+      "date": "2026-12-07",
+      "title": "ROXY singt! — AUSVERKAUFT Aus voller Kehle für die Seele",
+      "place": "ROXY Ulm",
+      "genre": "Bühne",
+      "time": "20:00",
+      "url": "https://www.roxy.ulm.de/programm/programm.php?m=12&j=2026&vid=5517",
+      "details": "",
+      "end": null
+    },
+    {
       "id": "0c04c9fc22cf97e6",
       "date": "2026-12-09",
       "title": "MAUSTETYTÖT (FIN) – Itken jos mua huvittaa Tour 2026",
@@ -332,6 +827,17 @@
       "end": null
     },
     {
+      "id": "a1beed0dbcfd7c9c",
+      "date": "2026-12-10",
+      "title": "AVATAR Don’t Go In The Forest `26",
+      "place": "ROXY Ulm",
+      "genre": "Konzerte",
+      "time": "19:30",
+      "url": "https://www.roxy.ulm.de/programm/programm.php?m=12&j=2026&vid=5660",
+      "details": "",
+      "end": null
+    },
+    {
       "id": "45480e716388f698",
       "date": "2026-12-10",
       "title": "Jörg Kronauer liest aus und diskutiert über: „Die Brandleger – Der Vormarsch der transatlantischen Rechten“",
@@ -340,6 +846,28 @@
       "time": "19:30",
       "url": "https://www.club-manufaktur.de/event/joerg-kronauer-liest-aus-und-diskutiert-ueber-die-brandleger-der-vormarsch-der-transatlantischen-rechten/",
       "details": "„Keinen Platz für Brandmauern\" dürfe es in Europa mehr geben, stärkte US-Vizepräsident JD Vance Anfang 2025 der AfD den Rücken.",
+      "end": null
+    },
+    {
+      "id": "64f4d0ba0ce20d4b",
+      "date": "2026-12-11",
+      "title": "Ass-Dur Süßer die Brüder nie klingen",
+      "place": "ROXY Ulm",
+      "genre": "Bühne",
+      "time": "20:00",
+      "url": "https://www.roxy.ulm.de/programm/programm.php?m=12&j=2026&vid=5482",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "63ec0fc0180b2f43",
+      "date": "2026-12-11",
+      "title": "OSKAR HAAG LOST CAUSE TOUR",
+      "place": "ROXY Ulm",
+      "genre": "Konzerte",
+      "time": "20:00",
+      "url": "https://www.roxy.ulm.de/programm/programm.php?m=12&j=2026&vid=5525",
+      "details": "",
       "end": null
     },
     {
@@ -365,6 +893,72 @@
       "end": null
     },
     {
+      "id": "db8cf66c0a445668",
+      "date": "2026-12-12",
+      "title": "Poetry Slam — Moderiert von Ko Bylanzky Große Worte auf der großen Bühne",
+      "place": "ROXY Ulm",
+      "genre": "Bühne",
+      "time": "20:00",
+      "url": "https://www.roxy.ulm.de/programm/programm.php?m=12&j=2026&vid=5510",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "26adfdfc6e44256b",
+      "date": "2026-12-12",
+      "title": "Showbuddies Weihnachts-Special",
+      "place": "ROXY Ulm",
+      "genre": "Bühne",
+      "time": "20:00",
+      "url": "https://www.roxy.ulm.de/programm/programm.php?m=12&j=2026&vid=5713",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "46c52c3043bb6af6",
+      "date": "2026-12-13",
+      "title": "Budenzauber Last-Minute-Geschenke-Markt",
+      "place": "ROXY Ulm",
+      "genre": "Literatur",
+      "time": "11:00",
+      "url": "https://www.roxy.ulm.de/programm/programm.php?m=12&j=2026&vid=5669",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "04beca17e292454f",
+      "date": "2026-12-14",
+      "title": "Open Stage — Moderation: Christian Langer Die Überraschungsshow",
+      "place": "ROXY Ulm",
+      "genre": "Bühne",
+      "time": "20:00",
+      "url": "https://www.roxy.ulm.de/programm/programm.php?m=12&j=2026&vid=5513",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "95bcabf97f1965cf",
+      "date": "2026-12-15",
+      "title": "Sondaschule — Support: Grade 2 „Wir bleiben Wach Tour“ 2026",
+      "place": "ROXY Ulm",
+      "genre": "Konzerte",
+      "time": "20:00",
+      "url": "https://www.roxy.ulm.de/programm/programm.php?m=12&j=2026&vid=5665",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "47fbc69498720276",
+      "date": "2026-12-19",
+      "title": "HYPE WarmUp Session — Schon mal warm machen für HYPE! Bevor der Rest hinschaut",
+      "place": "ROXY Ulm",
+      "genre": "Konzerte",
+      "time": "",
+      "url": "https://www.roxy.ulm.de/programm/programm.php?m=12&j=2026&vid=5728",
+      "details": "",
+      "end": null
+    },
+    {
       "id": "544b6865e239dd1b",
       "date": "2026-12-19",
       "title": "JESUS GEORGE",
@@ -376,6 +970,17 @@
       "end": null
     },
     {
+      "id": "8dab5a54d8f28318",
+      "date": "2026-12-19",
+      "title": "Schüttel dein Speck Mit Deejot Roterfreibeuter und Select.A.Tom",
+      "place": "ROXY Ulm",
+      "genre": "Club",
+      "time": "",
+      "url": "https://www.roxy.ulm.de/programm/programm.php?m=12&j=2026&vid=5726",
+      "details": "",
+      "end": null
+    },
+    {
       "id": "7983e4d09f2f313b",
       "date": "2026-12-19",
       "title": "DIE HOCHSTAPLER (F/I/D) – Jazz",
@@ -383,7 +988,62 @@
       "genre": "Konzerte",
       "time": "20:30",
       "url": "https://www.club-manufaktur.de/event/die-hochstapler-f-i-d-jazz-2/",
-      "details": "Pierre Borel - Saxophon \\nAntonio Borghini - Kontrabass \\nLouis Laurain - Trompete \\nHannes Lingens - Schlagzeug \\n Seit 2011 arbeiten Pierre Borel, Louis Laurain, Antonio Borghini und Hannes Lingens als Die Hochstapler …",
+      "details": "Pierre Borel - Saxophon Antonio Borghini - Kontrabass Louis Laurain - Trompete Hannes Lingens - Schlagzeug Seit 2011 arbeiten Pierre Borel, Louis Laurain, Antonio Borghini und Hannes Lingens als Die Hochstapler zusammen.",
+      "end": null
+    },
+    {
+      "id": "c4c71b25ffe45297",
+      "date": "2026-12-20",
+      "title": "Weihnachtsoratorium Bach und Saint-Saens, Münsterkantorei Ulm",
+      "place": "Pauluskirche",
+      "genre": "Konzerte",
+      "time": "",
+      "url": "https://www.pauluskirche-ulm.de/termine/weihnachtsoratorium-bach-und-saint-saens-muensterkantorei-ulm.html",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "478eee9af135fa53",
+      "date": "2026-12-22",
+      "title": "MiU – Szene Beben Musikerinitiative Ulm",
+      "place": "ROXY Ulm",
+      "genre": "Konzerte",
+      "time": "19:00",
+      "url": "https://www.roxy.ulm.de/programm/programm.php?m=12&j=2026&vid=5740",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "f1ef70e4fad2ad4d",
+      "date": "2026-12-29",
+      "title": "VAN HOLZEN Jahresabschlusskonzert 2026",
+      "place": "ROXY Ulm",
+      "genre": "Konzerte",
+      "time": "20:00",
+      "url": "https://www.roxy.ulm.de/programm/programm.php?m=12&j=2026&vid=5519",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "3a1e5714b37e99ab",
+      "date": "2026-12-31",
+      "title": "ROXY Silvester Show — mit Ariane Müller und Gästen Erste Show",
+      "place": "ROXY Ulm",
+      "genre": "Konzerte",
+      "time": "",
+      "url": "https://www.roxy.ulm.de/programm/programm.php?m=12&j=2026&vid=5721",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "5bce32c584fc58bf",
+      "date": "2026-12-31",
+      "title": "ROXY Silvester Show — mit Ariane Müller und Gästen Zweite Show",
+      "place": "ROXY Ulm",
+      "genre": "Konzerte",
+      "time": "",
+      "url": "https://www.roxy.ulm.de/programm/programm.php?m=12&j=2026&vid=5722",
+      "details": "",
       "end": null
     },
     {
@@ -405,7 +1065,7 @@
       "genre": "Bühne",
       "time": "20:00",
       "url": "https://www.club-manufaktur.de/event/friedemann-weise-satire-suchen-ein-zuhause-kabarett/",
-      "details": "Satire darf alles. Außer sterben! \\n Wenn die Satire stirbt, hat der Mensch nur noch vier Jahre zu leben“, sagte Albert Einstein mit einem Kaffee in der Hand zu seiner Katze.",
+      "details": "Satire darf alles. Außer sterben! Wenn die Satire stirbt, hat der Mensch nur noch vier Jahre zu leben“, sagte Albert Einstein mit einem Kaffee in der Hand zu seiner Katze.",
       "end": null
     },
     {
@@ -416,7 +1076,7 @@
       "genre": "Konzerte",
       "time": "20:30",
       "url": "https://www.club-manufaktur.de/event/sigrid-aftrets-jet-trio-sigrid-aftret-tom-boizot-loup-godfroy-nor-fr-jazz/",
-      "details": "Sigrid Aftret - Kompositionen, Tenorsaxophon, Flöte und Elektronik \\nTom Boizot - Kontrabass \\nLoup Godfroy - Schlagzeug und Volca (Synthesizer) \\n Das JET TRIO ist eine französisch-norwegische Jazzband um die …",
+      "details": "Sigrid Aftret - Kompositionen, Tenorsaxophon, Flöte und Elektronik Tom Boizot - Kontrabass Loup Godfroy - Schlagzeug und Volca (Synthesizer) Das JET TRIO ist eine französisch-norwegische Jazzband um die Saxophonistin …",
       "end": null
     },
     {
@@ -537,7 +1197,7 @@
       "genre": "Konzerte",
       "time": "20:30",
       "url": "https://www.club-manufaktur.de/event/bird-calls-d-fr-nor-matthias-mueller-laure-boer-paal-nilssen-love-jazz/",
-      "details": "Matthias Müller – Posaune \\nLaure Boer – Dan Bau (vietnamesisches Monochord), Elektronik \\nPaal Nilssen-Love – Schlagzeug, Gongs, Percussion \\n Mit dem für seine außergewöhnlichen Spieltechniken bekannten Berliner …",
+      "details": "Matthias Müller – Posaune Laure Boer – Dan Bau (vietnamesisches Monochord), Elektronik Paal Nilssen-Love – Schlagzeug, Gongs, Percussion Mit dem für seine außergewöhnlichen Spieltechniken bekannten Berliner Posaunist …",
       "end": null
     },
     {
@@ -614,7 +1274,7 @@
       "genre": "Konzerte",
       "time": "20:30",
       "url": "https://www.club-manufaktur.de/event/motorpsycho-nor-3/",
-      "details": "Meine Damen und Herren – macht euch bereit für die Show! \\n Im März und April nächsten Jahres ist es wieder so weit: Wir schminken uns die Gesichter, polieren unsere Schuhe und gehen erneut auf Tour!",
+      "details": "Meine Damen und Herren – macht euch bereit für die Show! Im März und April nächsten Jahres ist es wieder so weit: Wir schminken uns die Gesichter, polieren unsere Schuhe und gehen erneut auf Tour!",
       "end": null
     },
     {
@@ -666,9 +1326,9 @@
     {
       "name": "Villa Rot",
       "url": "https://villa-rot.de/",
-      "state": "needs_parser",
-      "count": 0,
-      "note": "Seite erreichbar, aber keine zuverlässig erkannten zukünftigen Termine"
+      "state": "ok",
+      "count": 1,
+      "note": ""
     },
     {
       "name": "Stellwerk Schelklingen",
@@ -687,9 +1347,9 @@
     {
       "name": "ROXY Ulm",
       "url": "https://www.roxy.ulm.de/programm/programm.php",
-      "state": "needs_parser",
-      "count": 0,
-      "note": "Seite erreichbar, aber keine zuverlässig erkannten zukünftigen Termine"
+      "state": "ok",
+      "count": 51,
+      "note": ""
     },
     {
       "name": "Club Manufaktur",
@@ -722,9 +1382,9 @@
     {
       "name": "Pauluskirche",
       "url": "https://www.pauluskirche-ulm.de/kirchen-musik.html",
-      "state": "needs_parser",
-      "count": 0,
-      "note": "Seite erreichbar, aber keine zuverlässig erkannten zukünftigen Termine"
+      "state": "ok",
+      "count": 9,
+      "note": ""
     },
     {
       "name": "DONAU 3 FM",
