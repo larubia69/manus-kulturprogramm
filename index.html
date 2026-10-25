@@ -30,7 +30,7 @@ async function refresh(){
   if(!Array.isArray(data.events))throw Error('Ungültiges Datenformat');
   events=data.events;
   const previousPlace=$('place').value,previousGenre=$('genre').value;
-  $('place').innerHTML='<option value="">Alle Orte</option>'+currentSources.map(x=>x[0]).sort().map(p=>`<option>${safe(p)}</option>`).join('');
+  $('place').innerHTML='<option value="">Alle Orte</option>'+sources.map(x=>x[0]).sort().map(p=>`<option>${safe(p)}</option>`).join('');
   $('genre').innerHTML='<option value="">Alle Kategorien</option>'+['Konzerte','Kunst','Bühne','Literatur','Club'].map(g=>`<option>${safe(g)}</option>`).join('');
   $('place').value=previousPlace;$('genre').value=previousGenre;
   const stamps=new Date(data.generatedAt);
