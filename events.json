@@ -1,61 +1,6 @@
 {
-  "generatedAt": "2026-10-25T16:06:03.877924+00:00",
+  "generatedAt": "2026-10-26T05:53:17.035031+00:00",
   "events": [
-    {
-      "id": "c0962d037b42e3d2",
-      "date": "2026-10-24",
-      "title": "CPT Frolins",
-      "place": "Stellwerk Schelklingen",
-      "genre": "Konzerte",
-      "time": "",
-      "url": "https://www.stellwerk-schelklingen.com/",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "1a2f41d91e896489",
-      "date": "2026-10-24",
-      "title": "Candle light",
-      "place": "Pauluskirche",
-      "genre": "Konzerte",
-      "time": "",
-      "url": "https://www.pauluskirche-ulm.de/termine/candle-light-8.html",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "0e53071b6bad4299",
-      "date": "2026-10-24",
-      "title": "Edelfummelflohmarkt — IWC ist Organisator Dress for less! 10:00 - 14:00 H",
-      "place": "ROXY Ulm",
-      "genre": "Literatur",
-      "time": "",
-      "url": "https://www.roxy.ulm.de/programm/programm.php?m=10&j=2026&vid=5555",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "7938ada8a7d45b11",
-      "date": "2026-10-24",
-      "title": "Musa Dagh LIVE 2026",
-      "place": "ROXY Ulm",
-      "genre": "Konzerte",
-      "time": "",
-      "url": "https://www.roxy.ulm.de/programm/programm.php?m=10&j=2026&vid=5534",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "5ff58a758ec500da",
-      "date": "2026-10-25",
-      "title": "Licht unter die Haut",
-      "place": "Villa Rot",
-      "genre": "Kunst",
-      "time": "",
-      "url": "https://villa-rot.de/programm/ausstellungen/licht-unter-die-haut/",
-      "details": "Ausstellung vom 25.10.2026 bis 07.02.2027; Öffnungszeiten auf der Originalseite.",
-      "end": "2027-02-07"
-    },
     {
       "id": "3e14ac72e15d810f",
       "date": "2026-10-25",
@@ -68,15 +13,15 @@
       "end": null
     },
     {
-      "id": "0ec45919130cb983",
-      "date": "2026-10-25",
-      "title": "Kipppunkte",
-      "place": "Theater Ulm",
-      "genre": "Bühne",
-      "time": "19:00",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/kipppunkte",
-      "details": "",
-      "end": null
+      "id": "5f4ba4123dddc5cd",
+      "date": "2026-10-26",
+      "title": "Licht unter die Haut",
+      "place": "Villa Rot",
+      "genre": "Kunst",
+      "time": "",
+      "url": "https://villa-rot.de/programm/ausstellungen/licht-unter-die-haut/",
+      "details": "Ausstellung vom 25.10.2026 bis 07.02.2027; Öffnungszeiten auf der Originalseite.",
+      "end": "2027-02-07"
     },
     {
       "id": "4ee025de64eb38b9",
@@ -1971,6 +1916,17 @@
       "end": null
     },
     {
+      "id": "6a8372b311cec390",
+      "date": "2026-12-21",
+      "title": "Max und Moritz",
+      "place": "Theater Ulm",
+      "genre": "Konzerte",
+      "time": "11:00",
+      "url": "https://www.theater-ulm.de/spielplan/stuecke/max-und-moritz",
+      "details": "",
+      "end": null
+    },
+    {
       "id": "478eee9af135fa53",
       "date": "2026-12-22",
       "title": "MiU – Szene Beben Musikerinitiative Ulm",
@@ -2302,7 +2258,7 @@
       "name": "Stellwerk Schelklingen",
       "url": "https://www.stellwerk-schelklingen.com/",
       "state": "ok",
-      "count": 14,
+      "count": 13,
       "note": ""
     },
     {
@@ -2316,7 +2272,7 @@
       "name": "ROXY Ulm",
       "url": "https://www.roxy.ulm.de/programm/programm.php",
       "state": "ok",
-      "count": 51,
+      "count": 49,
       "note": ""
     },
     {
@@ -2351,7 +2307,7 @@
       "name": "Pauluskirche",
       "url": "https://www.pauluskirche-ulm.de/kirchen-musik.html",
       "state": "ok",
-      "count": 9,
+      "count": 7,
       "note": ""
     },
     {
