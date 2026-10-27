@@ -1,20 +1,9 @@
 {
-  "generatedAt": "2026-10-26T05:53:17.035031+00:00",
+  "generatedAt": "2026-10-27T05:51:08.104971+00:00",
   "events": [
     {
-      "id": "3e14ac72e15d810f",
-      "date": "2026-10-25",
-      "title": "Open Rehearsal mit Pablo Sansalvador ChoreoLab TanzSüd 2026",
-      "place": "ROXY Ulm",
-      "genre": "Club",
-      "time": "17:00",
-      "url": "https://www.roxy.ulm.de/programm/programm.php?m=10&j=2026&vid=5695",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "5f4ba4123dddc5cd",
-      "date": "2026-10-26",
+      "id": "5476731558cacbc5",
+      "date": "2026-10-27",
       "title": "Licht unter die Haut",
       "place": "Villa Rot",
       "genre": "Kunst",
@@ -2272,7 +2261,7 @@
       "name": "ROXY Ulm",
       "url": "https://www.roxy.ulm.de/programm/programm.php",
       "state": "ok",
-      "count": 49,
+      "count": 48,
       "note": ""
     },
     {
@@ -2327,9 +2316,9 @@
     {
       "name": "Was geht?",
       "url": "https://www.wasgehtapp.de/index.php?radius=20&select_ort=1&ort=Ulm&x=9.98489&y=48.3917&region=01",
-      "state": "needs_parser",
+      "state": "error",
       "count": 0,
-      "note": "Seite erreichbar, aber keine zuverlässig erkannten zukünftigen Termine"
+      "note": "403 Client Error: Forbidden for url: https://www.wasgehtapp.de/index.php?radius=20&select_ort=1&ort=Ulm&x=9.98489&y=48.3917&region=01"
     },
     {
       "name": "GOLD",
