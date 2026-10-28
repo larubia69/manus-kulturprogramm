@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-27T05:51:08.104971+00:00",
+  "generatedAt": "2026-10-28T05:57:47.362909+00:00",
   "events": [
     {
-      "id": "5476731558cacbc5",
-      "date": "2026-10-27",
+      "id": "f679be6af9c05a3d",
+      "date": "2026-10-28",
       "title": "Licht unter die Haut",
       "place": "Villa Rot",
       "genre": "Kunst",
@@ -11,28 +11,6 @@
       "url": "https://villa-rot.de/programm/ausstellungen/licht-unter-die-haut/",
       "details": "Ausstellung vom 25.10.2026 bis 07.02.2027; Öffnungszeiten auf der Originalseite.",
       "end": "2027-02-07"
-    },
-    {
-      "id": "4ee025de64eb38b9",
-      "date": "2026-10-27",
-      "title": "Generalprobe 1. Philharmonisches Konzert",
-      "place": "Theater Ulm",
-      "genre": "Konzerte",
-      "time": "10:00",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/generalprobe-1-philharmonisches-konzert",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "c3434918249276c0",
-      "date": "2026-10-27",
-      "title": "1. Philharmonisches Konzert 2026",
-      "place": "Theater Ulm",
-      "genre": "Konzerte",
-      "time": "20:00",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/1-philharmonisches-konzert-2026-260519-135647",
-      "details": "",
-      "end": null
     },
     {
       "id": "8e5042edbe5c0d7f",
@@ -1916,6 +1894,17 @@
       "end": null
     },
     {
+      "id": "9a10e58bf8765852",
+      "date": "2026-12-21",
+      "title": "A Christmas Carol",
+      "place": "Theater Ulm",
+      "genre": "Konzerte",
+      "time": "20:00",
+      "url": "https://www.theater-ulm.de/spielplan/stuecke/a-christmas-carol-2026",
+      "details": "",
+      "end": null
+    },
+    {
       "id": "478eee9af135fa53",
       "date": "2026-12-22",
       "title": "MiU – Szene Beben Musikerinitiative Ulm",
@@ -1923,6 +1912,17 @@
       "genre": "Konzerte",
       "time": "19:00",
       "url": "https://www.roxy.ulm.de/programm/programm.php?m=12&j=2026&vid=5740",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "9229ec62e13d008f",
+      "date": "2026-12-23",
+      "title": "Così fan tutte",
+      "place": "Theater Ulm",
+      "genre": "Bühne",
+      "time": "20:00",
+      "url": "https://www.theater-ulm.de/spielplan/stuecke/cosi-fan-tutte",
       "details": "",
       "end": null
     },
@@ -2316,9 +2316,9 @@
     {
       "name": "Was geht?",
       "url": "https://www.wasgehtapp.de/index.php?radius=20&select_ort=1&ort=Ulm&x=9.98489&y=48.3917&region=01",
-      "state": "error",
+      "state": "needs_parser",
       "count": 0,
-      "note": "403 Client Error: Forbidden for url: https://www.wasgehtapp.de/index.php?radius=20&select_ort=1&ort=Ulm&x=9.98489&y=48.3917&region=01"
+      "note": "Seite erreichbar, aber keine zuverlässig erkannten zukünftigen Termine"
     },
     {
       "name": "GOLD",
