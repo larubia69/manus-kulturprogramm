@@ -1,28 +1,6 @@
 {
-  "generatedAt": "2026-10-28T05:57:47.362909+00:00",
+  "generatedAt": "2026-10-29T05:58:52.009391+00:00",
   "events": [
-    {
-      "id": "f679be6af9c05a3d",
-      "date": "2026-10-28",
-      "title": "Licht unter die Haut",
-      "place": "Villa Rot",
-      "genre": "Kunst",
-      "time": "",
-      "url": "https://villa-rot.de/programm/ausstellungen/licht-unter-die-haut/",
-      "details": "Ausstellung vom 25.10.2026 bis 07.02.2027; Öffnungszeiten auf der Originalseite.",
-      "end": "2027-02-07"
-    },
-    {
-      "id": "8e5042edbe5c0d7f",
-      "date": "2026-10-28",
-      "title": "Theaterfreunde im Gespräch",
-      "place": "Theater Ulm",
-      "genre": "Bühne",
-      "time": "19:30",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/theaterfreunde-im-gespraech-2627",
-      "details": "",
-      "end": null
-    },
     {
       "id": "299f9c73dc12f1bc",
       "date": "2026-10-28",
@@ -33,6 +11,17 @@
       "url": "https://www.roxy.ulm.de/programm/programm.php?m=10&j=2026&vid=5448",
       "details": "",
       "end": null
+    },
+    {
+      "id": "3f3a5742e6bc371c",
+      "date": "2026-10-29",
+      "title": "Licht unter die Haut",
+      "place": "Villa Rot",
+      "genre": "Kunst",
+      "time": "",
+      "url": "https://villa-rot.de/programm/ausstellungen/licht-unter-die-haut/",
+      "details": "Ausstellung vom 25.10.2026 bis 07.02.2027; Öffnungszeiten auf der Originalseite.",
+      "end": "2027-02-07"
     },
     {
       "id": "6539d77bab464fbf",
@@ -178,9 +167,9 @@
       "end": null
     },
     {
-      "id": "9d1b9bb0ca5ddefa",
+      "id": "28577c094b677a45",
       "date": "2026-10-31",
-      "title": "Halloween — letzte Tickets verfügbar! Die beste Gruselparty der Region",
+      "title": "Halloween — ausverkauft Die beste Gruselparty der Region",
       "place": "ROXY Ulm",
       "genre": "Club",
       "time": "21:00",
@@ -739,9 +728,9 @@
       "end": null
     },
     {
-      "id": "c49c7fc752bc53ca",
+      "id": "cf4ab7f19a5834f2",
       "date": "2026-11-19",
-      "title": "SALÒ Hardcore Ist Tot Tour 2026",
+      "title": "SALÒ — letzte Tickets verfügbar! Hardcore Ist Tot Tour 2026",
       "place": "ROXY Ulm",
       "genre": "Konzerte",
       "time": "20:00",
@@ -849,9 +838,9 @@
       "end": null
     },
     {
-      "id": "977b723176ac1433",
+      "id": "eb9e89d72b55310c",
       "date": "2026-11-22",
-      "title": "Ecstatic Shiva Dance Mit DJ Klaus Fumy",
+      "title": "Ecstatic Shiva Dance — ausgebucht! Mit DJ Klaus Fumy",
       "place": "ROXY Ulm",
       "genre": "Club",
       "time": "",
@@ -1923,6 +1912,17 @@
       "genre": "Bühne",
       "time": "20:00",
       "url": "https://www.theater-ulm.de/spielplan/stuecke/cosi-fan-tutte",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "035754c67452f4e7",
+      "date": "2026-12-25",
+      "title": "Kipppunkte",
+      "place": "Theater Ulm",
+      "genre": "Bühne",
+      "time": "19:00",
+      "url": "https://www.theater-ulm.de/spielplan/stuecke/kipppunkte",
       "details": "",
       "end": null
     },
