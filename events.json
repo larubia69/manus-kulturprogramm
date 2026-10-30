@@ -1,39 +1,6 @@
 {
-  "generatedAt": "2026-10-29T05:58:52.009391+00:00",
+  "generatedAt": "2026-10-30T05:59:45.159198+00:00",
   "events": [
-    {
-      "id": "299f9c73dc12f1bc",
-      "date": "2026-10-28",
-      "title": "Fabian Köster — ausverkauft Jahre — Reporter (fast) ohne Grenzen",
-      "place": "ROXY Ulm",
-      "genre": "Bühne",
-      "time": "20:00",
-      "url": "https://www.roxy.ulm.de/programm/programm.php?m=10&j=2026&vid=5448",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "3f3a5742e6bc371c",
-      "date": "2026-10-29",
-      "title": "Licht unter die Haut",
-      "place": "Villa Rot",
-      "genre": "Kunst",
-      "time": "",
-      "url": "https://villa-rot.de/programm/ausstellungen/licht-unter-die-haut/",
-      "details": "Ausstellung vom 25.10.2026 bis 07.02.2027; Öffnungszeiten auf der Originalseite.",
-      "end": "2027-02-07"
-    },
-    {
-      "id": "6539d77bab464fbf",
-      "date": "2026-10-29",
-      "title": "Große Opern-Benefizgala",
-      "place": "Theater Ulm",
-      "genre": "Bühne",
-      "time": "20:00",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/grosse-opern-benefizgala",
-      "details": "",
-      "end": null
-    },
     {
       "id": "30208fdd95546efd",
       "date": "2026-10-29",
@@ -44,6 +11,17 @@
       "url": "https://www.roxy.ulm.de/programm/programm.php?m=10&j=2026&vid=5630",
       "details": "",
       "end": null
+    },
+    {
+      "id": "05624f74211d1d83",
+      "date": "2026-10-30",
+      "title": "Licht unter die Haut",
+      "place": "Villa Rot",
+      "genre": "Kunst",
+      "time": "",
+      "url": "https://villa-rot.de/programm/ausstellungen/licht-unter-die-haut/",
+      "details": "Ausstellung vom 25.10.2026 bis 07.02.2027; Öffnungszeiten auf der Originalseite.",
+      "end": "2027-02-07"
     },
     {
       "id": "65198445acffb28e",
@@ -1927,6 +1905,17 @@
       "end": null
     },
     {
+      "id": "a29a16f21f135f6c",
+      "date": "2026-12-26",
+      "title": "Max und Moritz",
+      "place": "Theater Ulm",
+      "genre": "Konzerte",
+      "time": "11:00",
+      "url": "https://www.theater-ulm.de/spielplan/stuecke/max-und-moritz",
+      "details": "",
+      "end": null
+    },
+    {
       "id": "f1ef70e4fad2ad4d",
       "date": "2026-12-29",
       "title": "VAN HOLZEN Jahresabschlusskonzert 2026",
@@ -2261,7 +2250,7 @@
       "name": "ROXY Ulm",
       "url": "https://www.roxy.ulm.de/programm/programm.php",
       "state": "ok",
-      "count": 48,
+      "count": 47,
       "note": ""
     },
     {
