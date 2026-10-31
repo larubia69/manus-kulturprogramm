@@ -1,20 +1,9 @@
 {
-  "generatedAt": "2026-10-30T05:59:45.159198+00:00",
+  "generatedAt": "2026-10-31T05:55:55.044061+00:00",
   "events": [
     {
-      "id": "30208fdd95546efd",
-      "date": "2026-10-29",
-      "title": "Jazzchor Freiburg meets Joo Kraus Infusion",
-      "place": "ROXY Ulm",
-      "genre": "Konzerte",
-      "time": "20:00",
-      "url": "https://www.roxy.ulm.de/programm/programm.php?m=10&j=2026&vid=5630",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "05624f74211d1d83",
-      "date": "2026-10-30",
+      "id": "abdb0ea43a0cd943",
+      "date": "2026-10-31",
       "title": "Licht unter die Haut",
       "place": "Villa Rot",
       "genre": "Kunst",
@@ -24,61 +13,6 @@
       "end": "2027-02-07"
     },
     {
-      "id": "65198445acffb28e",
-      "date": "2026-10-30",
-      "title": "Stehaufmädchen",
-      "place": "Theater Ulm",
-      "genre": "Bühne",
-      "time": "19:30",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/stehaufmaedchen",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "ea45a72cfbd1330a",
-      "date": "2026-10-30",
-      "title": "Wie es euch gefällt",
-      "place": "Theater Ulm",
-      "genre": "Bühne",
-      "time": "20:00",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/wie-es-euch-gefaellt",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "e01653a16e9e92f0",
-      "date": "2026-10-30",
-      "title": "JEFFREY LEWIS & THE VOLTAGE (USA)",
-      "place": "Club Manufaktur",
-      "genre": "Konzerte",
-      "time": "20:30",
-      "url": "https://www.club-manufaktur.de/event/jeffrey-lewis-the-voltage-usa/",
-      "details": "Die umwerfende Indie-Rock-/Folk-/Kunst-Mischung von Jeffrey Lewis & The Voltage entstand, als der Songwriter und Comiczeichner Jeffrey Lewis 1998 in New York City begann, selbst produzierte Kassetten aufzunehmen; seine …",
-      "end": null
-    },
-    {
-      "id": "aaa3390b4b792811",
-      "date": "2026-10-30",
-      "title": "All Indie",
-      "place": "GOLD",
-      "genre": "Konzerte",
-      "time": "21:00",
-      "url": "https://dasgold.org/konzert/all-indie-3/",
-      "details": "30.10.2026 | 21h | DJ",
-      "end": null
-    },
-    {
-      "id": "b96cf518a1c2fdab",
-      "date": "2026-10-30",
-      "title": "Friday, I'm in Love",
-      "place": "Theater Ulm",
-      "genre": "Konzerte",
-      "time": "23:15",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/friday-i-m-in-love-26-27",
-      "details": "",
-      "end": null
-    },
-    {
       "id": "fa9bc4f74a8c0264",
       "date": "2026-10-31",
       "title": "| 19.00 UHR",
@@ -86,6 +20,17 @@
       "genre": "Konzerte",
       "time": "",
       "url": "https://bonanzbar.jimdofree.com/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "0813d81d7284d580",
+      "date": "2026-10-31",
+      "title": "Oktober",
+      "place": "Theater Ulm",
+      "genre": "Bühne",
+      "time": "11:00",
+      "url": "https://www.theater-ulm.de/orte#treffpunkt-bühnenpforte",
       "details": "",
       "end": null
     },
@@ -145,9 +90,9 @@
       "end": null
     },
     {
-      "id": "28577c094b677a45",
+      "id": "89208e4364e5974c",
       "date": "2026-10-31",
-      "title": "Halloween — ausverkauft Die beste Gruselparty der Region",
+      "title": "Halloween — restlos ausverkauft Die beste Gruselparty der Region",
       "place": "ROXY Ulm",
       "genre": "Club",
       "time": "21:00",
@@ -1910,8 +1855,30 @@
       "title": "Max und Moritz",
       "place": "Theater Ulm",
       "genre": "Konzerte",
-      "time": "11:00",
+      "time": "13:00",
       "url": "https://www.theater-ulm.de/spielplan/stuecke/max-und-moritz",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "a87892a5b49a3e63",
+      "date": "2026-12-26",
+      "title": "Ball im Savoy",
+      "place": "Theater Ulm",
+      "genre": "Bühne",
+      "time": "19:00",
+      "url": "https://www.theater-ulm.de/spielplan/stuecke/ball-im-savoy",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "d7110a4da8125a2d",
+      "date": "2026-12-27",
+      "title": "Così fan tutte",
+      "place": "Theater Ulm",
+      "genre": "Bühne",
+      "time": "15:00",
+      "url": "https://www.theater-ulm.de/spielplan/stuecke/cosi-fan-tutte",
       "details": "",
       "end": null
     },
@@ -2213,6 +2180,17 @@
       "end": null
     },
     {
+      "id": "e9e0c8735191cf87",
+      "date": "2027-05-21",
+      "title": "THE OUTSKIRTS + MARTA WARELIS – Dave Rempis, Ingebrigt Håker-Flaten, Frank Rosaly, Marta Warelis (USA/NOR/PL) – Jazz",
+      "place": "Club Manufaktur",
+      "genre": "Konzerte",
+      "time": "20:30",
+      "url": "https://www.club-manufaktur.de/event/the-outskirts-marta-warelis-dave-rempis-ingebrigt-haker-flaten-frank-rosaly-marta-warelis-usa-nor-pl-jazz/",
+      "details": "Dave Rempis – Saxophone Ingebrigt Håker-Flaten – Kontrabass Frank Rosaly – Schlagzeug Marta Warelis - Klavier The Outskirts ist mehr als eine Band: Sie sind eine Gemeinschaft von Gleichgesinnten, die über Jahrzehnte …",
+      "end": null
+    },
+    {
       "id": "20d3a9a3f0037ee9",
       "date": "2027-06-05",
       "title": "Gentle Minds",
@@ -2250,7 +2228,7 @@
       "name": "ROXY Ulm",
       "url": "https://www.roxy.ulm.de/programm/programm.php",
       "state": "ok",
-      "count": 47,
+      "count": 46,
       "note": ""
     },
     {
@@ -2313,7 +2291,7 @@
       "name": "GOLD",
       "url": "https://dasgold.org/programm/",
       "state": "ok",
-      "count": 9,
+      "count": 8,
       "note": ""
     },
     {
@@ -2362,7 +2340,7 @@
       "name": "Theater Ulm",
       "url": "https://www.theater-ulm.de/spielplan",
       "state": "ok",
-      "count": 100,
+      "count": 101,
       "note": ""
     },
     {
