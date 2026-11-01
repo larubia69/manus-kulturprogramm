@@ -1,17 +1,6 @@
 {
-  "generatedAt": "2026-10-31T05:55:55.044061+00:00",
+  "generatedAt": "2026-11-01T05:59:20.645464+00:00",
   "events": [
-    {
-      "id": "abdb0ea43a0cd943",
-      "date": "2026-10-31",
-      "title": "Licht unter die Haut",
-      "place": "Villa Rot",
-      "genre": "Kunst",
-      "time": "",
-      "url": "https://villa-rot.de/programm/ausstellungen/licht-unter-die-haut/",
-      "details": "Ausstellung vom 25.10.2026 bis 07.02.2027; Öffnungszeiten auf der Originalseite.",
-      "end": "2027-02-07"
-    },
     {
       "id": "fa9bc4f74a8c0264",
       "date": "2026-10-31",
@@ -24,81 +13,15 @@
       "end": null
     },
     {
-      "id": "0813d81d7284d580",
-      "date": "2026-10-31",
-      "title": "Oktober",
-      "place": "Theater Ulm",
-      "genre": "Bühne",
-      "time": "11:00",
-      "url": "https://www.theater-ulm.de/orte#treffpunkt-bühnenpforte",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "e0ee13cdbd00b2c3",
-      "date": "2026-10-31",
-      "title": "Öffentliche Bühnenprobe: Ball im Savoy",
-      "place": "Theater Ulm",
-      "genre": "Bühne",
-      "time": "11:00",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/oeffentliche-buehnenprobe-ball-im-savoy",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "28723b139fcc21a0",
-      "date": "2026-10-31",
-      "title": "Workshop: Ball im Savoy",
-      "place": "Theater Ulm",
-      "genre": "Literatur",
-      "time": "17:00",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/workshop-ball-im-savoy",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "eff1dac3c3c9522e",
-      "date": "2026-10-31",
-      "title": "La Juive (Die Jüdin)",
-      "place": "Theater Ulm",
-      "genre": "Bühne",
-      "time": "19:00",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/la-juive-die-juedin",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "6ef896455e57d356",
-      "date": "2026-10-31",
-      "title": "Spaceman",
-      "place": "Theater Ulm",
-      "genre": "Bühne",
-      "time": "19:30",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/spaceman",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "3bdeb588e727dc81",
-      "date": "2026-10-31",
-      "title": "AUSVERKAUFT! – KITTY, DAISY & LEWIS",
-      "place": "Club Manufaktur",
-      "genre": "Konzerte",
-      "time": "20:00",
-      "url": "https://www.club-manufaktur.de/event/kitty-daisy-lewis/",
-      "details": "Wenn Kitty, Daisy und Lewis Durham, drei Geschwister aus dem Londoner Stadtteil Kentish Town, musizieren, dann nehmen sie uns mit auf eine Reise in die Vergangenheit.",
-      "end": null
-    },
-    {
-      "id": "89208e4364e5974c",
-      "date": "2026-10-31",
-      "title": "Halloween — restlos ausverkauft Die beste Gruselparty der Region",
-      "place": "ROXY Ulm",
-      "genre": "Club",
-      "time": "21:00",
-      "url": "https://www.roxy.ulm.de/programm/programm.php?m=10&j=2026&vid=5671",
-      "details": "",
-      "end": null
+      "id": "70d1693d529b8e55",
+      "date": "2026-11-01",
+      "title": "Licht unter die Haut",
+      "place": "Villa Rot",
+      "genre": "Kunst",
+      "time": "",
+      "url": "https://villa-rot.de/programm/ausstellungen/licht-unter-die-haut/",
+      "details": "Ausstellung vom 25.10.2026 bis 07.02.2027; Öffnungszeiten auf der Originalseite.",
+      "end": "2027-02-07"
     },
     {
       "id": "2971c8688c54db9f",
@@ -1916,6 +1839,72 @@
       "end": null
     },
     {
+      "id": "31d0cd71df1729ac",
+      "date": "2026-12-31",
+      "title": "Ball im Savoy",
+      "place": "Theater Ulm",
+      "genre": "Bühne",
+      "time": "20:00",
+      "url": "https://www.theater-ulm.de/spielplan/stuecke/ball-im-savoy",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "fc6f417ef7e57168",
+      "date": "2027-01-01",
+      "title": "Januar 2027",
+      "place": "Theater Ulm",
+      "genre": "Bühne",
+      "time": "18:00",
+      "url": "https://www.theater-ulm.de/orte#grosses-haus",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "3ee9a9ac04f7041e",
+      "date": "2027-01-01",
+      "title": "Neujahrskonzert 2027",
+      "place": "Theater Ulm",
+      "genre": "Konzerte",
+      "time": "18:00",
+      "url": "https://www.theater-ulm.de/spielplan/stuecke/neujahrskonzert-2027",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "09b28b67eafd8c84",
+      "date": "2027-01-02",
+      "title": "Così fan tutte",
+      "place": "Theater Ulm",
+      "genre": "Bühne",
+      "time": "19:00",
+      "url": "https://www.theater-ulm.de/spielplan/stuecke/cosi-fan-tutte",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "3a1f17bc041a9682",
+      "date": "2027-01-11",
+      "title": "ROXY singt! Aus voller Kehle für die Seele",
+      "place": "ROXY Ulm",
+      "genre": "Bühne",
+      "time": "20:00",
+      "url": "https://www.roxy.ulm.de/programm/programm.php?m=1&j=2027&vid=5734",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "3f84918753c67a18",
+      "date": "2027-01-14",
+      "title": "Helene Bockhorst LEBEFRAU",
+      "place": "ROXY Ulm",
+      "genre": "Bühne",
+      "time": "20:00",
+      "url": "https://www.roxy.ulm.de/programm/programm.php?m=1&j=2027&vid=5446",
+      "details": "",
+      "end": null
+    },
+    {
       "id": "01d5f4f3bdddf362",
       "date": "2027-01-15",
       "title": "The Jack",
@@ -1938,6 +1927,28 @@
       "end": null
     },
     {
+      "id": "2c2586ba8970c2ad",
+      "date": "2027-01-15",
+      "title": "Science Slam Wissenschaft unterhaltsam!",
+      "place": "ROXY Ulm",
+      "genre": "Bühne",
+      "time": "20:00",
+      "url": "https://www.roxy.ulm.de/programm/programm.php?m=1&j=2027&vid=5749",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "042b701071270531",
+      "date": "2027-01-16",
+      "title": "Poetry Slam — Moderiert von Ko Bylanzky Große Worte auf der großen Bühne",
+      "place": "ROXY Ulm",
+      "genre": "Bühne",
+      "time": "20:00",
+      "url": "https://www.roxy.ulm.de/programm/programm.php?m=1&j=2027&vid=5742",
+      "details": "",
+      "end": null
+    },
+    {
       "id": "9aaa461fd70039bb",
       "date": "2027-01-16",
       "title": "SIGRID AFTRET’S JET TRIO – SIGRID AFTRET – TOM BOIZOT – LOUP GODFROY (NOR/FR) – Jazz",
@@ -1946,6 +1957,39 @@
       "time": "20:30",
       "url": "https://www.club-manufaktur.de/event/sigrid-aftrets-jet-trio-sigrid-aftret-tom-boizot-loup-godfroy-nor-fr-jazz/",
       "details": "Sigrid Aftret - Kompositionen, Tenorsaxophon, Flöte und Elektronik Tom Boizot - Kontrabass Loup Godfroy - Schlagzeug und Volca (Synthesizer) Das JET TRIO ist eine französisch-norwegische Jazzband um die Saxophonistin …",
+      "end": null
+    },
+    {
+      "id": "937c0ed1f4b4338d",
+      "date": "2027-01-17",
+      "title": "Timm Sigg Die formelhafte Welt des Mathé-Profs",
+      "place": "ROXY Ulm",
+      "genre": "Bühne",
+      "time": "19:00",
+      "url": "https://www.roxy.ulm.de/programm/programm.php?m=1&j=2027&vid=5668",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "4e58b006256a7c27",
+      "date": "2027-01-21",
+      "title": "Comedy Flex Die Stand Up Comedy Show",
+      "place": "ROXY Ulm",
+      "genre": "Bühne",
+      "time": "20:00",
+      "url": "https://www.roxy.ulm.de/programm/programm.php?m=1&j=2027&vid=5715",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "220120092704bf9e",
+      "date": "2027-01-22",
+      "title": "Helmfried von Lüttichau Weil’s raus muss - Das zweite Programm",
+      "place": "ROXY Ulm",
+      "genre": "Bühne",
+      "time": "20:00",
+      "url": "https://www.roxy.ulm.de/programm/programm.php?m=1&j=2027&vid=5585",
+      "details": "",
       "end": null
     },
     {
@@ -1960,6 +2004,17 @@
       "end": null
     },
     {
+      "id": "00f14a7ef4799ac5",
+      "date": "2027-01-25",
+      "title": "Open Stage — Moderation: Ariane Müller Die Überraschungsshow",
+      "place": "ROXY Ulm",
+      "genre": "Bühne",
+      "time": "20:00",
+      "url": "https://www.roxy.ulm.de/programm/programm.php?m=1&j=2027&vid=5747",
+      "details": "",
+      "end": null
+    },
+    {
       "id": "604dfe8388048645",
       "date": "2027-01-28",
       "title": "WOLFGANG SCHORLAU liest aus „Das kalte Werk“",
@@ -1968,6 +2023,39 @@
       "time": "20:00",
       "url": "https://www.club-manufaktur.de/event/wolfgang-schorlau-liest-aus-das-kalte-werk/",
       "details": "Wolfgang Schorlaus neuer Roman handelt von der Frage, was für uns alle auf dem Spiel steht, von den Schatten der Vergangenheit und von den brutalen Arbeitsbedingungen der Zukunft – oder ist es längst die Gegenwart?",
+      "end": null
+    },
+    {
+      "id": "db74a532b93a7250",
+      "date": "2027-01-29",
+      "title": "TBS — Support: THE NARRATOR - AUSVERKAUFT DIE LUSTIGE SPASSTOUR 2027",
+      "place": "ROXY Ulm",
+      "genre": "Konzerte",
+      "time": "20:00",
+      "url": "https://www.roxy.ulm.de/programm/programm.php?m=1&j=2027&vid=5527",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "cf56e4afa211a2e3",
+      "date": "2027-01-30",
+      "title": "Physik-Event Die einzige Physikshow in 4D",
+      "place": "ROXY Ulm",
+      "genre": "Bühne",
+      "time": "20:00",
+      "url": "https://www.roxy.ulm.de/programm/programm.php?m=1&j=2027&vid=5586",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "04581f7833874a4c",
+      "date": "2027-01-31",
+      "title": "Physik-Event Die einzige Physikshow in 4D",
+      "place": "ROXY Ulm",
+      "genre": "Bühne",
+      "time": "14:00",
+      "url": "https://www.roxy.ulm.de/programm/programm.php?m=1&j=2027&vid=5587",
+      "details": "",
       "end": null
     },
     {
@@ -1990,6 +2078,17 @@
       "time": "20:30",
       "url": "https://www.club-manufaktur.de/event/mothers-cake-a-support-yeast-machine-d/",
       "details": "Es gibt Bands, die verwalten ihr Erbe. Und dann gibt es Mother’s Cake. Für diese Band ist Stillstand kein Zustand, sondern ein künstlerischer Verrat.",
+      "end": null
+    },
+    {
+      "id": "e57f70a0b2d88cd2",
+      "date": "2027-02-13",
+      "title": "Flap Jack",
+      "place": "Stellwerk Schelklingen",
+      "genre": "Konzerte",
+      "time": "",
+      "url": "https://www.stellwerk-schelklingen.com/",
+      "details": "",
       "end": null
     },
     {
@@ -2191,6 +2290,17 @@
       "end": null
     },
     {
+      "id": "75511a09ced15435",
+      "date": "2027-05-28",
+      "title": "HYPOMANIAC (ARG/PT/F) – CAMILA NEBBIA – GONÇALO ALMEIDA – SYLVAIN DARRIFOURCQ – Jazz",
+      "place": "Club Manufaktur",
+      "genre": "Konzerte",
+      "time": "20:30",
+      "url": "https://www.club-manufaktur.de/event/hypomaniac-arg-pt-f/",
+      "details": "Camila Nebbia – Tenorsaxophon Gonçalo Almeida – Kontrabass Sylvain Darrifourcq – Schlagzeug Wenn drei einzigartige Stimmen im unberechenbaren Terrain des Free Jazz aufeinandertreffen, lösen sich Grenzen auf und rohe …",
+      "end": null
+    },
+    {
       "id": "20d3a9a3f0037ee9",
       "date": "2027-06-05",
       "title": "Gentle Minds",
@@ -2214,7 +2324,7 @@
       "name": "Stellwerk Schelklingen",
       "url": "https://www.stellwerk-schelklingen.com/",
       "state": "ok",
-      "count": 13,
+      "count": 14,
       "note": ""
     },
     {
@@ -2228,7 +2338,7 @@
       "name": "ROXY Ulm",
       "url": "https://www.roxy.ulm.de/programm/programm.php",
       "state": "ok",
-      "count": 46,
+      "count": 56,
       "note": ""
     },
     {
@@ -2283,9 +2393,9 @@
     {
       "name": "Was geht?",
       "url": "https://www.wasgehtapp.de/index.php?radius=20&select_ort=1&ort=Ulm&x=9.98489&y=48.3917&region=01",
-      "state": "needs_parser",
+      "state": "error",
       "count": 0,
-      "note": "Seite erreichbar, aber keine zuverlässig erkannten zukünftigen Termine"
+      "note": "403 Client Error: Forbidden for url: https://www.wasgehtapp.de/index.php?radius=20&select_ort=1&ort=Ulm&x=9.98489&y=48.3917&region=01"
     },
     {
       "name": "GOLD",
