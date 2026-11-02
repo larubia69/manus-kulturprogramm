@@ -1,20 +1,9 @@
 {
-  "generatedAt": "2026-11-01T05:59:20.645464+00:00",
+  "generatedAt": "2026-11-02T06:18:43.124674+00:00",
   "events": [
     {
-      "id": "fa9bc4f74a8c0264",
-      "date": "2026-10-31",
-      "title": "| 19.00 UHR",
-      "place": "Bonanzbar",
-      "genre": "Konzerte",
-      "time": "",
-      "url": "https://bonanzbar.jimdofree.com/",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "70d1693d529b8e55",
-      "date": "2026-11-01",
+      "id": "7117725d1abba69e",
+      "date": "2026-11-02",
       "title": "Licht unter die Haut",
       "place": "Villa Rot",
       "genre": "Kunst",
@@ -134,9 +123,9 @@
       "end": null
     },
     {
-      "id": "84ada4345bd563af",
+      "id": "33b6716b15398b99",
       "date": "2026-11-07",
-      "title": "WIRTNIX",
+      "title": "| DOORS 19:00",
       "place": "Bonanzbar",
       "genre": "Konzerte",
       "time": "",
@@ -1630,6 +1619,17 @@
       "end": null
     },
     {
+      "id": "ac2c2e21490ca5f8",
+      "date": "2026-12-18",
+      "title": "WAREHOUSE RAVE w/ POLTERGST | AVE | NIKITA & more",
+      "place": "ROXY Ulm",
+      "genre": "Club",
+      "time": "21:00",
+      "url": "https://www.roxy.ulm.de/programm/programm.php?m=12&j=2026&vid=5754",
+      "details": "",
+      "end": null
+    },
+    {
       "id": "47fbc69498720276",
       "date": "2026-12-19",
       "title": "HYPE WarmUp Session — Schon mal warm machen für HYPE! Bevor der Rest hinschaut",
@@ -2331,14 +2331,14 @@
       "name": "Bonanzbar",
       "url": "https://bonanzbar.jimdofree.com/",
       "state": "ok",
-      "count": 5,
+      "count": 4,
       "note": ""
     },
     {
       "name": "ROXY Ulm",
       "url": "https://www.roxy.ulm.de/programm/programm.php",
       "state": "ok",
-      "count": 56,
+      "count": 57,
       "note": ""
     },
     {
@@ -2393,9 +2393,9 @@
     {
       "name": "Was geht?",
       "url": "https://www.wasgehtapp.de/index.php?radius=20&select_ort=1&ort=Ulm&x=9.98489&y=48.3917&region=01",
-      "state": "error",
+      "state": "needs_parser",
       "count": 0,
-      "note": "403 Client Error: Forbidden for url: https://www.wasgehtapp.de/index.php?radius=20&select_ort=1&ort=Ulm&x=9.98489&y=48.3917&region=01"
+      "note": "Seite erreichbar, aber keine zuverlässig erkannten zukünftigen Termine"
     },
     {
       "name": "GOLD",
