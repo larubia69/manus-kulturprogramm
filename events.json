@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-02T06:18:43.124674+00:00",
+  "generatedAt": "2026-11-03T06:09:46.993475+00:00",
   "events": [
     {
-      "id": "7117725d1abba69e",
-      "date": "2026-11-02",
+      "id": "1227e7911668fc94",
+      "date": "2026-11-03",
       "title": "Licht unter die Haut",
       "place": "Villa Rot",
       "genre": "Kunst",
@@ -32,17 +32,6 @@
       "time": "20:00",
       "url": "https://www.roxy.ulm.de/programm/programm.php?m=11&j=2026&vid=5673",
       "details": "",
-      "end": null
-    },
-    {
-      "id": "18602fb0ad62eef4",
-      "date": "2026-11-04",
-      "title": "Josef-Otto Freudenreich – Vortrag und Diskussion – Der herbeigeschriebene Erfolg für die AfD – Moderation Alexander Roth",
-      "place": "Club Manufaktur",
-      "genre": "Literatur",
-      "time": "19:30",
-      "url": "https://www.club-manufaktur.de/event/josef-otto-freudenreich-vortrag-und-diskussion-der-herbeigeschriebene-erfolg-fuer-die-afd-moderation-alexander-roth/",
-      "details": "Josef-Otto Freudenreich Vortrag und Diskussion Der herbeigeschriebene Erfolg für die AfD Die (seriösen) Medien - Wegbereiter des Rechtsextremismus? Moderation Alexander Roth Taugt eine „Brandmauer“ gegen die AfD?",
       "end": null
     },
     {
@@ -109,17 +98,6 @@
       "time": "20:00",
       "url": "https://www.theater-ulm.de/spielplan/stuecke/la-juive-die-juedin",
       "details": "",
-      "end": null
-    },
-    {
-      "id": "cf11ffedaed4b7d0",
-      "date": "2026-11-06",
-      "title": "SINEM (D)",
-      "place": "Club Manufaktur",
-      "genre": "Konzerte",
-      "time": "20:30",
-      "url": "https://www.club-manufaktur.de/event/sinem-d-3/",
-      "details": "Sinem wuchs in Oberbayern auf, am Ammersee. Sie zog nach München, wo sie noch heute lebt. Ihr Vater hatte ihr westliche Popmusik vorgespielt, die coole Variante: Tanz den Mussolini.",
       "end": null
     },
     {
@@ -200,17 +178,6 @@
       "end": null
     },
     {
-      "id": "78a1c64b8c337f66",
-      "date": "2026-11-07",
-      "title": "WaveTanzen in der Manufaktur – Tanze deine Welle!",
-      "place": "Club Manufaktur",
-      "genre": "Club",
-      "time": "20:00",
-      "url": "https://www.club-manufaktur.de/event/wavetanzen-in-der-manufaktur-tanze-deine-welle-3/2026-11-07/",
-      "details": "WaveTanzen gibt dir die Möglichkeit, den ganzen Körper intensiv zu bewegen und dabei emotionale und mentale Anspannung loszulassen.",
-      "end": null
-    },
-    {
       "id": "67108d367dfb8a9c",
       "date": "2026-11-08",
       "title": "Caveman Du sammeln - ich jagen!",
@@ -277,17 +244,6 @@
       "end": null
     },
     {
-      "id": "cec873f8b01bf32c",
-      "date": "2026-11-11",
-      "title": "DAVID EUGENE EDWARDS (USA)",
-      "place": "Club Manufaktur",
-      "genre": "Konzerte",
-      "time": "20:30",
-      "url": "https://www.club-manufaktur.de/event/david-eugene-edwards-usa-2/",
-      "details": "David Eugene Edwards gilt als eine der einflussreichsten und kompromisslosesten Stimmen der modernen amerikanischen Musik.",
-      "end": null
-    },
-    {
       "id": "84bc1581bdd5e601",
       "date": "2026-11-12",
       "title": "La Juive (Die Jüdin)",
@@ -329,17 +285,6 @@
       "time": "20:00",
       "url": "https://www.roxy.ulm.de/programm/programm.php?m=11&j=2026&vid=5380",
       "details": "",
-      "end": null
-    },
-    {
-      "id": "f54a1ed1f683eb84",
-      "date": "2026-11-13",
-      "title": "LITTLE BARRIE (UK) – Support: 250cc",
-      "place": "Club Manufaktur",
-      "genre": "Konzerte",
-      "time": "20:30",
-      "url": "https://www.club-manufaktur.de/event/little-barrie-uk/",
-      "details": "Wer zunächst mit dem Bandnamen nichts anfangen kann, kennt Little Barrie sicherlich durch den prägnanten Titelsong zur Serie „Better Call Saul“, der ihren charakteristischen Sound eindrucksvoll auf den Punkt bringt.",
       "end": null
     },
     {
@@ -409,17 +354,6 @@
       "end": null
     },
     {
-      "id": "3b7bd93a169d39ca",
-      "date": "2026-11-14",
-      "title": "JEREMY PINNELL & BAND (USA)",
-      "place": "Club Manufaktur",
-      "genre": "Konzerte",
-      "time": "20:30",
-      "url": "https://www.club-manufaktur.de/event/jeremy-pinnell-usa/",
-      "details": "Jeremy Pinnell wuchs in der Nähe des Ohio River auf und kam schon früh mit einer musikalischen Vielfalt in Berührung, die so grenzenlos war wie der Himmel über dem Mittleren Westen.",
-      "end": null
-    },
-    {
       "id": "3aca8996f473f5af",
       "date": "2026-11-15",
       "title": "Ulmer Kantorei Johannes Brahms: Ein deutsches Requiem",
@@ -442,9 +376,9 @@
       "end": null
     },
     {
-      "id": "e4a9ba2b323c2590",
+      "id": "0b094eeb994eaa35",
       "date": "2026-11-15",
-      "title": "Hagen Rether LIEBE",
+      "title": "Hagen Rether — letzte Tickets verfügbar! LIEBE",
       "place": "ROXY Ulm",
       "genre": "Bühne",
       "time": "18:00",
@@ -494,17 +428,6 @@
       "time": "",
       "url": "https://www.pauluskirche-ulm.de/termine/philharmonisches-orchester-der-stadt-ulm-orchesterkonzert.html",
       "details": "",
-      "end": null
-    },
-    {
-      "id": "2dfaf8faa8aafa87",
-      "date": "2026-11-18",
-      "title": "Come together! – Unser neuer Stammtisch für Manufaktur Mitglieder",
-      "place": "Club Manufaktur",
-      "genre": "Literatur",
-      "time": "18:30",
-      "url": "https://www.club-manufaktur.de/event/come-together-unser-neuer-stammtisch-fuer-manufaktur-mitglieder/2026-11-18/",
-      "details": "Über 500 Mitglieder, zahlreiche Veranstaltungen, ein anstehendes Jubiläum und jede Menge Ideen - genau dafür gibt es jetzt unseren neuen Stammtisch: Ein lockerer Treffpunkt für alle, die Lust haben, uns und andere …",
       "end": null
     },
     {
@@ -596,17 +519,6 @@
       "end": null
     },
     {
-      "id": "339372996536b229",
-      "date": "2026-11-20",
-      "title": "TRAMHAUS (NL)",
-      "place": "Club Manufaktur",
-      "genre": "Konzerte",
-      "time": "20:30",
-      "url": "https://www.club-manufaktur.de/event/tramhaus-nl/",
-      "details": "Tramhaus ist eine fünfköpfige Band aus Rotterdam, die seit ihrer Gründung 2020 mit energiegeladenen Live-Auftritten und einem mitreißenden Sound zwischen Post-Hardcore, Shoegaze und Punkrock begeistert.",
-      "end": null
-    },
-    {
       "id": "2b0a70f397c6b870",
       "date": "2026-11-21",
       "title": "Hinter den Kulissen",
@@ -662,17 +574,6 @@
       "end": null
     },
     {
-      "id": "113407059e7085b9",
-      "date": "2026-11-21",
-      "title": "THE WEDDING PRESENT (UK) – SEAMONSTERS 35th ANNIVERSARY TOUR",
-      "place": "Club Manufaktur",
-      "genre": "Konzerte",
-      "time": "20:30",
-      "url": "https://www.club-manufaktur.de/event/the-wedding-present-uk/",
-      "details": "The Wedding Present spielen 2026 eine Reihe von Konzerten in Deutschland, um den 35. Geburtstag der Veröffentlichung ihres wegweisenden Albums „Seamonsters“ zu feiern.",
-      "end": null
-    },
-    {
       "id": "eb9e89d72b55310c",
       "date": "2026-11-22",
       "title": "Ecstatic Shiva Dance — ausgebucht! Mit DJ Klaus Fumy",
@@ -706,9 +607,9 @@
       "end": null
     },
     {
-      "id": "c0d5c960bf4a1b3d",
+      "id": "18ea45f57ca287f2",
       "date": "2026-11-23",
-      "title": "Internationales Solo-Tanz-Theater Festival Stuttgart Preisträger:innentour 2026",
+      "title": "Internationales Solo-Tanz-Theater Festival Stuttgart — fast ausverkauft! Preisträger:innentour 2026",
       "place": "ROXY Ulm",
       "genre": "Club",
       "time": "20:00",
@@ -915,17 +816,6 @@
       "end": null
     },
     {
-      "id": "acfd5ec232cddced",
-      "date": "2026-11-28",
-      "title": "80er-90er-2000er-2010er Party feat. DJ Major Tom",
-      "place": "Club Manufaktur",
-      "genre": "Club",
-      "time": "22:00",
-      "url": "https://www.club-manufaktur.de/event/80er-90er-2000er-2010er-party-feat-dj-major-tom-2/2026-11-28/",
-      "details": "Einlass ab 22 Uhr! Einlass ab 18 Jahren!",
-      "end": null
-    },
-    {
       "id": "adfa1c85171eb58d",
       "date": "2026-11-29",
       "title": "Max und Moritz",
@@ -1047,17 +937,6 @@
       "end": null
     },
     {
-      "id": "b34cf2dfa611d935",
-      "date": "2026-12-03",
-      "title": "Michael Kraske und Dirk Laabs | Lesung und Diskussion | Widersetzt euch!",
-      "place": "Club Manufaktur",
-      "genre": "Literatur",
-      "time": "19:30",
-      "url": "https://www.club-manufaktur.de/event/michael-kraske-und-dirk-laabs-lesung-und-diskussion-widersetzt-euch/",
-      "details": "Wie wir gemeinsam den neuen Faschismus besiegen Wie wir den Aufstieg der Rechten stoppen – eine praktische Anleitung für alle.",
-      "end": null
-    },
-    {
       "id": "dc5883e180376aeb",
       "date": "2026-12-03",
       "title": "Nightwash Live — AUSVERKAUFT",
@@ -1146,17 +1025,6 @@
       "end": null
     },
     {
-      "id": "bf9fb8369adb732a",
-      "date": "2026-12-04",
-      "title": "SHAKING HAND (UK)",
-      "place": "Club Manufaktur",
-      "genre": "Konzerte",
-      "time": "20:30",
-      "url": "https://www.club-manufaktur.de/event/shaking-hand-uk/",
-      "details": "Die britische Newcomer Post-Rock Band Shaking Hand aus Manchester spielt im November und Dezember ihre ersten Deutschland-Konzerte.",
-      "end": null
-    },
-    {
       "id": "f181310ba473569e",
       "date": "2026-12-05",
       "title": "Anders feat. Choriosity A-cappella-Pop",
@@ -1234,28 +1102,6 @@
       "end": null
     },
     {
-      "id": "f63ad987e286a5e7",
-      "date": "2026-12-05",
-      "title": "WaveTanzen in der Manufaktur – Tanze deine Welle!",
-      "place": "Club Manufaktur",
-      "genre": "Club",
-      "time": "20:00",
-      "url": "https://www.club-manufaktur.de/event/wavetanzen-in-der-manufaktur-tanze-deine-welle-3/2026-12-05/",
-      "details": "WaveTanzen gibt dir die Möglichkeit, den ganzen Körper intensiv zu bewegen und dabei emotionale und mentale Anspannung loszulassen.",
-      "end": null
-    },
-    {
-      "id": "ccd156bec724ddf4",
-      "date": "2026-12-05",
-      "title": "BURNOUT OSTWEST (D) – Support: JULIO LOVETRAIN (D)",
-      "place": "Club Manufaktur",
-      "genre": "Konzerte",
-      "time": "20:30",
-      "url": "https://www.club-manufaktur.de/event/burnout-ostwest-d/",
-      "details": "\"Eingängige Gitarrenriffs, schneidende Synthies, hoher Mitgrölfaktor – die Ingredienzien aller Burnout-Ostwest-Songs\", schrieb die taz anlässlich der ersten Burnout Ostwest-Veröffentlichung vor fünf Jahren.",
-      "end": null
-    },
-    {
       "id": "0c500fff8222f044",
       "date": "2026-12-06",
       "title": "Max und Moritz",
@@ -1289,17 +1135,6 @@
       "end": null
     },
     {
-      "id": "0c04c9fc22cf97e6",
-      "date": "2026-12-09",
-      "title": "MAUSTETYTÖT (FIN) – Itken jos mua huvittaa Tour 2026",
-      "place": "Club Manufaktur",
-      "genre": "Konzerte",
-      "time": "20:30",
-      "url": "https://www.club-manufaktur.de/event/maustetytoet-fin-2/",
-      "details": "Maustetytöt kreieren einen unverwechselbaren Sound, der unwiderstehlich eingängige Melodien mit eindrucksvoll realistischen, emotional berührenden Texten verbindet.",
-      "end": null
-    },
-    {
       "id": "a1beed0dbcfd7c9c",
       "date": "2026-12-10",
       "title": "AVATAR Don’t Go In The Forest `26",
@@ -1308,17 +1143,6 @@
       "time": "19:30",
       "url": "https://www.roxy.ulm.de/programm/programm.php?m=12&j=2026&vid=5660",
       "details": "",
-      "end": null
-    },
-    {
-      "id": "45480e716388f698",
-      "date": "2026-12-10",
-      "title": "Jörg Kronauer liest aus und diskutiert über: „Die Brandleger – Der Vormarsch der transatlantischen Rechten“",
-      "place": "Club Manufaktur",
-      "genre": "Konzerte",
-      "time": "19:30",
-      "url": "https://www.club-manufaktur.de/event/joerg-kronauer-liest-aus-und-diskutiert-ueber-die-brandleger-der-vormarsch-der-transatlantischen-rechten/",
-      "details": "„Keinen Platz für Brandmauern\" dürfe es in Europa mehr geben, stärkte US-Vizepräsident JD Vance Anfang 2025 der AfD den Rücken.",
       "end": null
     },
     {
@@ -1344,9 +1168,9 @@
       "end": null
     },
     {
-      "id": "64f4d0ba0ce20d4b",
+      "id": "120d6fb2b6124e5e",
       "date": "2026-12-11",
-      "title": "Ass-Dur Süßer die Brüder nie klingen",
+      "title": "Ass-Dur — fast ausverkauft! Süßer die Brüder nie klingen",
       "place": "ROXY Ulm",
       "genre": "Bühne",
       "time": "20:00",
@@ -1674,17 +1498,6 @@
       "end": null
     },
     {
-      "id": "7983e4d09f2f313b",
-      "date": "2026-12-19",
-      "title": "DIE HOCHSTAPLER (F/I/D) – Jazz",
-      "place": "Club Manufaktur",
-      "genre": "Konzerte",
-      "time": "20:30",
-      "url": "https://www.club-manufaktur.de/event/die-hochstapler-f-i-d-jazz-2/",
-      "details": "Pierre Borel - Saxophon Antonio Borghini - Kontrabass Louis Laurain - Trompete Hannes Lingens - Schlagzeug Seit 2011 arbeiten Pierre Borel, Louis Laurain, Antonio Borghini und Hannes Lingens als Die Hochstapler zusammen.",
-      "end": null
-    },
-    {
       "id": "c4c71b25ffe45297",
       "date": "2026-12-20",
       "title": "Weihnachtsoratorium Bach und Saint-Saens, Münsterkantorei Ulm",
@@ -1916,17 +1729,6 @@
       "end": null
     },
     {
-      "id": "efb3d8e90a0a9600",
-      "date": "2027-01-15",
-      "title": "FRIEDEMANN WEISE – Satire suchen ein Zuhause – Kabarett",
-      "place": "Club Manufaktur",
-      "genre": "Bühne",
-      "time": "20:00",
-      "url": "https://www.club-manufaktur.de/event/friedemann-weise-satire-suchen-ein-zuhause-kabarett/",
-      "details": "Satire darf alles. Außer sterben! Wenn die Satire stirbt, hat der Mensch nur noch vier Jahre zu leben“, sagte Albert Einstein mit einem Kaffee in der Hand zu seiner Katze.",
-      "end": null
-    },
-    {
       "id": "2c2586ba8970c2ad",
       "date": "2027-01-15",
       "title": "Science Slam Wissenschaft unterhaltsam!",
@@ -1946,17 +1748,6 @@
       "time": "20:00",
       "url": "https://www.roxy.ulm.de/programm/programm.php?m=1&j=2027&vid=5742",
       "details": "",
-      "end": null
-    },
-    {
-      "id": "9aaa461fd70039bb",
-      "date": "2027-01-16",
-      "title": "SIGRID AFTRET’S JET TRIO – SIGRID AFTRET – TOM BOIZOT – LOUP GODFROY (NOR/FR) – Jazz",
-      "place": "Club Manufaktur",
-      "genre": "Konzerte",
-      "time": "20:30",
-      "url": "https://www.club-manufaktur.de/event/sigrid-aftrets-jet-trio-sigrid-aftret-tom-boizot-loup-godfroy-nor-fr-jazz/",
-      "details": "Sigrid Aftret - Kompositionen, Tenorsaxophon, Flöte und Elektronik Tom Boizot - Kontrabass Loup Godfroy - Schlagzeug und Volca (Synthesizer) Das JET TRIO ist eine französisch-norwegische Jazzband um die Saxophonistin …",
       "end": null
     },
     {
@@ -2015,17 +1806,6 @@
       "end": null
     },
     {
-      "id": "604dfe8388048645",
-      "date": "2027-01-28",
-      "title": "WOLFGANG SCHORLAU liest aus „Das kalte Werk“",
-      "place": "Club Manufaktur",
-      "genre": "Konzerte",
-      "time": "20:00",
-      "url": "https://www.club-manufaktur.de/event/wolfgang-schorlau-liest-aus-das-kalte-werk/",
-      "details": "Wolfgang Schorlaus neuer Roman handelt von der Frage, was für uns alle auf dem Spiel steht, von den Schatten der Vergangenheit und von den brutalen Arbeitsbedingungen der Zukunft – oder ist es längst die Gegenwart?",
-      "end": null
-    },
-    {
       "id": "db74a532b93a7250",
       "date": "2027-01-29",
       "title": "TBS — Support: THE NARRATOR - AUSVERKAUFT DIE LUSTIGE SPASSTOUR 2027",
@@ -2059,28 +1839,6 @@
       "end": null
     },
     {
-      "id": "61b25907a8ec4851",
-      "date": "2027-02-05",
-      "title": "GET WELL SOON (D)",
-      "place": "Club Manufaktur",
-      "genre": "Konzerte",
-      "time": "20:30",
-      "url": "https://www.club-manufaktur.de/event/get-well-soon-d-2/",
-      "details": "Auf seinem zweiten Album im Jahr 2026 unternimmt Konstantin Gropper aka. Get Well Soon den Versuch, KI in den künstlerischen Schaffensprozess zu integrieren, statt sie nur pauschal zu verteufeln.",
-      "end": null
-    },
-    {
-      "id": "50267122db26c14d",
-      "date": "2027-02-06",
-      "title": "MOTHER’S CAKE (A) – Support: Yeast Machine (D)",
-      "place": "Club Manufaktur",
-      "genre": "Konzerte",
-      "time": "20:30",
-      "url": "https://www.club-manufaktur.de/event/mothers-cake-a-support-yeast-machine-d/",
-      "details": "Es gibt Bands, die verwalten ihr Erbe. Und dann gibt es Mother’s Cake. Für diese Band ist Stillstand kein Zustand, sondern ein künstlerischer Verrat.",
-      "end": null
-    },
-    {
       "id": "e57f70a0b2d88cd2",
       "date": "2027-02-13",
       "title": "Flap Jack",
@@ -2092,17 +1850,6 @@
       "end": null
     },
     {
-      "id": "3a22b086c68a3c63",
-      "date": "2027-02-19",
-      "title": "JOAN AS POLICE WOMAN (USA) – 20 Years of Real Life Tour",
-      "place": "Club Manufaktur",
-      "genre": "Konzerte",
-      "time": "20:30",
-      "url": "https://www.club-manufaktur.de/event/joan-as-police-woman-usa-2/",
-      "details": "New York Citys beste Musikerin feiert das 20-jährige Jubiläum ihres beeindruckenden Debütalbums „Real Life“ aus dem Jahr 2006 mit exklusiven Trio-Konzerten.",
-      "end": null
-    },
-    {
       "id": "065de872f2f76ca3",
       "date": "2027-02-20",
       "title": "GenYXb",
@@ -2111,17 +1858,6 @@
       "time": "",
       "url": "https://www.stellwerk-schelklingen.com/",
       "details": "",
-      "end": null
-    },
-    {
-      "id": "5238f7d80228f595",
-      "date": "2027-02-25",
-      "title": "THE KLITTENS (NL)",
-      "place": "Club Manufaktur",
-      "genre": "Konzerte",
-      "time": "20:30",
-      "url": "https://www.club-manufaktur.de/event/the-klittens-nl/",
-      "details": "The Klittens sind eine fünfköpfige all female Band, die ihre Liebe zur Popmusik mit düsteren Klängen und einer Punk-Attitüde verbindet.",
       "end": null
     },
     {
@@ -2144,50 +1880,6 @@
       "time": "20:00",
       "url": "https://dasgold.org/konzert/neov/",
       "details": "12.03.2027 | 20h | Finnland",
-      "end": null
-    },
-    {
-      "id": "a9b4f50fad90dca7",
-      "date": "2027-03-13",
-      "title": "DE STAAT (NL)",
-      "place": "Club Manufaktur",
-      "genre": "Konzerte",
-      "time": "20:30",
-      "url": "https://www.club-manufaktur.de/event/de-staat-nl/",
-      "details": "De Staat hat sich einen Ruf als eine der innovativsten und mutigsten Live-Bands Europas erarbeitet. Die Band hat immer wieder die Grenzen dessen verschoben, was eine Rockband sein kann.",
-      "end": null
-    },
-    {
-      "id": "2919e576b370ec90",
-      "date": "2027-03-19",
-      "title": "BIRD CALLS (D/FR/NOR) – Matthias Müller – Laure Boer – Paal Nilssen-Love – Jazz",
-      "place": "Club Manufaktur",
-      "genre": "Konzerte",
-      "time": "20:30",
-      "url": "https://www.club-manufaktur.de/event/bird-calls-d-fr-nor-matthias-mueller-laure-boer-paal-nilssen-love-jazz/",
-      "details": "Matthias Müller – Posaune Laure Boer – Dan Bau (vietnamesisches Monochord), Elektronik Paal Nilssen-Love – Schlagzeug, Gongs, Percussion Mit dem für seine außergewöhnlichen Spieltechniken bekannten Berliner Posaunist …",
-      "end": null
-    },
-    {
-      "id": "352b0a378a64889e",
-      "date": "2027-03-25",
-      "title": "DESPERATE JOURNALIST (UK)",
-      "place": "Club Manufaktur",
-      "genre": "Konzerte",
-      "time": "20:30",
-      "url": "https://www.club-manufaktur.de/event/desperate-journalist-uk/",
-      "details": "Desperate Journalist haben sich mit ihrer unverwechselbaren Mischung aus Post-Punk und modernem Indie-Rock inzwischen eine treue Fangemeinde aufgebaut.",
-      "end": null
-    },
-    {
-      "id": "93d222b7b205ff6b",
-      "date": "2027-04-02",
-      "title": "FIONN REGAN (IRL)",
-      "place": "Club Manufaktur",
-      "genre": "Konzerte",
-      "time": "20:30",
-      "url": "https://www.club-manufaktur.de/event/fionn-regan-irl/",
-      "details": "Fionn Regan gehört zu den eigenständigsten Singer-Songwritern der irischen Musikszene. Seit seinem 2006 erschienenen Debüt „The End of History“, das für den Mercury Prize nominiert wurde, entwickelt er eine Musik, die …",
       "end": null
     },
     {
@@ -2235,28 +1927,6 @@
       "end": null
     },
     {
-      "id": "39d9014c1fb70cd8",
-      "date": "2027-04-24",
-      "title": "MOTORPSYCHO (NOR)",
-      "place": "Club Manufaktur",
-      "genre": "Konzerte",
-      "time": "20:30",
-      "url": "https://www.club-manufaktur.de/event/motorpsycho-nor-3/",
-      "details": "Meine Damen und Herren – macht euch bereit für die Show! Im März und April nächsten Jahres ist es wieder so weit: Wir schminken uns die Gesichter, polieren unsere Schuhe und gehen erneut auf Tour!",
-      "end": null
-    },
-    {
-      "id": "956364ebe79f7b5b",
-      "date": "2027-04-30",
-      "title": "MOOP MAMA (D) – Musik mit Maschine Tour 2027",
-      "place": "Club Manufaktur",
-      "genre": "Konzerte",
-      "time": "20:30",
-      "url": "https://www.club-manufaktur.de/event/moop-mama-d-musik-mit-maschine-tour-2027/",
-      "details": "Hey, wir sind Moop Mama. Die Band, die Mutter des „Urban Brass“. Ihr kennt uns von Anfang an? Vergesst alles! Ihr seid ganz neu dazugekommen? Vergesst alles! Ihr habt keine Ahnung? Seid gespannt... Wir gehen auf Tour.",
-      "end": null
-    },
-    {
       "id": "3219edc00b8fd7f9",
       "date": "2027-05-01",
       "title": "Okapi Bluesband",
@@ -2276,28 +1946,6 @@
       "time": "",
       "url": "https://www.stellwerk-schelklingen.com/",
       "details": "",
-      "end": null
-    },
-    {
-      "id": "e9e0c8735191cf87",
-      "date": "2027-05-21",
-      "title": "THE OUTSKIRTS + MARTA WARELIS – Dave Rempis, Ingebrigt Håker-Flaten, Frank Rosaly, Marta Warelis (USA/NOR/PL) – Jazz",
-      "place": "Club Manufaktur",
-      "genre": "Konzerte",
-      "time": "20:30",
-      "url": "https://www.club-manufaktur.de/event/the-outskirts-marta-warelis-dave-rempis-ingebrigt-haker-flaten-frank-rosaly-marta-warelis-usa-nor-pl-jazz/",
-      "details": "Dave Rempis – Saxophone Ingebrigt Håker-Flaten – Kontrabass Frank Rosaly – Schlagzeug Marta Warelis - Klavier The Outskirts ist mehr als eine Band: Sie sind eine Gemeinschaft von Gleichgesinnten, die über Jahrzehnte …",
-      "end": null
-    },
-    {
-      "id": "75511a09ced15435",
-      "date": "2027-05-28",
-      "title": "HYPOMANIAC (ARG/PT/F) – CAMILA NEBBIA – GONÇALO ALMEIDA – SYLVAIN DARRIFOURCQ – Jazz",
-      "place": "Club Manufaktur",
-      "genre": "Konzerte",
-      "time": "20:30",
-      "url": "https://www.club-manufaktur.de/event/hypomaniac-arg-pt-f/",
-      "details": "Camila Nebbia – Tenorsaxophon Gonçalo Almeida – Kontrabass Sylvain Darrifourcq – Schlagzeug Wenn drei einzigartige Stimmen im unberechenbaren Terrain des Free Jazz aufeinandertreffen, lösen sich Grenzen auf und rohe …",
       "end": null
     },
     {
@@ -2344,9 +1992,9 @@
     {
       "name": "Club Manufaktur",
       "url": "https://www.club-manufaktur.de/kategorie/alle-events/",
-      "state": "ok",
-      "count": 34,
-      "note": ""
+      "state": "error",
+      "count": 0,
+      "note": "HTTPSConnectionPool(host='www.club-manufaktur.de', port=443): Read timed out. (read timeout=9)"
     },
     {
       "name": "Birkenried",
