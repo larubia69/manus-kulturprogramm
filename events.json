@@ -1,28 +1,6 @@
 {
-  "generatedAt": "2026-11-03T06:09:46.993475+00:00",
+  "generatedAt": "2026-11-04T06:16:00.498446+00:00",
   "events": [
-    {
-      "id": "1227e7911668fc94",
-      "date": "2026-11-03",
-      "title": "Licht unter die Haut",
-      "place": "Villa Rot",
-      "genre": "Kunst",
-      "time": "",
-      "url": "https://villa-rot.de/programm/ausstellungen/licht-unter-die-haut/",
-      "details": "Ausstellung vom 25.10.2026 bis 07.02.2027; Öffnungszeiten auf der Originalseite.",
-      "end": "2027-02-07"
-    },
-    {
-      "id": "2971c8688c54db9f",
-      "date": "2026-11-03",
-      "title": "Soirée: Die schönste Version",
-      "place": "Theater Ulm",
-      "genre": "Konzerte",
-      "time": "19:00",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/soiree-die-schoenste-version",
-      "details": "",
-      "end": null
-    },
     {
       "id": "6dec1b634cc0173a",
       "date": "2026-11-03",
@@ -33,6 +11,17 @@
       "url": "https://www.roxy.ulm.de/programm/programm.php?m=11&j=2026&vid=5673",
       "details": "",
       "end": null
+    },
+    {
+      "id": "2adfb1226987e03e",
+      "date": "2026-11-04",
+      "title": "Licht unter die Haut",
+      "place": "Villa Rot",
+      "genre": "Kunst",
+      "time": "",
+      "url": "https://villa-rot.de/programm/ausstellungen/licht-unter-die-haut/",
+      "details": "Ausstellung vom 25.10.2026 bis 07.02.2027; Öffnungszeiten auf der Originalseite.",
+      "end": "2027-02-07"
     },
     {
       "id": "e8dce5d51f85e9bd",
@@ -420,9 +409,9 @@
       "end": null
     },
     {
-      "id": "4aa3ca966d7a5244",
+      "id": "87c38d55f9588492",
       "date": "2026-11-18",
-      "title": "Philharmonisches Orchester der Stadt Ulm Orchesterkonzert",
+      "title": "das Sonderkonzert des Philharmonischen Orchesters der Stadt Ulm Bruckner Symphonie Nr. 5",
       "place": "Pauluskirche",
       "genre": "Konzerte",
       "time": "",
@@ -1443,9 +1432,9 @@
       "end": null
     },
     {
-      "id": "ac2c2e21490ca5f8",
+      "id": "7521a41615e6fa45",
       "date": "2026-12-18",
-      "title": "WAREHOUSE RAVE w/ POLTERGST | AVE | NIKITA & more",
+      "title": "WAREHOUSE RAVE w/ POLTERGST | AVE | NIIKITA & more",
       "place": "ROXY Ulm",
       "genre": "Club",
       "time": "21:00",
@@ -1692,6 +1681,17 @@
       "genre": "Bühne",
       "time": "19:00",
       "url": "https://www.theater-ulm.de/spielplan/stuecke/cosi-fan-tutte",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "c47d6fc03e5d1035",
+      "date": "2027-01-02",
+      "title": "Die schönste Version",
+      "place": "Theater Ulm",
+      "genre": "Bühne",
+      "time": "19:30",
+      "url": "https://www.theater-ulm.de/spielplan/stuecke/die-schoenste-version",
       "details": "",
       "end": null
     },
