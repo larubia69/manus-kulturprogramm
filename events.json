@@ -1,20 +1,9 @@
 {
-  "generatedAt": "2026-11-04T06:16:00.498446+00:00",
+  "generatedAt": "2026-11-05T06:16:59.958794+00:00",
   "events": [
     {
-      "id": "6dec1b634cc0173a",
-      "date": "2026-11-03",
-      "title": "Mother’s Cake Fall 2026",
-      "place": "ROXY Ulm",
-      "genre": "Konzerte",
-      "time": "20:00",
-      "url": "https://www.roxy.ulm.de/programm/programm.php?m=11&j=2026&vid=5673",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "2adfb1226987e03e",
-      "date": "2026-11-04",
+      "id": "de4a6d0e70c3b6a8",
+      "date": "2026-11-05",
       "title": "Licht unter die Haut",
       "place": "Villa Rot",
       "genre": "Kunst",
@@ -22,17 +11,6 @@
       "url": "https://villa-rot.de/programm/ausstellungen/licht-unter-die-haut/",
       "details": "Ausstellung vom 25.10.2026 bis 07.02.2027; Öffnungszeiten auf der Originalseite.",
       "end": "2027-02-07"
-    },
-    {
-      "id": "e8dce5d51f85e9bd",
-      "date": "2026-11-04",
-      "title": "Kipppunkte",
-      "place": "Theater Ulm",
-      "genre": "Bühne",
-      "time": "20:00",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/kipppunkte",
-      "details": "",
-      "end": null
     },
     {
       "id": "058e1d9f06ab7c33",
@@ -596,9 +574,9 @@
       "end": null
     },
     {
-      "id": "18ea45f57ca287f2",
+      "id": "f9b481f2675ce8e4",
       "date": "2026-11-23",
-      "title": "Internationales Solo-Tanz-Theater Festival Stuttgart — fast ausverkauft! Preisträger:innentour 2026",
+      "title": "Internationales Solo-Tanz-Theater Festival Stuttgart — AUSVERKAUFT Preisträger:innentour 2026",
       "place": "ROXY Ulm",
       "genre": "Club",
       "time": "20:00",
@@ -849,13 +827,13 @@
       "end": null
     },
     {
-      "id": "9d750f051d4df481",
+      "id": "6e0c4b7052a517f4",
       "date": "2026-12-01",
-      "title": "Generalprobe 1. Philharmonisches Konzert",
+      "title": "Generalprobe 2. Philharmonisches Konzert",
       "place": "Theater Ulm",
       "genre": "Konzerte",
       "time": "10:00",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/generalprobe-1-philharmonisches-konzert",
+      "url": "https://www.theater-ulm.de/spielplan/stuecke/generalprobe-2-philharmonisches-konzert",
       "details": "",
       "end": null
     },
@@ -1619,6 +1597,17 @@
       "end": null
     },
     {
+      "id": "f028e56250550a93",
+      "date": "2026-12-31",
+      "title": "ROXY Silvester Show — AUSVERKAUFT Zweite Show",
+      "place": "ROXY Ulm",
+      "genre": "Konzerte",
+      "time": "",
+      "url": "https://www.roxy.ulm.de/programm/programm.php?m=12&j=2026&vid=5722",
+      "details": "",
+      "end": null
+    },
+    {
       "id": "3a1e5714b37e99ab",
       "date": "2026-12-31",
       "title": "ROXY Silvester Show — mit Ariane Müller und Gästen Erste Show",
@@ -1626,17 +1615,6 @@
       "genre": "Konzerte",
       "time": "",
       "url": "https://www.roxy.ulm.de/programm/programm.php?m=12&j=2026&vid=5721",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "5bce32c584fc58bf",
-      "date": "2026-12-31",
-      "title": "ROXY Silvester Show — mit Ariane Müller und Gästen Zweite Show",
-      "place": "ROXY Ulm",
-      "genre": "Konzerte",
-      "time": "",
-      "url": "https://www.roxy.ulm.de/programm/programm.php?m=12&j=2026&vid=5722",
       "details": "",
       "end": null
     },
@@ -1692,6 +1670,17 @@
       "genre": "Bühne",
       "time": "19:30",
       "url": "https://www.theater-ulm.de/spielplan/stuecke/die-schoenste-version",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "b0693f60ac155934",
+      "date": "2027-01-03",
+      "title": "Neujahrskonzert 2027",
+      "place": "Theater Ulm",
+      "genre": "Konzerte",
+      "time": "19:00",
+      "url": "https://www.theater-ulm.de/spielplan/stuecke/neujahrskonzert-2027",
       "details": "",
       "end": null
     },
@@ -1986,7 +1975,7 @@
       "name": "ROXY Ulm",
       "url": "https://www.roxy.ulm.de/programm/programm.php",
       "state": "ok",
-      "count": 57,
+      "count": 56,
       "note": ""
     },
     {
