@@ -1,17 +1,6 @@
 {
-  "generatedAt": "2026-11-05T06:16:59.958794+00:00",
+  "generatedAt": "2026-11-06T06:16:20.379419+00:00",
   "events": [
-    {
-      "id": "de4a6d0e70c3b6a8",
-      "date": "2026-11-05",
-      "title": "Licht unter die Haut",
-      "place": "Villa Rot",
-      "genre": "Kunst",
-      "time": "",
-      "url": "https://villa-rot.de/programm/ausstellungen/licht-unter-die-haut/",
-      "details": "Ausstellung vom 25.10.2026 bis 07.02.2027; Öffnungszeiten auf der Originalseite.",
-      "end": "2027-02-07"
-    },
     {
       "id": "058e1d9f06ab7c33",
       "date": "2026-11-05",
@@ -22,6 +11,17 @@
       "url": "https://www.roxy.ulm.de/programm/programm.php?m=11&j=2026&vid=5697",
       "details": "",
       "end": null
+    },
+    {
+      "id": "75c343e77dafec1b",
+      "date": "2026-11-06",
+      "title": "Licht unter die Haut",
+      "place": "Villa Rot",
+      "genre": "Kunst",
+      "time": "",
+      "url": "https://villa-rot.de/programm/ausstellungen/licht-unter-die-haut/",
+      "details": "Ausstellung vom 25.10.2026 bis 07.02.2027; Öffnungszeiten auf der Originalseite.",
+      "end": "2027-02-07"
     },
     {
       "id": "2f12b4201a8c816f",
@@ -46,25 +46,14 @@
       "end": null
     },
     {
-      "id": "310274232aca2f60",
+      "id": "cf11ffedaed4b7d0",
       "date": "2026-11-06",
-      "title": "Stehaufmädchen",
-      "place": "Theater Ulm",
-      "genre": "Bühne",
-      "time": "19:30",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/stehaufmaedchen",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "999a368f7e781bd5",
-      "date": "2026-11-06",
-      "title": "La Juive (Die Jüdin)",
-      "place": "Theater Ulm",
-      "genre": "Bühne",
-      "time": "20:00",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/la-juive-die-juedin",
-      "details": "",
+      "title": "SINEM (D)",
+      "place": "Club Manufaktur",
+      "genre": "Konzerte",
+      "time": "20:30",
+      "url": "https://www.club-manufaktur.de/event/sinem-d-3/",
+      "details": "Sinem wuchs in Oberbayern auf, am Ammersee. Sie zog nach München, wo sie noch heute lebt. Ihr Vater hatte ihr westliche Popmusik vorgespielt, die coole Variante: Tanz den Mussolini.",
       "end": null
     },
     {
@@ -75,50 +64,6 @@
       "genre": "Konzerte",
       "time": "",
       "url": "https://bonanzbar.jimdofree.com/",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "0039e1d2d20d347f",
-      "date": "2026-11-07",
-      "title": "Workshop: Ball im Savoy",
-      "place": "Theater Ulm",
-      "genre": "Literatur",
-      "time": "10:45",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/workshop-ball-im-savoy",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "9852788789a0fd45",
-      "date": "2026-11-07",
-      "title": "Juden und Christen in Ulm",
-      "place": "Theater Ulm",
-      "genre": "Konzerte",
-      "time": "13:00",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/juden-und-christen-in-ulm",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "7fcd3964df44f06e",
-      "date": "2026-11-07",
-      "title": "Kipppunkte",
-      "place": "Theater Ulm",
-      "genre": "Bühne",
-      "time": "19:00",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/kipppunkte",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "31d9401d5eaf4c59",
-      "date": "2026-11-07",
-      "title": "Spaceman",
-      "place": "Theater Ulm",
-      "genre": "Bühne",
-      "time": "19:30",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/spaceman",
       "details": "",
       "end": null
     },
@@ -145,6 +90,17 @@
       "end": null
     },
     {
+      "id": "78a1c64b8c337f66",
+      "date": "2026-11-07",
+      "title": "WaveTanzen in der Manufaktur – Tanze deine Welle!",
+      "place": "Club Manufaktur",
+      "genre": "Club",
+      "time": "20:00",
+      "url": "https://www.club-manufaktur.de/event/wavetanzen-in-der-manufaktur-tanze-deine-welle-3/2026-11-07/",
+      "details": "WaveTanzen gibt dir die Möglichkeit, den ganzen Körper intensiv zu bewegen und dabei emotionale und mentale Anspannung loszulassen.",
+      "end": null
+    },
+    {
       "id": "67108d367dfb8a9c",
       "date": "2026-11-08",
       "title": "Caveman Du sammeln - ich jagen!",
@@ -167,28 +123,6 @@
       "end": null
     },
     {
-      "id": "f906a81d825d4db1",
-      "date": "2026-11-08",
-      "title": "Matinée: Ball im Savoy",
-      "place": "Theater Ulm",
-      "genre": "Konzerte",
-      "time": "11:00",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/matinee-ball-im-savoy",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "add6c519fb6be726",
-      "date": "2026-11-08",
-      "title": "La Juive (Die Jüdin)",
-      "place": "Theater Ulm",
-      "genre": "Bühne",
-      "time": "15:00",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/la-juive-die-juedin",
-      "details": "",
-      "end": null
-    },
-    {
       "id": "df70224b2d4aa1c6",
       "date": "2026-11-09",
       "title": "ROXY singt! — AUSVERKAUFT Aus voller Kehle für die Seele",
@@ -200,47 +134,14 @@
       "end": null
     },
     {
-      "id": "182e1756a3d03e44",
-      "date": "2026-11-10",
-      "title": "Schwördienstag",
-      "place": "Theater Ulm",
+      "id": "cec873f8b01bf32c",
+      "date": "2026-11-11",
+      "title": "DAVID EUGENE EDWARDS (USA)",
+      "place": "Club Manufaktur",
       "genre": "Konzerte",
-      "time": "19:30",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/schwoerdienstag",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "84bc1581bdd5e601",
-      "date": "2026-11-12",
-      "title": "La Juive (Die Jüdin)",
-      "place": "Theater Ulm",
-      "genre": "Bühne",
-      "time": "20:00",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/la-juive-die-juedin",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "0c4a0e12578ce404",
-      "date": "2026-11-13",
-      "title": "Juden und Christen in Ulm",
-      "place": "Theater Ulm",
-      "genre": "Konzerte",
-      "time": "16:00",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/juden-und-christen-in-ulm",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "5754414f7118bc3b",
-      "date": "2026-11-13",
-      "title": "Ball im Savoy",
-      "place": "Theater Ulm",
-      "genre": "Bühne",
-      "time": "19:30",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/ball-im-savoy",
-      "details": "",
+      "time": "20:30",
+      "url": "https://www.club-manufaktur.de/event/david-eugene-edwards-usa-2/",
+      "details": "David Eugene Edwards gilt als eine der einflussreichsten und kompromisslosesten Stimmen der modernen amerikanischen Musik.",
       "end": null
     },
     {
@@ -255,36 +156,14 @@
       "end": null
     },
     {
-      "id": "b9b8154e423f4c8e",
-      "date": "2026-11-14",
-      "title": "Vorschau für Max und Moritz",
-      "place": "Theater Ulm",
+      "id": "f54a1ed1f683eb84",
+      "date": "2026-11-13",
+      "title": "LITTLE BARRIE (UK) – Support: 250cc",
+      "place": "Club Manufaktur",
       "genre": "Konzerte",
-      "time": "09:45",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/vorschau-fuer-max-und-moritz",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "85cb76c6dfe8d2e4",
-      "date": "2026-11-14",
-      "title": "Kipppunkte",
-      "place": "Theater Ulm",
-      "genre": "Bühne",
-      "time": "19:00",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/kipppunkte",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "93cf5dd33b616813",
-      "date": "2026-11-14",
-      "title": "Die schönste Version",
-      "place": "Theater Ulm",
-      "genre": "Bühne",
-      "time": "19:30",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/die-schoenste-version",
-      "details": "",
+      "time": "20:30",
+      "url": "https://www.club-manufaktur.de/event/little-barrie-uk/",
+      "details": "Wer zunächst mit dem Bandnamen nichts anfangen kann, kennt Little Barrie sicherlich durch den prägnanten Titelsong zur Serie „Better Call Saul“, der ihren charakteristischen Sound eindrucksvoll auf den Punkt bringt.",
       "end": null
     },
     {
@@ -321,6 +200,17 @@
       "end": null
     },
     {
+      "id": "3b7bd93a169d39ca",
+      "date": "2026-11-14",
+      "title": "JEREMY PINNELL & BAND (USA)",
+      "place": "Club Manufaktur",
+      "genre": "Konzerte",
+      "time": "20:30",
+      "url": "https://www.club-manufaktur.de/event/jeremy-pinnell-usa/",
+      "details": "Jeremy Pinnell wuchs in der Nähe des Ohio River auf und kam schon früh mit einer musikalischen Vielfalt in Berührung, die so grenzenlos war wie der Himmel über dem Mittleren Westen.",
+      "end": null
+    },
+    {
       "id": "3aca8996f473f5af",
       "date": "2026-11-15",
       "title": "Ulmer Kantorei Johannes Brahms: Ein deutsches Requiem",
@@ -328,17 +218,6 @@
       "genre": "Konzerte",
       "time": "",
       "url": "https://www.pauluskirche-ulm.de/termine/ulmer-kantorei-johannes-brahms-ein-deutsches-requiem.html",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "7a0b0b23edc8a183",
-      "date": "2026-11-15",
-      "title": "2. Kammerkonzert 2026",
-      "place": "Theater Ulm",
-      "genre": "Konzerte",
-      "time": "11:00",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/2-kammerkonzert-2026",
       "details": "",
       "end": null
     },
@@ -365,17 +244,6 @@
       "end": null
     },
     {
-      "id": "1ebba0be450a46e7",
-      "date": "2026-11-15",
-      "title": "Ball im Savoy",
-      "place": "Theater Ulm",
-      "genre": "Bühne",
-      "time": "19:00",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/ball-im-savoy",
-      "details": "",
-      "end": null
-    },
-    {
       "id": "9d3cbf24bc48f54c",
       "date": "2026-11-16",
       "title": "Open Stage — Moderation: Ariane Müller Die Überraschungsshow",
@@ -398,25 +266,14 @@
       "end": null
     },
     {
-      "id": "297186629ec06f45",
+      "id": "2dfaf8faa8aafa87",
       "date": "2026-11-18",
-      "title": "Stehaufmädchen",
-      "place": "Theater Ulm",
-      "genre": "Bühne",
-      "time": "19:30",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/stehaufmaedchen",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "bddfaf034cbe16ec",
-      "date": "2026-11-18",
-      "title": "Sonderkonzert 2026",
-      "place": "Theater Ulm",
-      "genre": "Konzerte",
-      "time": "20:00",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/sonderkonzert-2026",
-      "details": "",
+      "title": "Come together! – Unser neuer Stammtisch für Manufaktur Mitglieder",
+      "place": "Club Manufaktur",
+      "genre": "Literatur",
+      "time": "18:30",
+      "url": "https://www.club-manufaktur.de/event/come-together-unser-neuer-stammtisch-fuer-manufaktur-mitglieder/2026-11-18/",
+      "details": "Über 500 Mitglieder, zahlreiche Veranstaltungen, ein anstehendes Jubiläum und jede Menge Ideen - genau dafür gibt es jetzt unseren neuen Stammtisch: Ein lockerer Treffpunkt für alle, die Lust haben, uns und andere …",
       "end": null
     },
     {
@@ -442,20 +299,9 @@
       "end": null
     },
     {
-      "id": "6da6c7af3f7cc0fb",
+      "id": "fdbe51a6c138cef8",
       "date": "2026-11-19",
-      "title": "Die schönste Version",
-      "place": "Theater Ulm",
-      "genre": "Bühne",
-      "time": "19:30",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/die-schoenste-version",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "cf4ab7f19a5834f2",
-      "date": "2026-11-19",
-      "title": "SALÒ — letzte Tickets verfügbar! Hardcore Ist Tot Tour 2026",
+      "title": "SALÒ — fast ausverkauft! Hardcore Ist Tot Tour 2026",
       "place": "ROXY Ulm",
       "genre": "Konzerte",
       "time": "20:00",
@@ -475,47 +321,14 @@
       "end": null
     },
     {
-      "id": "09197cc2a3ba7d7c",
+      "id": "339372996536b229",
       "date": "2026-11-20",
-      "title": "Wie es euch gefällt",
-      "place": "Theater Ulm",
-      "genre": "Bühne",
-      "time": "20:00",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/wie-es-euch-gefaellt",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "2b0a70f397c6b870",
-      "date": "2026-11-21",
-      "title": "Hinter den Kulissen",
-      "place": "Theater Ulm",
+      "title": "TRAMHAUS (NL)",
+      "place": "Club Manufaktur",
       "genre": "Konzerte",
-      "time": "15:00",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/hinter-den-kulissen",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "ca58d60f4f674346",
-      "date": "2026-11-21",
-      "title": "Kipppunkte",
-      "place": "Theater Ulm",
-      "genre": "Bühne",
-      "time": "19:00",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/kipppunkte",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "1c4f43e2a7df0a5d",
-      "date": "2026-11-21",
-      "title": "Die schönste Version",
-      "place": "Theater Ulm",
-      "genre": "Bühne",
-      "time": "19:30",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/die-schoenste-version",
-      "details": "",
+      "time": "20:30",
+      "url": "https://www.club-manufaktur.de/event/tramhaus-nl/",
+      "details": "Tramhaus ist eine fünfköpfige Band aus Rotterdam, die seit ihrer Gründung 2020 mit energiegeladenen Live-Auftritten und einem mitreißenden Sound zwischen Post-Hardcore, Shoegaze und Punkrock begeistert.",
       "end": null
     },
     {
@@ -541,6 +354,17 @@
       "end": null
     },
     {
+      "id": "113407059e7085b9",
+      "date": "2026-11-21",
+      "title": "THE WEDDING PRESENT (UK) – SEAMONSTERS 35th ANNIVERSARY TOUR",
+      "place": "Club Manufaktur",
+      "genre": "Konzerte",
+      "time": "20:30",
+      "url": "https://www.club-manufaktur.de/event/the-wedding-present-uk/",
+      "details": "The Wedding Present spielen 2026 eine Reihe von Konzerten in Deutschland, um den 35. Geburtstag der Veröffentlichung ihres wegweisenden Albums „Seamonsters“ zu feiern.",
+      "end": null
+    },
+    {
       "id": "eb9e89d72b55310c",
       "date": "2026-11-22",
       "title": "Ecstatic Shiva Dance — ausgebucht! Mit DJ Klaus Fumy",
@@ -563,17 +387,6 @@
       "end": null
     },
     {
-      "id": "8df86df5e926d7af",
-      "date": "2026-11-22",
-      "title": "Ball im Savoy",
-      "place": "Theater Ulm",
-      "genre": "Bühne",
-      "time": "15:00",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/ball-im-savoy",
-      "details": "",
-      "end": null
-    },
-    {
       "id": "f9b481f2675ce8e4",
       "date": "2026-11-23",
       "title": "Internationales Solo-Tanz-Theater Festival Stuttgart — AUSVERKAUFT Preisträger:innentour 2026",
@@ -585,28 +398,6 @@
       "end": null
     },
     {
-      "id": "02332cef7b8a1977",
-      "date": "2026-11-24",
-      "title": "Stehaufmädchen",
-      "place": "Theater Ulm",
-      "genre": "Bühne",
-      "time": "11:00",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/stehaufmaedchen",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "66ce9d642d586a68",
-      "date": "2026-11-25",
-      "title": "Stehaufmädchen",
-      "place": "Theater Ulm",
-      "genre": "Bühne",
-      "time": "19:30",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/stehaufmaedchen",
-      "details": "",
-      "end": null
-    },
-    {
       "id": "ffe9a610aa84dfa2",
       "date": "2026-11-25",
       "title": "BOSSE — letzte Tickets verfügbar! Stabile Poesie Clubtour 2026",
@@ -614,17 +405,6 @@
       "genre": "Konzerte",
       "time": "20:00",
       "url": "https://www.roxy.ulm.de/programm/programm.php?m=11&j=2026&vid=5651",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "d06dbc70e9f23ea3",
-      "date": "2026-11-25",
-      "title": "Wie es euch gefällt",
-      "place": "Theater Ulm",
-      "genre": "Bühne",
-      "time": "20:00",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/wie-es-euch-gefaellt",
       "details": "",
       "end": null
     },
@@ -651,28 +431,6 @@
       "end": null
     },
     {
-      "id": "72ccf29556cb23aa",
-      "date": "2026-11-26",
-      "title": "Max und Moritz",
-      "place": "Theater Ulm",
-      "genre": "Konzerte",
-      "time": "13:30",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/max-und-moritz",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "c64d9c4921da6ee3",
-      "date": "2026-11-26",
-      "title": "Spaceman",
-      "place": "Theater Ulm",
-      "genre": "Bühne",
-      "time": "19:30",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/spaceman",
-      "details": "",
-      "end": null
-    },
-    {
       "id": "703298e19bb6066c",
       "date": "2026-11-26",
       "title": "Ingmar Stadelmann Solo: Stadelmann liest Höcke - ein satirischer Diskurs kurz vor der Machtergreifung",
@@ -680,17 +438,6 @@
       "genre": "Bühne",
       "time": "19:33",
       "url": "https://www.roxy.ulm.de/programm/programm.php?m=11&j=2026&vid=5465",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "d8d06a0fad007615",
-      "date": "2026-11-26",
-      "title": "Kipppunkte",
-      "place": "Theater Ulm",
-      "genre": "Bühne",
-      "time": "20:00",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/kipppunkte",
       "details": "",
       "end": null
     },
@@ -717,28 +464,6 @@
       "end": null
     },
     {
-      "id": "034a927fb910c458",
-      "date": "2026-11-27",
-      "title": "Die schönste Version",
-      "place": "Theater Ulm",
-      "genre": "Bühne",
-      "time": "19:30",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/die-schoenste-version",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "1966d2aecceb4104",
-      "date": "2026-11-27",
-      "title": "Ball im Savoy",
-      "place": "Theater Ulm",
-      "genre": "Bühne",
-      "time": "20:00",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/ball-im-savoy",
-      "details": "",
-      "end": null
-    },
-    {
       "id": "4ac97bdf5fb66d18",
       "date": "2026-11-28",
       "title": "Bläserphilharmonie Blaustein",
@@ -761,17 +486,6 @@
       "end": null
     },
     {
-      "id": "a79551f1f04903e6",
-      "date": "2026-11-28",
-      "title": "La Juive (Die Jüdin)",
-      "place": "Theater Ulm",
-      "genre": "Bühne",
-      "time": "19:00",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/la-juive-die-juedin",
-      "details": "",
-      "end": null
-    },
-    {
       "id": "9e8feea575279456",
       "date": "2026-11-28",
       "title": "VANTA",
@@ -783,36 +497,14 @@
       "end": null
     },
     {
-      "id": "adfa1c85171eb58d",
-      "date": "2026-11-29",
-      "title": "Max und Moritz",
-      "place": "Theater Ulm",
-      "genre": "Konzerte",
-      "time": "13:00",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/max-und-moritz",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "dedd4624896632a0",
-      "date": "2026-11-29",
-      "title": "Wie es euch gefällt",
-      "place": "Theater Ulm",
-      "genre": "Bühne",
-      "time": "19:00",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/wie-es-euch-gefaellt",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "d87359c4a499f6c8",
-      "date": "2026-11-30",
-      "title": "Max und Moritz",
-      "place": "Theater Ulm",
-      "genre": "Konzerte",
-      "time": "13:30",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/max-und-moritz",
-      "details": "",
+      "id": "acfd5ec232cddced",
+      "date": "2026-11-28",
+      "title": "80er-90er-2000er-2010er Party feat. DJ Major Tom",
+      "place": "Club Manufaktur",
+      "genre": "Club",
+      "time": "22:00",
+      "url": "https://www.club-manufaktur.de/event/80er-90er-2000er-2010er-party-feat-dj-major-tom-2/2026-11-28/",
+      "details": "Einlass ab 22 Uhr! Einlass ab 18 Jahren!",
       "end": null
     },
     {
@@ -904,6 +596,17 @@
       "end": null
     },
     {
+      "id": "b34cf2dfa611d935",
+      "date": "2026-12-03",
+      "title": "Michael Kraske und Dirk Laabs | Lesung und Diskussion | Widersetzt euch!",
+      "place": "Club Manufaktur",
+      "genre": "Literatur",
+      "time": "19:30",
+      "url": "https://www.club-manufaktur.de/event/michael-kraske-und-dirk-laabs-lesung-und-diskussion-widersetzt-euch/",
+      "details": "Wie wir gemeinsam den neuen Faschismus besiegen Wie wir den Aufstieg der Rechten stoppen – eine praktische Anleitung für alle.",
+      "end": null
+    },
+    {
       "id": "dc5883e180376aeb",
       "date": "2026-12-03",
       "title": "Nightwash Live — AUSVERKAUFT",
@@ -992,6 +695,17 @@
       "end": null
     },
     {
+      "id": "bf9fb8369adb732a",
+      "date": "2026-12-04",
+      "title": "SHAKING HAND (UK)",
+      "place": "Club Manufaktur",
+      "genre": "Konzerte",
+      "time": "20:30",
+      "url": "https://www.club-manufaktur.de/event/shaking-hand-uk/",
+      "details": "Die britische Newcomer Post-Rock Band Shaking Hand aus Manchester spielt im November und Dezember ihre ersten Deutschland-Konzerte.",
+      "end": null
+    },
+    {
       "id": "f181310ba473569e",
       "date": "2026-12-05",
       "title": "Anders feat. Choriosity A-cappella-Pop",
@@ -1069,6 +783,28 @@
       "end": null
     },
     {
+      "id": "f63ad987e286a5e7",
+      "date": "2026-12-05",
+      "title": "WaveTanzen in der Manufaktur – Tanze deine Welle!",
+      "place": "Club Manufaktur",
+      "genre": "Club",
+      "time": "20:00",
+      "url": "https://www.club-manufaktur.de/event/wavetanzen-in-der-manufaktur-tanze-deine-welle-3/2026-12-05/",
+      "details": "WaveTanzen gibt dir die Möglichkeit, den ganzen Körper intensiv zu bewegen und dabei emotionale und mentale Anspannung loszulassen.",
+      "end": null
+    },
+    {
+      "id": "ccd156bec724ddf4",
+      "date": "2026-12-05",
+      "title": "BURNOUT OSTWEST (D) – Support: JULIO LOVETRAIN (D)",
+      "place": "Club Manufaktur",
+      "genre": "Konzerte",
+      "time": "20:30",
+      "url": "https://www.club-manufaktur.de/event/burnout-ostwest-d/",
+      "details": "\"Eingängige Gitarrenriffs, schneidende Synthies, hoher Mitgrölfaktor – die Ingredienzien aller Burnout-Ostwest-Songs\", schrieb die taz anlässlich der ersten Burnout Ostwest-Veröffentlichung vor fünf Jahren.",
+      "end": null
+    },
+    {
       "id": "0c500fff8222f044",
       "date": "2026-12-06",
       "title": "Max und Moritz",
@@ -1102,6 +838,17 @@
       "end": null
     },
     {
+      "id": "0c04c9fc22cf97e6",
+      "date": "2026-12-09",
+      "title": "MAUSTETYTÖT (FIN) – Itken jos mua huvittaa Tour 2026",
+      "place": "Club Manufaktur",
+      "genre": "Konzerte",
+      "time": "20:30",
+      "url": "https://www.club-manufaktur.de/event/maustetytoet-fin-2/",
+      "details": "Maustetytöt kreieren einen unverwechselbaren Sound, der unwiderstehlich eingängige Melodien mit eindrucksvoll realistischen, emotional berührenden Texten verbindet.",
+      "end": null
+    },
+    {
       "id": "a1beed0dbcfd7c9c",
       "date": "2026-12-10",
       "title": "AVATAR Don’t Go In The Forest `26",
@@ -1110,6 +857,17 @@
       "time": "19:30",
       "url": "https://www.roxy.ulm.de/programm/programm.php?m=12&j=2026&vid=5660",
       "details": "",
+      "end": null
+    },
+    {
+      "id": "45480e716388f698",
+      "date": "2026-12-10",
+      "title": "Jörg Kronauer liest aus und diskutiert über: „Die Brandleger – Der Vormarsch der transatlantischen Rechten“",
+      "place": "Club Manufaktur",
+      "genre": "Konzerte",
+      "time": "19:30",
+      "url": "https://www.club-manufaktur.de/event/joerg-kronauer-liest-aus-und-diskutiert-ueber-die-brandleger-der-vormarsch-der-transatlantischen-rechten/",
+      "details": "„Keinen Platz für Brandmauern\" dürfe es in Europa mehr geben, stärkte US-Vizepräsident JD Vance Anfang 2025 der AfD den Rücken.",
       "end": null
     },
     {
@@ -1465,6 +1223,17 @@
       "end": null
     },
     {
+      "id": "7983e4d09f2f313b",
+      "date": "2026-12-19",
+      "title": "DIE HOCHSTAPLER (F/I/D) – Jazz",
+      "place": "Club Manufaktur",
+      "genre": "Konzerte",
+      "time": "20:30",
+      "url": "https://www.club-manufaktur.de/event/die-hochstapler-f-i-d-jazz-2/",
+      "details": "Pierre Borel - Saxophon Antonio Borghini - Kontrabass Louis Laurain - Trompete Hannes Lingens - Schlagzeug Seit 2011 arbeiten Pierre Borel, Louis Laurain, Antonio Borghini und Hannes Lingens als Die Hochstapler zusammen.",
+      "end": null
+    },
+    {
       "id": "c4c71b25ffe45297",
       "date": "2026-12-20",
       "title": "Weihnachtsoratorium Bach und Saint-Saens, Münsterkantorei Ulm",
@@ -1718,6 +1487,17 @@
       "end": null
     },
     {
+      "id": "efb3d8e90a0a9600",
+      "date": "2027-01-15",
+      "title": "FRIEDEMANN WEISE – Satire suchen ein Zuhause – Kabarett",
+      "place": "Club Manufaktur",
+      "genre": "Bühne",
+      "time": "20:00",
+      "url": "https://www.club-manufaktur.de/event/friedemann-weise-satire-suchen-ein-zuhause-kabarett/",
+      "details": "Satire darf alles. Außer sterben! Wenn die Satire stirbt, hat der Mensch nur noch vier Jahre zu leben“, sagte Albert Einstein mit einem Kaffee in der Hand zu seiner Katze.",
+      "end": null
+    },
+    {
       "id": "2c2586ba8970c2ad",
       "date": "2027-01-15",
       "title": "Science Slam Wissenschaft unterhaltsam!",
@@ -1737,6 +1517,17 @@
       "time": "20:00",
       "url": "https://www.roxy.ulm.de/programm/programm.php?m=1&j=2027&vid=5742",
       "details": "",
+      "end": null
+    },
+    {
+      "id": "9aaa461fd70039bb",
+      "date": "2027-01-16",
+      "title": "SIGRID AFTRET’S JET TRIO – SIGRID AFTRET – TOM BOIZOT – LOUP GODFROY (NOR/FR) – Jazz",
+      "place": "Club Manufaktur",
+      "genre": "Konzerte",
+      "time": "20:30",
+      "url": "https://www.club-manufaktur.de/event/sigrid-aftrets-jet-trio-sigrid-aftret-tom-boizot-loup-godfroy-nor-fr-jazz/",
+      "details": "Sigrid Aftret - Kompositionen, Tenorsaxophon, Flöte und Elektronik Tom Boizot - Kontrabass Loup Godfroy - Schlagzeug und Volca (Synthesizer) Das JET TRIO ist eine französisch-norwegische Jazzband um die Saxophonistin …",
       "end": null
     },
     {
@@ -1795,6 +1586,17 @@
       "end": null
     },
     {
+      "id": "604dfe8388048645",
+      "date": "2027-01-28",
+      "title": "WOLFGANG SCHORLAU liest aus „Das kalte Werk“",
+      "place": "Club Manufaktur",
+      "genre": "Konzerte",
+      "time": "20:00",
+      "url": "https://www.club-manufaktur.de/event/wolfgang-schorlau-liest-aus-das-kalte-werk/",
+      "details": "Wolfgang Schorlaus neuer Roman handelt von der Frage, was für uns alle auf dem Spiel steht, von den Schatten der Vergangenheit und von den brutalen Arbeitsbedingungen der Zukunft – oder ist es längst die Gegenwart?",
+      "end": null
+    },
+    {
       "id": "db74a532b93a7250",
       "date": "2027-01-29",
       "title": "TBS — Support: THE NARRATOR - AUSVERKAUFT DIE LUSTIGE SPASSTOUR 2027",
@@ -1811,7 +1613,7 @@
       "title": "Physik-Event Die einzige Physikshow in 4D",
       "place": "ROXY Ulm",
       "genre": "Bühne",
-      "time": "20:00",
+      "time": "19:00",
       "url": "https://www.roxy.ulm.de/programm/programm.php?m=1&j=2027&vid=5586",
       "details": "",
       "end": null
@@ -1828,6 +1630,28 @@
       "end": null
     },
     {
+      "id": "61b25907a8ec4851",
+      "date": "2027-02-05",
+      "title": "GET WELL SOON (D)",
+      "place": "Club Manufaktur",
+      "genre": "Konzerte",
+      "time": "20:30",
+      "url": "https://www.club-manufaktur.de/event/get-well-soon-d-2/",
+      "details": "Auf seinem zweiten Album im Jahr 2026 unternimmt Konstantin Gropper aka. Get Well Soon den Versuch, KI in den künstlerischen Schaffensprozess zu integrieren, statt sie nur pauschal zu verteufeln.",
+      "end": null
+    },
+    {
+      "id": "50267122db26c14d",
+      "date": "2027-02-06",
+      "title": "MOTHER’S CAKE (A) – Support: Yeast Machine (D)",
+      "place": "Club Manufaktur",
+      "genre": "Konzerte",
+      "time": "20:30",
+      "url": "https://www.club-manufaktur.de/event/mothers-cake-a-support-yeast-machine-d/",
+      "details": "Es gibt Bands, die verwalten ihr Erbe. Und dann gibt es Mother’s Cake. Für diese Band ist Stillstand kein Zustand, sondern ein künstlerischer Verrat.",
+      "end": null
+    },
+    {
       "id": "e57f70a0b2d88cd2",
       "date": "2027-02-13",
       "title": "Flap Jack",
@@ -1839,6 +1663,17 @@
       "end": null
     },
     {
+      "id": "3a22b086c68a3c63",
+      "date": "2027-02-19",
+      "title": "JOAN AS POLICE WOMAN (USA) – 20 Years of Real Life Tour",
+      "place": "Club Manufaktur",
+      "genre": "Konzerte",
+      "time": "20:30",
+      "url": "https://www.club-manufaktur.de/event/joan-as-police-woman-usa-2/",
+      "details": "New York Citys beste Musikerin feiert das 20-jährige Jubiläum ihres beeindruckenden Debütalbums „Real Life“ aus dem Jahr 2006 mit exklusiven Trio-Konzerten.",
+      "end": null
+    },
+    {
       "id": "065de872f2f76ca3",
       "date": "2027-02-20",
       "title": "GenYXb",
@@ -1847,6 +1682,17 @@
       "time": "",
       "url": "https://www.stellwerk-schelklingen.com/",
       "details": "",
+      "end": null
+    },
+    {
+      "id": "5238f7d80228f595",
+      "date": "2027-02-25",
+      "title": "THE KLITTENS (NL)",
+      "place": "Club Manufaktur",
+      "genre": "Konzerte",
+      "time": "20:30",
+      "url": "https://www.club-manufaktur.de/event/the-klittens-nl/",
+      "details": "The Klittens sind eine fünfköpfige all female Band, die ihre Liebe zur Popmusik mit düsteren Klängen und einer Punk-Attitüde verbindet.",
       "end": null
     },
     {
@@ -1869,6 +1715,50 @@
       "time": "20:00",
       "url": "https://dasgold.org/konzert/neov/",
       "details": "12.03.2027 | 20h | Finnland",
+      "end": null
+    },
+    {
+      "id": "a9b4f50fad90dca7",
+      "date": "2027-03-13",
+      "title": "DE STAAT (NL)",
+      "place": "Club Manufaktur",
+      "genre": "Konzerte",
+      "time": "20:30",
+      "url": "https://www.club-manufaktur.de/event/de-staat-nl/",
+      "details": "De Staat hat sich einen Ruf als eine der innovativsten und mutigsten Live-Bands Europas erarbeitet. Die Band hat immer wieder die Grenzen dessen verschoben, was eine Rockband sein kann.",
+      "end": null
+    },
+    {
+      "id": "2919e576b370ec90",
+      "date": "2027-03-19",
+      "title": "BIRD CALLS (D/FR/NOR) – Matthias Müller – Laure Boer – Paal Nilssen-Love – Jazz",
+      "place": "Club Manufaktur",
+      "genre": "Konzerte",
+      "time": "20:30",
+      "url": "https://www.club-manufaktur.de/event/bird-calls-d-fr-nor-matthias-mueller-laure-boer-paal-nilssen-love-jazz/",
+      "details": "Matthias Müller – Posaune Laure Boer – Dan Bau (vietnamesisches Monochord), Elektronik Paal Nilssen-Love – Schlagzeug, Gongs, Percussion Mit dem für seine außergewöhnlichen Spieltechniken bekannten Berliner Posaunist …",
+      "end": null
+    },
+    {
+      "id": "352b0a378a64889e",
+      "date": "2027-03-25",
+      "title": "DESPERATE JOURNALIST (UK)",
+      "place": "Club Manufaktur",
+      "genre": "Konzerte",
+      "time": "20:30",
+      "url": "https://www.club-manufaktur.de/event/desperate-journalist-uk/",
+      "details": "Desperate Journalist haben sich mit ihrer unverwechselbaren Mischung aus Post-Punk und modernem Indie-Rock inzwischen eine treue Fangemeinde aufgebaut.",
+      "end": null
+    },
+    {
+      "id": "93d222b7b205ff6b",
+      "date": "2027-04-02",
+      "title": "FIONN REGAN (IRL)",
+      "place": "Club Manufaktur",
+      "genre": "Konzerte",
+      "time": "20:30",
+      "url": "https://www.club-manufaktur.de/event/fionn-regan-irl/",
+      "details": "Fionn Regan gehört zu den eigenständigsten Singer-Songwritern der irischen Musikszene. Seit seinem 2006 erschienenen Debüt „The End of History“, das für den Mercury Prize nominiert wurde, entwickelt er eine Musik, die …",
       "end": null
     },
     {
@@ -1905,6 +1795,17 @@
       "end": null
     },
     {
+      "id": "1eb16ae92224573d",
+      "date": "2027-04-23",
+      "title": "NICHTSEATTLE (D) – Große Liebe Tour 2027",
+      "place": "Club Manufaktur",
+      "genre": "Konzerte",
+      "time": "20:30",
+      "url": "https://www.club-manufaktur.de/event/nichtseattle-d/",
+      "details": "Sie ist eine der außergewöhnlichsten Songschreiberinnen unserer Zeit und spätestens seit ihrem im April 2024 erschienen Doppelalbum „HAUS“ nicht mehr aus der Kulturlandschaft wegzudenken: Katharina Kollmann aka …",
+      "end": null
+    },
+    {
       "id": "a0dbb2831eb1f870",
       "date": "2027-04-24",
       "title": "Don't Eat Cats",
@@ -1913,6 +1814,28 @@
       "time": "",
       "url": "https://www.stellwerk-schelklingen.com/",
       "details": "",
+      "end": null
+    },
+    {
+      "id": "39d9014c1fb70cd8",
+      "date": "2027-04-24",
+      "title": "MOTORPSYCHO (NOR)",
+      "place": "Club Manufaktur",
+      "genre": "Konzerte",
+      "time": "20:30",
+      "url": "https://www.club-manufaktur.de/event/motorpsycho-nor-3/",
+      "details": "Meine Damen und Herren – macht euch bereit für die Show! Im März und April nächsten Jahres ist es wieder so weit: Wir schminken uns die Gesichter, polieren unsere Schuhe und gehen erneut auf Tour!",
+      "end": null
+    },
+    {
+      "id": "956364ebe79f7b5b",
+      "date": "2027-04-30",
+      "title": "MOOP MAMA (D) – Musik mit Maschine Tour 2027",
+      "place": "Club Manufaktur",
+      "genre": "Konzerte",
+      "time": "20:30",
+      "url": "https://www.club-manufaktur.de/event/moop-mama-d-musik-mit-maschine-tour-2027/",
+      "details": "Hey, wir sind Moop Mama. Die Band, die Mutter des „Urban Brass“. Ihr kennt uns von Anfang an? Vergesst alles! Ihr seid ganz neu dazugekommen? Vergesst alles! Ihr habt keine Ahnung? Seid gespannt... Wir gehen auf Tour.",
       "end": null
     },
     {
@@ -1938,6 +1861,28 @@
       "end": null
     },
     {
+      "id": "e9e0c8735191cf87",
+      "date": "2027-05-21",
+      "title": "THE OUTSKIRTS + MARTA WARELIS – Dave Rempis, Ingebrigt Håker-Flaten, Frank Rosaly, Marta Warelis (USA/NOR/PL) – Jazz",
+      "place": "Club Manufaktur",
+      "genre": "Konzerte",
+      "time": "20:30",
+      "url": "https://www.club-manufaktur.de/event/the-outskirts-marta-warelis-dave-rempis-ingebrigt-haker-flaten-frank-rosaly-marta-warelis-usa-nor-pl-jazz/",
+      "details": "Dave Rempis – Saxophone Ingebrigt Håker-Flaten – Kontrabass Frank Rosaly – Schlagzeug Marta Warelis - Klavier The Outskirts ist mehr als eine Band: Sie sind eine Gemeinschaft von Gleichgesinnten, die über Jahrzehnte …",
+      "end": null
+    },
+    {
+      "id": "75511a09ced15435",
+      "date": "2027-05-28",
+      "title": "HYPOMANIAC (ARG/PT/F) – CAMILA NEBBIA – GONÇALO ALMEIDA – SYLVAIN DARRIFOURCQ – Jazz",
+      "place": "Club Manufaktur",
+      "genre": "Konzerte",
+      "time": "20:30",
+      "url": "https://www.club-manufaktur.de/event/hypomaniac-arg-pt-f/",
+      "details": "Camila Nebbia – Tenorsaxophon Gonçalo Almeida – Kontrabass Sylvain Darrifourcq – Schlagzeug Wenn drei einzigartige Stimmen im unberechenbaren Terrain des Free Jazz aufeinandertreffen, lösen sich Grenzen auf und rohe …",
+      "end": null
+    },
+    {
       "id": "20d3a9a3f0037ee9",
       "date": "2027-06-05",
       "title": "Gentle Minds",
@@ -1945,6 +1890,413 @@
       "genre": "Konzerte",
       "time": "",
       "url": "https://www.stellwerk-schelklingen.com/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "316fa7c4312e17fc",
+      "date": "2027-11-06",
+      "title": "Stehaufmädchen",
+      "place": "Theater Ulm",
+      "genre": "Bühne",
+      "time": "19:30",
+      "url": "https://www.theater-ulm.de/spielplan/stuecke/stehaufmaedchen",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "5a0ace492a94265e",
+      "date": "2027-11-06",
+      "title": "La Juive (Die Jüdin)",
+      "place": "Theater Ulm",
+      "genre": "Bühne",
+      "time": "20:00",
+      "url": "https://www.theater-ulm.de/spielplan/stuecke/la-juive-die-juedin",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "8e245e848a71306f",
+      "date": "2027-11-07",
+      "title": "Workshop: Ball im Savoy",
+      "place": "Theater Ulm",
+      "genre": "Literatur",
+      "time": "10:45",
+      "url": "https://www.theater-ulm.de/spielplan/stuecke/workshop-ball-im-savoy",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "67adf3c392591616",
+      "date": "2027-11-07",
+      "title": "Juden und Christen in Ulm",
+      "place": "Theater Ulm",
+      "genre": "Konzerte",
+      "time": "13:00",
+      "url": "https://www.theater-ulm.de/spielplan/stuecke/juden-und-christen-in-ulm",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "4b957dcdbd3941ea",
+      "date": "2027-11-07",
+      "title": "Kipppunkte",
+      "place": "Theater Ulm",
+      "genre": "Bühne",
+      "time": "19:00",
+      "url": "https://www.theater-ulm.de/spielplan/stuecke/kipppunkte",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "e3a93c70176bb883",
+      "date": "2027-11-07",
+      "title": "Spaceman",
+      "place": "Theater Ulm",
+      "genre": "Bühne",
+      "time": "19:30",
+      "url": "https://www.theater-ulm.de/spielplan/stuecke/spaceman",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "51fcb7f218491966",
+      "date": "2027-11-08",
+      "title": "Matinée: Ball im Savoy",
+      "place": "Theater Ulm",
+      "genre": "Konzerte",
+      "time": "11:00",
+      "url": "https://www.theater-ulm.de/spielplan/stuecke/matinee-ball-im-savoy",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "a8060cdf484dbb0f",
+      "date": "2027-11-08",
+      "title": "La Juive (Die Jüdin)",
+      "place": "Theater Ulm",
+      "genre": "Bühne",
+      "time": "15:00",
+      "url": "https://www.theater-ulm.de/spielplan/stuecke/la-juive-die-juedin",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "caef70072245a2d9",
+      "date": "2027-11-10",
+      "title": "Schwördienstag",
+      "place": "Theater Ulm",
+      "genre": "Konzerte",
+      "time": "19:30",
+      "url": "https://www.theater-ulm.de/spielplan/stuecke/schwoerdienstag",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "2348684f8c64dbf1",
+      "date": "2027-11-12",
+      "title": "La Juive (Die Jüdin)",
+      "place": "Theater Ulm",
+      "genre": "Bühne",
+      "time": "20:00",
+      "url": "https://www.theater-ulm.de/spielplan/stuecke/la-juive-die-juedin",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "f7f70a035264d71d",
+      "date": "2027-11-13",
+      "title": "Juden und Christen in Ulm",
+      "place": "Theater Ulm",
+      "genre": "Konzerte",
+      "time": "16:00",
+      "url": "https://www.theater-ulm.de/spielplan/stuecke/juden-und-christen-in-ulm",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "f1010100d0e7acf7",
+      "date": "2027-11-13",
+      "title": "Ball im Savoy",
+      "place": "Theater Ulm",
+      "genre": "Bühne",
+      "time": "19:30",
+      "url": "https://www.theater-ulm.de/spielplan/stuecke/ball-im-savoy",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "c378731266faca33",
+      "date": "2027-11-14",
+      "title": "Vorschau für Max und Moritz",
+      "place": "Theater Ulm",
+      "genre": "Konzerte",
+      "time": "09:45",
+      "url": "https://www.theater-ulm.de/spielplan/stuecke/vorschau-fuer-max-und-moritz",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "cd746574b56271d4",
+      "date": "2027-11-14",
+      "title": "Kipppunkte",
+      "place": "Theater Ulm",
+      "genre": "Bühne",
+      "time": "19:00",
+      "url": "https://www.theater-ulm.de/spielplan/stuecke/kipppunkte",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "7d637c4408970212",
+      "date": "2027-11-14",
+      "title": "Die schönste Version",
+      "place": "Theater Ulm",
+      "genre": "Bühne",
+      "time": "19:30",
+      "url": "https://www.theater-ulm.de/spielplan/stuecke/die-schoenste-version",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "2a4e0fe009ae7817",
+      "date": "2027-11-15",
+      "title": "2. Kammerkonzert 2026",
+      "place": "Theater Ulm",
+      "genre": "Konzerte",
+      "time": "11:00",
+      "url": "https://www.theater-ulm.de/spielplan/stuecke/2-kammerkonzert-2026",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "2a8ddea48bd619b6",
+      "date": "2027-11-15",
+      "title": "Ball im Savoy",
+      "place": "Theater Ulm",
+      "genre": "Bühne",
+      "time": "19:00",
+      "url": "https://www.theater-ulm.de/spielplan/stuecke/ball-im-savoy",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "366561404933df36",
+      "date": "2027-11-18",
+      "title": "Stehaufmädchen",
+      "place": "Theater Ulm",
+      "genre": "Bühne",
+      "time": "19:30",
+      "url": "https://www.theater-ulm.de/spielplan/stuecke/stehaufmaedchen",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "449c99bb641b457f",
+      "date": "2027-11-18",
+      "title": "Sonderkonzert 2026",
+      "place": "Theater Ulm",
+      "genre": "Konzerte",
+      "time": "20:00",
+      "url": "https://www.theater-ulm.de/spielplan/stuecke/sonderkonzert-2026",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "e0201a5a0e460ea1",
+      "date": "2027-11-19",
+      "title": "Die schönste Version",
+      "place": "Theater Ulm",
+      "genre": "Bühne",
+      "time": "19:30",
+      "url": "https://www.theater-ulm.de/spielplan/stuecke/die-schoenste-version",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "b481989599653a4c",
+      "date": "2027-11-20",
+      "title": "Wie es euch gefällt",
+      "place": "Theater Ulm",
+      "genre": "Bühne",
+      "time": "20:00",
+      "url": "https://www.theater-ulm.de/spielplan/stuecke/wie-es-euch-gefaellt",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "2fed7e15cbb8c9f4",
+      "date": "2027-11-21",
+      "title": "Hinter den Kulissen",
+      "place": "Theater Ulm",
+      "genre": "Konzerte",
+      "time": "15:00",
+      "url": "https://www.theater-ulm.de/spielplan/stuecke/hinter-den-kulissen",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "aabb4b65e2c13058",
+      "date": "2027-11-21",
+      "title": "Kipppunkte",
+      "place": "Theater Ulm",
+      "genre": "Bühne",
+      "time": "19:00",
+      "url": "https://www.theater-ulm.de/spielplan/stuecke/kipppunkte",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "fb6906bf3c3b5c0e",
+      "date": "2027-11-21",
+      "title": "Die schönste Version",
+      "place": "Theater Ulm",
+      "genre": "Bühne",
+      "time": "19:30",
+      "url": "https://www.theater-ulm.de/spielplan/stuecke/die-schoenste-version",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "3f749361056ef426",
+      "date": "2027-11-22",
+      "title": "Ball im Savoy",
+      "place": "Theater Ulm",
+      "genre": "Bühne",
+      "time": "15:00",
+      "url": "https://www.theater-ulm.de/spielplan/stuecke/ball-im-savoy",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "f416de20adb8a169",
+      "date": "2027-11-24",
+      "title": "Stehaufmädchen",
+      "place": "Theater Ulm",
+      "genre": "Bühne",
+      "time": "11:00",
+      "url": "https://www.theater-ulm.de/spielplan/stuecke/stehaufmaedchen",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "d92a671571f95bcb",
+      "date": "2027-11-25",
+      "title": "Stehaufmädchen",
+      "place": "Theater Ulm",
+      "genre": "Bühne",
+      "time": "19:30",
+      "url": "https://www.theater-ulm.de/spielplan/stuecke/stehaufmaedchen",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "ccaeaae08924e6b3",
+      "date": "2027-11-25",
+      "title": "Wie es euch gefällt",
+      "place": "Theater Ulm",
+      "genre": "Bühne",
+      "time": "20:00",
+      "url": "https://www.theater-ulm.de/spielplan/stuecke/wie-es-euch-gefaellt",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "69ed0ec776acf8c2",
+      "date": "2027-11-26",
+      "title": "Max und Moritz",
+      "place": "Theater Ulm",
+      "genre": "Konzerte",
+      "time": "13:30",
+      "url": "https://www.theater-ulm.de/spielplan/stuecke/max-und-moritz",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "86de6b44e458cff3",
+      "date": "2027-11-26",
+      "title": "Spaceman",
+      "place": "Theater Ulm",
+      "genre": "Bühne",
+      "time": "19:30",
+      "url": "https://www.theater-ulm.de/spielplan/stuecke/spaceman",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "d2d4ba8a1eefef3a",
+      "date": "2027-11-26",
+      "title": "Kipppunkte",
+      "place": "Theater Ulm",
+      "genre": "Bühne",
+      "time": "20:00",
+      "url": "https://www.theater-ulm.de/spielplan/stuecke/kipppunkte",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "10ec10966b17fba3",
+      "date": "2027-11-27",
+      "title": "Die schönste Version",
+      "place": "Theater Ulm",
+      "genre": "Bühne",
+      "time": "19:30",
+      "url": "https://www.theater-ulm.de/spielplan/stuecke/die-schoenste-version",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "dba1ed0053f55534",
+      "date": "2027-11-27",
+      "title": "Ball im Savoy",
+      "place": "Theater Ulm",
+      "genre": "Bühne",
+      "time": "20:00",
+      "url": "https://www.theater-ulm.de/spielplan/stuecke/ball-im-savoy",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "535a6c0fc2afe2da",
+      "date": "2027-11-28",
+      "title": "La Juive (Die Jüdin)",
+      "place": "Theater Ulm",
+      "genre": "Bühne",
+      "time": "19:00",
+      "url": "https://www.theater-ulm.de/spielplan/stuecke/la-juive-die-juedin",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "5b3542fce25bab64",
+      "date": "2027-11-29",
+      "title": "Max und Moritz",
+      "place": "Theater Ulm",
+      "genre": "Konzerte",
+      "time": "13:00",
+      "url": "https://www.theater-ulm.de/spielplan/stuecke/max-und-moritz",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "2ecbe6d54abb49c8",
+      "date": "2027-11-29",
+      "title": "Wie es euch gefällt",
+      "place": "Theater Ulm",
+      "genre": "Bühne",
+      "time": "19:00",
+      "url": "https://www.theater-ulm.de/spielplan/stuecke/wie-es-euch-gefaellt",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "89c855888ceb9608",
+      "date": "2027-11-30",
+      "title": "Max und Moritz",
+      "place": "Theater Ulm",
+      "genre": "Konzerte",
+      "time": "13:30",
+      "url": "https://www.theater-ulm.de/spielplan/stuecke/max-und-moritz",
       "details": "",
       "end": null
     }
@@ -1981,9 +2333,9 @@
     {
       "name": "Club Manufaktur",
       "url": "https://www.club-manufaktur.de/kategorie/alle-events/",
-      "state": "error",
-      "count": 0,
-      "note": "HTTPSConnectionPool(host='www.club-manufaktur.de', port=443): Read timed out. (read timeout=9)"
+      "state": "ok",
+      "count": 34,
+      "note": ""
     },
     {
       "name": "Birkenried",
