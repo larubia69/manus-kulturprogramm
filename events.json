@@ -1,39 +1,6 @@
 {
-  "generatedAt": "2026-11-07T06:00:34.502228+00:00",
+  "generatedAt": "2026-11-08T06:02:47.114186+00:00",
   "events": [
-    {
-      "id": "2f12b4201a8c816f",
-      "date": "2026-11-06",
-      "title": "Tanzworkshop mit Emi Miyoshi ChoreoLab TanzSüd 2026",
-      "place": "ROXY Ulm",
-      "genre": "Club",
-      "time": "",
-      "url": "https://www.roxy.ulm.de/programm/programm.php?m=11&j=2026&vid=5698",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "bd221ecbe6c666b2",
-      "date": "2026-11-06",
-      "title": "Yasi Hofer Trio Best Of Tour 2026",
-      "place": "ROXY Ulm",
-      "genre": "Konzerte",
-      "time": "",
-      "url": "https://www.roxy.ulm.de/programm/programm.php?m=11&j=2026&vid=5563",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "dcb8d6522635454b",
-      "date": "2026-11-07",
-      "title": "Licht unter die Haut",
-      "place": "Villa Rot",
-      "genre": "Kunst",
-      "time": "",
-      "url": "https://villa-rot.de/programm/ausstellungen/licht-unter-die-haut/",
-      "details": "Ausstellung vom 25.10.2026 bis 07.02.2027; Öffnungszeiten auf der Originalseite.",
-      "end": "2027-02-07"
-    },
     {
       "id": "33b6716b15398b99",
       "date": "2026-11-07",
@@ -42,50 +9,6 @@
       "genre": "Konzerte",
       "time": "",
       "url": "https://bonanzbar.jimdofree.com/",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "0039e1d2d20d347f",
-      "date": "2026-11-07",
-      "title": "Workshop: Ball im Savoy",
-      "place": "Theater Ulm",
-      "genre": "Literatur",
-      "time": "10:45",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/workshop-ball-im-savoy",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "9852788789a0fd45",
-      "date": "2026-11-07",
-      "title": "Juden und Christen in Ulm",
-      "place": "Theater Ulm",
-      "genre": "Konzerte",
-      "time": "13:00",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/juden-und-christen-in-ulm",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "7fcd3964df44f06e",
-      "date": "2026-11-07",
-      "title": "Kipppunkte",
-      "place": "Theater Ulm",
-      "genre": "Bühne",
-      "time": "19:00",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/kipppunkte",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "31d9401d5eaf4c59",
-      "date": "2026-11-07",
-      "title": "Spaceman",
-      "place": "Theater Ulm",
-      "genre": "Bühne",
-      "time": "19:30",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/spaceman",
       "details": "",
       "end": null
     },
@@ -112,17 +35,6 @@
       "end": null
     },
     {
-      "id": "78a1c64b8c337f66",
-      "date": "2026-11-07",
-      "title": "WaveTanzen in der Manufaktur – Tanze deine Welle!",
-      "place": "Club Manufaktur",
-      "genre": "Club",
-      "time": "20:00",
-      "url": "https://www.club-manufaktur.de/event/wavetanzen-in-der-manufaktur-tanze-deine-welle-3/2026-11-07/",
-      "details": "WaveTanzen gibt dir die Möglichkeit, den ganzen Körper intensiv zu bewegen und dabei emotionale und mentale Anspannung loszulassen.",
-      "end": null
-    },
-    {
       "id": "67108d367dfb8a9c",
       "date": "2026-11-08",
       "title": "Caveman Du sammeln - ich jagen!",
@@ -132,6 +44,17 @@
       "url": "https://www.roxy.ulm.de/programm/programm.php?m=11&j=2026&vid=5497",
       "details": "",
       "end": null
+    },
+    {
+      "id": "76f4bb040537cc06",
+      "date": "2026-11-08",
+      "title": "Licht unter die Haut",
+      "place": "Villa Rot",
+      "genre": "Kunst",
+      "time": "",
+      "url": "https://villa-rot.de/programm/ausstellungen/licht-unter-die-haut/",
+      "details": "Ausstellung vom 25.10.2026 bis 07.02.2027; Öffnungszeiten auf der Originalseite.",
+      "end": "2027-02-07"
     },
     {
       "id": "6ff4536b3e39196e",
@@ -1762,17 +1685,6 @@
       "end": null
     },
     {
-      "id": "fc6f417ef7e57168",
-      "date": "2027-01-01",
-      "title": "Januar 2027",
-      "place": "Theater Ulm",
-      "genre": "Bühne",
-      "time": "18:00",
-      "url": "https://www.theater-ulm.de/orte#grosses-haus",
-      "details": "",
-      "end": null
-    },
-    {
       "id": "3ee9a9ac04f7041e",
       "date": "2027-01-01",
       "title": "Neujahrskonzert 2027",
@@ -1835,6 +1747,39 @@
       "genre": "Konzerte",
       "time": "19:00",
       "url": "https://www.theater-ulm.de/spielplan/stuecke/soiree-die-ehebrecherinnen",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "31c6d06b0cb3fc8a",
+      "date": "2027-01-06",
+      "title": "Neujahrskonzert 2027",
+      "place": "Theater Ulm",
+      "genre": "Konzerte",
+      "time": "19:00",
+      "url": "https://www.theater-ulm.de/spielplan/stuecke/neujahrskonzert-2027",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "30bdfc3d8c720ee1",
+      "date": "2027-01-08",
+      "title": "Die schönste Version",
+      "place": "Theater Ulm",
+      "genre": "Bühne",
+      "time": "19:30",
+      "url": "https://www.theater-ulm.de/spielplan/stuecke/die-schoenste-version",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "ee8755adfca90b6b",
+      "date": "2027-01-08",
+      "title": "Ball im Savoy",
+      "place": "Theater Ulm",
+      "genre": "Bühne",
+      "time": "20:00",
+      "url": "https://www.theater-ulm.de/spielplan/stuecke/ball-im-savoy",
       "details": "",
       "end": null
     },
@@ -2316,14 +2261,14 @@
       "name": "ROXY Ulm",
       "url": "https://www.roxy.ulm.de/programm/programm.php",
       "state": "ok",
-      "count": 55,
+      "count": 53,
       "note": ""
     },
     {
       "name": "Club Manufaktur",
       "url": "https://www.club-manufaktur.de/kategorie/alle-events/",
       "state": "ok",
-      "count": 34,
+      "count": 33,
       "note": ""
     },
     {
@@ -2428,7 +2373,7 @@
       "name": "Theater Ulm",
       "url": "https://www.theater-ulm.de/spielplan",
       "state": "ok",
-      "count": 101,
+      "count": 100,
       "note": ""
     },
     {
