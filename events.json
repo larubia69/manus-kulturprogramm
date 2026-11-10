@@ -1,28 +1,6 @@
 {
-  "generatedAt": "2026-11-09T06:23:35.460716+00:00",
+  "generatedAt": "2026-11-10T06:08:57.028950+00:00",
   "events": [
-    {
-      "id": "67108d367dfb8a9c",
-      "date": "2026-11-08",
-      "title": "Caveman Du sammeln - ich jagen!",
-      "place": "ROXY Ulm",
-      "genre": "Bühne",
-      "time": "",
-      "url": "https://www.roxy.ulm.de/programm/programm.php?m=11&j=2026&vid=5497",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "e41c088cc18a73ad",
-      "date": "2026-11-09",
-      "title": "Licht unter die Haut",
-      "place": "Villa Rot",
-      "genre": "Kunst",
-      "time": "",
-      "url": "https://villa-rot.de/programm/ausstellungen/licht-unter-die-haut/",
-      "details": "Ausstellung vom 25.10.2026 bis 07.02.2027; Öffnungszeiten auf der Originalseite.",
-      "end": "2027-02-07"
-    },
     {
       "id": "df70224b2d4aa1c6",
       "date": "2026-11-09",
@@ -33,6 +11,17 @@
       "url": "https://www.roxy.ulm.de/programm/programm.php?m=11&j=2026&vid=5516",
       "details": "",
       "end": null
+    },
+    {
+      "id": "db67472869bdfbf1",
+      "date": "2026-11-10",
+      "title": "Licht unter die Haut",
+      "place": "Villa Rot",
+      "genre": "Kunst",
+      "time": "",
+      "url": "https://villa-rot.de/programm/ausstellungen/licht-unter-die-haut/",
+      "details": "Ausstellung vom 25.10.2026 bis 07.02.2027; Öffnungszeiten auf der Originalseite.",
+      "end": "2027-02-07"
     },
     {
       "id": "182e1756a3d03e44",
@@ -189,6 +178,17 @@
       "end": null
     },
     {
+      "id": "3aca8996f473f5af",
+      "date": "2026-11-15",
+      "title": "Ulmer Kantorei Johannes Brahms: Ein deutsches Requiem",
+      "place": "Pauluskirche",
+      "genre": "Konzerte",
+      "time": "",
+      "url": "https://www.pauluskirche-ulm.de/termine/ulmer-kantorei-johannes-brahms-ein-deutsches-requiem.html",
+      "details": "",
+      "end": null
+    },
+    {
       "id": "7a0b0b23edc8a183",
       "date": "2026-11-15",
       "title": "2. Kammerkonzert 2026",
@@ -244,6 +244,17 @@
       "end": null
     },
     {
+      "id": "87c38d55f9588492",
+      "date": "2026-11-18",
+      "title": "das Sonderkonzert des Philharmonischen Orchesters der Stadt Ulm Bruckner Symphonie Nr. 5",
+      "place": "Pauluskirche",
+      "genre": "Konzerte",
+      "time": "",
+      "url": "https://www.pauluskirche-ulm.de/termine/philharmonisches-orchester-der-stadt-ulm-orchesterkonzert.html",
+      "details": "",
+      "end": null
+    },
+    {
       "id": "2dfaf8faa8aafa87",
       "date": "2026-11-18",
       "title": "Come together! – Unser neuer Stammtisch für Manufaktur Mitglieder",
@@ -273,6 +284,17 @@
       "genre": "Konzerte",
       "time": "20:00",
       "url": "https://www.theater-ulm.de/spielplan/stuecke/sonderkonzert-2026",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "18fcdb8091cbbd96",
+      "date": "2026-11-19",
+      "title": "Das CelloDuo Wintertournee 2026 Das Beste aus Rock & Pop",
+      "place": "Pauluskirche",
+      "genre": "Konzerte",
+      "time": "",
+      "url": "https://www.pauluskirche-ulm.de/termine/das-celloduo-wintertournee-2026-das-beste-aus-rock-pop.html",
       "details": "",
       "end": null
     },
@@ -486,9 +508,9 @@
       "end": null
     },
     {
-      "id": "ffe9a610aa84dfa2",
+      "id": "11ca504b926eabb1",
       "date": "2026-11-25",
-      "title": "BOSSE — letzte Tickets verfügbar! Stabile Poesie Clubtour 2026",
+      "title": "BOSSE — fast ausverkauft! Stabile Poesie Clubtour 2026",
       "place": "ROXY Ulm",
       "genre": "Konzerte",
       "time": "20:00",
@@ -516,6 +538,17 @@
       "time": "",
       "url": "https://dasgold.org/konzert/between-the-bars-3/",
       "details": "26.11.2026 | | Bar",
+      "end": null
+    },
+    {
+      "id": "6f06434d2112620c",
+      "date": "2026-11-26",
+      "title": "Magic Gregorian Night Klang der Mönche",
+      "place": "Pauluskirche",
+      "genre": "Konzerte",
+      "time": "",
+      "url": "https://www.pauluskirche-ulm.de/termine/magic-gregorian-night-klang-der-moenche.html",
+      "details": "",
       "end": null
     },
     {
@@ -603,6 +636,17 @@
       "genre": "Bühne",
       "time": "20:00",
       "url": "https://www.theater-ulm.de/spielplan/stuecke/ball-im-savoy",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "4ac97bdf5fb66d18",
+      "date": "2026-11-28",
+      "title": "Bläserphilharmonie Blaustein",
+      "place": "Pauluskirche",
+      "genre": "Konzerte",
+      "time": "",
+      "url": "https://www.pauluskirche-ulm.de/termine/blaeserphilharmonie-blaustein-6.html",
       "details": "",
       "end": null
     },
@@ -1069,9 +1113,9 @@
       "end": null
     },
     {
-      "id": "120d6fb2b6124e5e",
+      "id": "07cee51f837a5b80",
       "date": "2026-12-11",
-      "title": "Ass-Dur — fast ausverkauft! Süßer die Brüder nie klingen",
+      "title": "Ass-Dur — AUSVERKAUFT Süßer die Brüder nie klingen",
       "place": "ROXY Ulm",
       "genre": "Bühne",
       "time": "20:00",
@@ -1407,6 +1451,17 @@
       "time": "20:30",
       "url": "https://www.club-manufaktur.de/event/die-hochstapler-f-i-d-jazz-2/",
       "details": "Pierre Borel - Saxophon Antonio Borghini - Kontrabass Louis Laurain - Trompete Hannes Lingens - Schlagzeug Seit 2011 arbeiten Pierre Borel, Louis Laurain, Antonio Borghini und Hannes Lingens als Die Hochstapler zusammen.",
+      "end": null
+    },
+    {
+      "id": "c4c71b25ffe45297",
+      "date": "2026-12-20",
+      "title": "Weihnachtsoratorium Bach und Saint-Saens, Münsterkantorei Ulm",
+      "place": "Pauluskirche",
+      "genre": "Konzerte",
+      "time": "",
+      "url": "https://www.pauluskirche-ulm.de/termine/weihnachtsoratorium-bach-und-saint-saens-muensterkantorei-ulm.html",
+      "details": "",
       "end": null
     },
     {
@@ -1806,6 +1861,17 @@
       "end": null
     },
     {
+      "id": "ff71e1f967e9d95a",
+      "date": "2027-01-23",
+      "title": "HEAVEN IN HELL 80's Rock Live - 15th Anniversary Tour 2026",
+      "place": "ROXY Ulm",
+      "genre": "Konzerte",
+      "time": "20:00",
+      "url": "https://www.roxy.ulm.de/programm/programm.php?m=1&j=2027&vid=5760",
+      "details": "",
+      "end": null
+    },
+    {
       "id": "00f14a7ef4799ac5",
       "date": "2027-01-25",
       "title": "Open Stage — Moderation: Ariane Müller Die Überraschungsshow",
@@ -1869,6 +1935,17 @@
       "time": "20:30",
       "url": "https://www.club-manufaktur.de/event/get-well-soon-d-2/",
       "details": "Auf seinem zweiten Album im Jahr 2026 unternimmt Konstantin Gropper aka. Get Well Soon den Versuch, KI in den künstlerischen Schaffensprozess zu integrieren, statt sie nur pauschal zu verteufeln.",
+      "end": null
+    },
+    {
+      "id": "c57ea4d6053e4f61",
+      "date": "2027-02-06",
+      "title": "Lemony Rug",
+      "place": "GOLD",
+      "genre": "Konzerte",
+      "time": "20:00",
+      "url": "https://dasgold.org/konzert/lemony-rug/",
+      "details": "06.02.2027 | 20h | Hamburg",
       "end": null
     },
     {
@@ -2125,6 +2202,17 @@
       "end": null
     },
     {
+      "id": "f62b2090b4fe49c6",
+      "date": "2027-10-16",
+      "title": "DEKKER (USA)",
+      "place": "Club Manufaktur",
+      "genre": "Konzerte",
+      "time": "20:30",
+      "url": "https://www.club-manufaktur.de/event/dekker-usa-2/",
+      "details": "Dekker ist das Soloprojekt des amerikanischen Songwriters Brookln Dekker, der heute im britischen Nottingham lebt.",
+      "end": null
+    },
+    {
       "id": "4573c50bcc07b2dd",
       "date": "2027-12-04",
       "title": "CLAUDIA PICHLER – Kopfnuss und Konterbier – Kabarett aus Bayern",
@@ -2169,7 +2257,7 @@
       "name": "Club Manufaktur",
       "url": "https://www.club-manufaktur.de/kategorie/alle-events/",
       "state": "ok",
-      "count": 33,
+      "count": 34,
       "note": ""
     },
     {
@@ -2196,9 +2284,9 @@
     {
       "name": "Pauluskirche",
       "url": "https://www.pauluskirche-ulm.de/kirchen-musik.html",
-      "state": "needs_parser",
-      "count": 0,
-      "note": "Seite erreichbar, aber keine zuverlässig erkannten zukünftigen Termine"
+      "state": "ok",
+      "count": 6,
+      "note": ""
     },
     {
       "name": "DONAU 3 FM",
@@ -2225,7 +2313,7 @@
       "name": "GOLD",
       "url": "https://dasgold.org/programm/",
       "state": "ok",
-      "count": 8,
+      "count": 9,
       "note": ""
     },
     {
