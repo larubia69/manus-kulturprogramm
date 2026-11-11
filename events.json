@@ -1,20 +1,9 @@
 {
-  "generatedAt": "2026-11-10T06:08:57.028950+00:00",
+  "generatedAt": "2026-11-11T06:15:32.376487+00:00",
   "events": [
     {
-      "id": "df70224b2d4aa1c6",
-      "date": "2026-11-09",
-      "title": "ROXY singt! — AUSVERKAUFT Aus voller Kehle für die Seele",
-      "place": "ROXY Ulm",
-      "genre": "Bühne",
-      "time": "20:00",
-      "url": "https://www.roxy.ulm.de/programm/programm.php?m=11&j=2026&vid=5516",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "db67472869bdfbf1",
-      "date": "2026-11-10",
+      "id": "f6e9d8569946ccbd",
+      "date": "2026-11-11",
       "title": "Licht unter die Haut",
       "place": "Villa Rot",
       "genre": "Kunst",
@@ -22,17 +11,6 @@
       "url": "https://villa-rot.de/programm/ausstellungen/licht-unter-die-haut/",
       "details": "Ausstellung vom 25.10.2026 bis 07.02.2027; Öffnungszeiten auf der Originalseite.",
       "end": "2027-02-07"
-    },
-    {
-      "id": "182e1756a3d03e44",
-      "date": "2026-11-10",
-      "title": "Schwördienstag",
-      "place": "Theater Ulm",
-      "genre": "Konzerte",
-      "time": "19:30",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/schwoerdienstag",
-      "details": "",
-      "end": null
     },
     {
       "id": "cec873f8b01bf32c",
@@ -1575,6 +1553,17 @@
       "end": null
     },
     {
+      "id": "f9094233deed9dac",
+      "date": "2026-12-28",
+      "title": "Die Autos",
+      "place": "GOLD",
+      "genre": "Konzerte",
+      "time": "20:00",
+      "url": "https://dasgold.org/konzert/die-autos/",
+      "details": "28.12.2026 | 20h | Ulm",
+      "end": null
+    },
+    {
       "id": "f1ef70e4fad2ad4d",
       "date": "2026-12-29",
       "title": "VAN HOLZEN Jahresabschlusskonzert 2026",
@@ -1751,6 +1740,17 @@
       "end": null
     },
     {
+      "id": "954a0782bdb22270",
+      "date": "2027-01-14",
+      "title": "Magic – die (fast) fantastischen Fünf",
+      "place": "Theater Ulm",
+      "genre": "Bühne",
+      "time": "19:30",
+      "url": "https://www.theater-ulm.de/spielplan/stuecke/magic-die-fast-fantastischen-fuenf",
+      "details": "",
+      "end": null
+    },
+    {
       "id": "3f84918753c67a18",
       "date": "2027-01-14",
       "title": "Helene Bockhorst LEBEFRAU",
@@ -1784,9 +1784,9 @@
       "end": null
     },
     {
-      "id": "2c2586ba8970c2ad",
+      "id": "882b17c7df644129",
       "date": "2027-01-15",
-      "title": "Science Slam Wissenschaft unterhaltsam!",
+      "title": "Science Slam — AUSVERKAUFT Wissenschaft unterhaltsam!",
       "place": "ROXY Ulm",
       "genre": "Bühne",
       "time": "20:00",
@@ -2250,7 +2250,7 @@
       "name": "ROXY Ulm",
       "url": "https://www.roxy.ulm.de/programm/programm.php",
       "state": "ok",
-      "count": 51,
+      "count": 50,
       "note": ""
     },
     {
@@ -2313,7 +2313,7 @@
       "name": "GOLD",
       "url": "https://dasgold.org/programm/",
       "state": "ok",
-      "count": 9,
+      "count": 10,
       "note": ""
     },
     {
