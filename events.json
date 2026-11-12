@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-11T06:15:32.376487+00:00",
+  "generatedAt": "2026-11-12T06:18:56.696772+00:00",
   "events": [
     {
-      "id": "f6e9d8569946ccbd",
-      "date": "2026-11-11",
+      "id": "ce6468ccfcf50c56",
+      "date": "2026-11-12",
       "title": "Licht unter die Haut",
       "place": "Villa Rot",
       "genre": "Kunst",
@@ -11,17 +11,6 @@
       "url": "https://villa-rot.de/programm/ausstellungen/licht-unter-die-haut/",
       "details": "Ausstellung vom 25.10.2026 bis 07.02.2027; Öffnungszeiten auf der Originalseite.",
       "end": "2027-02-07"
-    },
-    {
-      "id": "cec873f8b01bf32c",
-      "date": "2026-11-11",
-      "title": "DAVID EUGENE EDWARDS (USA)",
-      "place": "Club Manufaktur",
-      "genre": "Konzerte",
-      "time": "20:30",
-      "url": "https://www.club-manufaktur.de/event/david-eugene-edwards-usa-2/",
-      "details": "David Eugene Edwards gilt als eine der einflussreichsten und kompromisslosesten Stimmen der modernen amerikanischen Musik.",
-      "end": null
     },
     {
       "id": "84bc1581bdd5e601",
@@ -1608,6 +1597,17 @@
       "end": null
     },
     {
+      "id": "40aa50093885a382",
+      "date": "2026-12-31",
+      "title": "Silvestergala mit Jiving Sister Fanny",
+      "place": "GOLD",
+      "genre": "Konzerte",
+      "time": "21:00",
+      "url": "https://dasgold.org/konzert/silvestergala-mit-jiving-sister-fanny/",
+      "details": "31.12.2026 | 21h",
+      "end": null
+    },
+    {
       "id": "3ee9a9ac04f7041e",
       "date": "2027-01-01",
       "title": "Neujahrskonzert 2027",
@@ -2257,7 +2257,7 @@
       "name": "Club Manufaktur",
       "url": "https://www.club-manufaktur.de/kategorie/alle-events/",
       "state": "ok",
-      "count": 34,
+      "count": 33,
       "note": ""
     },
     {
@@ -2313,7 +2313,7 @@
       "name": "GOLD",
       "url": "https://dasgold.org/programm/",
       "state": "ok",
-      "count": 10,
+      "count": 11,
       "note": ""
     },
     {
