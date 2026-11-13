@@ -56,7 +56,7 @@ def record(date,title,place,url,time='',details='',genre=None,end=None):
  details=clean_text(details)
  if not valid(date,title):return None
  key=(date+'|'+title.lower()+'|'+place.lower()).encode()
- return dict(id=hashlib.sha256(key).hexdigest()[:16],date=date,title=title,place=place,genre=genre or category(title,details),time=time,url=url,details=short_description(details),end=end)
+ return dict(id=hashlib.sha256(key).hexdigest()[:16],date=date,title=title,place=place,genre=('Bühne' if place.strip().casefold() == 'theater ulm' else (genre or category(title,details))),time=time,url=url,details=short_description(details),end=end)
 def fetch(url):
  r=requests.get(url,headers={'User-Agent':'Manus Kulturprogramm/1.0 (personal noncommercial events indexer)'},timeout=9)
  r.raise_for_status();return BeautifulSoup(r.text,'html.parser')
