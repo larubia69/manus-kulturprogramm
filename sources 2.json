@@ -1,0 +1,157 @@
+[
+  {
+    "name": "Villa Rot",
+    "url": "https://villa-rot.de/",
+    "enabled": true
+  },
+  {
+    "name": "Stellwerk Schelklingen",
+    "url": "https://www.stellwerk-schelklingen.com/",
+    "enabled": true
+  },
+  {
+    "name": "Bonanzbar",
+    "url": "https://bonanzbar.jimdofree.com/",
+    "enabled": true
+  },
+  {
+    "name": "ROXY Ulm",
+    "url": "https://www.roxy.ulm.de/programm/programm.php",
+    "enabled": true
+  },
+  {
+    "name": "Club Manufaktur",
+    "url": "https://www.club-manufaktur.de/kategorie/alle-events/",
+    "enabled": true
+  },
+  {
+    "name": "Birkenried",
+    "url": "https://www.birkenried.de/termine/",
+    "enabled": true
+  },
+  {
+    "name": "Aegis Literatur",
+    "url": "https://aegis-literatur.buchhandlung.de/shop/magazine/152252/veranstaltungen.html",
+    "enabled": true
+  },
+  {
+    "name": "Livegigs Ulm",
+    "url": "https://www.livegigs.de/venues/ulm",
+    "enabled": true
+  },
+  {
+    "name": "Pauluskirche",
+    "url": "https://www.pauluskirche-ulm.de/kirchen-musik.html",
+    "enabled": true
+  },
+  {
+    "name": "DONAU 3 FM",
+    "url": "https://www.donau3fm.de/regionale-events/",
+    "enabled": true
+  },
+  {
+    "name": "Rausgegangen Ulm",
+    "url": "https://rausgegangen.de/ulm/",
+    "enabled": true
+  },
+  {
+    "name": "Was geht?",
+    "url": "https://www.wasgehtapp.de/index.php?radius=20&select_ort=1&ort=Ulm&x=9.98489&y=48.3917&region=01",
+    "enabled": true
+  },
+  {
+    "name": "GOLD",
+    "url": "https://dasgold.org/programm/",
+    "enabled": true
+  },
+  {
+    "name": "Kunstwerk Ulm",
+    "url": "https://www.kunstwerk-ulm.de/",
+    "enabled": true
+  },
+  {
+    "name": "Sauschdall",
+    "url": "https://sauschdall.de/",
+    "enabled": true
+  },
+  {
+    "name": "Fiddlers Green Pub",
+    "url": "https://fiddlersgreenpub.de/programm/events/",
+    "enabled": true
+  },
+  {
+    "name": "Pfleghof Langenau",
+    "url": "https://www.langenau.de/de/erleben/pfleghof/veranstaltung",
+    "enabled": true
+  },
+  {
+    "name": "Veranstaltungskalender Ulm/Neu-Ulm",
+    "url": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/",
+    "enabled": true
+  },
+  {
+    "name": "Stadt Ulm Veranstaltungskalender",
+    "url": "https://www.ulm.de/sonderseiten/veranstaltungskalender",
+    "enabled": true
+  },
+  {
+    "name": "Theater Ulm",
+    "url": "https://www.theater-ulm.de/spielplan",
+    "enabled": true
+  },
+  {
+    "name": "Caponniere 4",
+    "url": "https://nu.neu-ulm.de/neu-ulm-erleben/veranstaltungsorte/caponniere",
+    "enabled": true
+  },
+  {
+    "name": "Edwin-Scharff-Haus",
+    "url": "https://edwin-scharff-haus.de/",
+    "enabled": true
+  },
+  {
+    "name": "Eventim Neu-Ulm",
+    "url": "https://www.eventim.de/cityd/neu-ulm-175/",
+    "enabled": true
+  },
+  {
+    "name": "Eventim Ulm",
+    "url": "https://www.eventim.de/city/ulm-87/",
+    "enabled": true
+  },
+  {
+    "name": "Kultur in Ulm",
+    "url": "https://www.kultur-in-ulm.de/",
+    "enabled": true
+  },
+  {
+    "name": "UlmTickets",
+    "url": "https://www.ulmtickets.de/uebersicht",
+    "enabled": true
+  },
+  {
+    "name": "Hemperium Ulm",
+    "url": "https://www.hemperium.de/events/",
+    "enabled": true
+  },
+  {
+    "name": "franz.K Reutlingen",
+    "url": "https://www.franzk.net/",
+    "enabled": true
+  },
+  {
+    "name": "Frapé Musikkneipe",
+    "url": "https://www.facebook.com/frapemusikkneipe/events",
+    "enabled": true
+  },
+  {
+    "name": "Rock It Aalen",
+    "url": "https://www.rockitaalen.de/events.php",
+    "enabled": true
+  },
+  {
+    "name": "Kreuz Obermarchtal",
+    "url": "https://kreuz-obermarchtal.de/veranstaltungen/",
+    "enabled": true
+  }
+]
