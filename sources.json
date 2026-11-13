@@ -128,5 +128,25 @@
     "name": "UlmTickets",
     "url": "https://www.ulmtickets.de/uebersicht",
     "enabled": true
+  },
+  {
+    "name": "Hemperium Ulm",
+    "url": "https://www.hemperium.de/events/",
+    "enabled": true
+  },
+  {
+    "name": "franz.K Reutlingen",
+    "url": "https://www.franzk.net/",
+    "enabled": true
+  },
+  {
+    "name": "Frapé Musikkneipe",
+    "url": "https://www.facebook.com/frapemusikkneipe/events",
+    "enabled": true
+  },
+  {
+    "name": "Rock It Aalen",
+    "url": "https://www.rockitaalen.de/events.php",
+    "enabled": true
   }
 ]
