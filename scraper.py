@@ -11,7 +11,7 @@ def load_sources():
  data=json.loads((ROOT/'sources.json').read_text(encoding='utf-8'))
  return [(x['name'].strip(), x['url'].strip()) for x in data if x.get('enabled',True) and x.get('name') and x.get('url','').startswith(('https://','http://'))]
 MONTHS={'jan':1,'feb':2,'mär':3,'mae':3,'mar':3,'apr':4,'mai':5,'may':5,'jun':6,'jul':7,'aug':8,'sep':9,'okt':10,'oct':10,'nov':11,'dez':12,'dec':12}
-SKIP=re.compile(r'kino|kinofilm|filmvorführung|familienkonzert|kinder|familienprogramm|kids\b|jugendtheater|geschlossene gesellschaft|privatveranstaltung|kurzfilm|filmfestival|filmabend|wochenmarkt|gottesdienst|kindertheater|puppentheater|kasperle|kinderfest',re.I)
+SKIP=re.compile(r'kino|kinofilm|filmvorführung|familienkonzert|kinder|familienprogramm|kids\b|jugendtheater|geschlossene gesellschaft|privatveranstaltung|kurzfilm|filmfestival|filmabend|wochenmarkt|gottesdienst|kindertheater|puppentheater|kasperle|kinderfest|fällt aus|abgesagt|cancelled',re.I)
 def clean_text(value):
  """Decode nested HTML entities and remove HTML tags from event text."""
  text=str(value or '')
@@ -374,6 +374,177 @@ def parse_theater_ulm(soup,base):
             node=node.parent
     return result
 
+
+# Additional importers, based on publicly visible date/title patterns.
+# These are intentionally conservative: a missing/unreliable date means no event.
+FULL_MONTHS_DE={'januar':1,'februar':2,'märz':3,'maerz':3,'april':4,'mai':5,'juni':6,'juli':7,'august':8,'september':9,'oktober':10,'november':11,'dezember':12}
+
+
+def parse_pfleghof_v2(soup,base):
+    """Langenau venue programme: weekday, DD.MM.YY, time, title in subsequent lines."""
+    lines=[clean_text(x) for x in soup.get_text('\n',strip=True).splitlines()]
+    lines=[x for x in lines if x]
+    date_re=re.compile(r'^(?:Mo|Di|Mi|Do|Fr|Sa|So)\.?(?:\s*\([^)]*\))?,?\s*(\d{1,2})\.(\d{1,2})\.(\d{2,4})(?:\b|$)',re.I)
+    out=[]
+    for i,line in enumerate(lines):
+        m=date_re.match(line)
+        if not m:continue
+        year=int(m[3]);year=year+2000 if year<100 else year
+        try:day=dt.date(year,int(m[2]),int(m[1])).isoformat()
+        except ValueError:continue
+        following=lines[i+1:i+13]
+        # Format: 20:00 Uhr / THE MAGNETS / Image / Subtitle / Veranstaltungsort:...
+        time_pos=next((j for j,x in enumerate(following) if re.match(r'^(?:ab |Beginn )?\d{1,2}:\d{2}(?:\s*[-–]\s*\d{1,2}:\d{2})?\s*(?:Uhr)?$',x,re.I)),None)
+        if time_pos is None:continue
+        clock=re.search(r'(\d{1,2}:\d{2})',following[time_pos]).group(1)
+        title=next((x for x in following[time_pos+1:time_pos+4] if x.lower() not in ('image','bild') and not x.lower().startswith(('veranstaltungsort','veranstalter'))), '')
+        if not title or re.search(r'fällt aus|abgesagt|kurzfilm|filmabend|kinderfest',title,re.I):continue
+        # Restrict to the real Pfleghof venue, not unrelated events on city pages.
+        block=' '.join(following[time_pos+1:time_pos+9])
+        loc_match=re.search(r'Veranstaltungsort:\s*(.*?)(?:Veranstalter:|$)',block,re.I)
+        if loc_match and not re.search(r'pfleghof',loc_match[1],re.I):continue
+        genre='Literatur' if 'lesung' in (title+' '+block).lower() else 'Bühne' if 'kabarett' in (title+' '+block).lower() else None
+        ev=record(day,title,'Pfleghof Langenau',base,clock,genre=genre)
+        if ev:out.append(ev)
+    return out
+
+
+def parse_hemperium(soup,base):
+    """Hemperium headings follow an explicit '20. November 2026' line.
+    Their page currently prints '06:00' even when details say ~20:30;
+    deliberately omit that contradictory time rather than introduce bad data.
+    """
+    out=[]
+    date_pattern=re.compile(r'^\s*(\d{1,2})\.\s*(Januar|Februar|März|April|Mai|Juni|Juli|August|September|Oktober|November|Dezember)\s+(20\d{2})\b',re.I)
+    lines=[x.strip() for x in soup.get_text('\n',strip=True).splitlines() if x.strip()]
+    headings=[]
+    for h in soup.find_all(['h2','h3','h4']):
+        text=clean_text(h.get_text(' ',strip=True))
+        if 4<len(text)<160 and text.lower() not in ('veranstaltungen & konzerte','live on stage'):
+            a=h.find('a',href=True)
+            headings.append((text,urljoin(base,a['href']) if a else base))
+    hi=0
+    for i,line in enumerate(lines):
+        m=date_pattern.match(line)
+        if not m:continue
+        try:date=dt.date(int(m[3]),FULL_MONTHS_DE[m[2].lower()],int(m[1])).isoformat()
+        except ValueError:continue
+        # Next line is the event heading; a link may be wrapped in heading.
+        title=next((x for x in lines[i+1:i+5] if x and not x.lower().startswith(('location:','beginn:','live event','event-details','hemperium live-bühne','hemperium live-buehne'))), '')
+        title=re.sub(r'^###\s*','',title)
+        if not title or title.lower().startswith(('tisch anfragen','hemperium live-bühne')):continue
+        matching=next((u for t,u in headings if t==title),base)
+        genre='Club' if re.search(r'drum.?bass|dubstep|breakbeat|dj\b|party',title,re.I) else 'Konzerte'
+        ev=record(date,title,'Hemperium Ulm',matching,genre=genre)
+        if ev:out.append(ev)
+    return out
+
+
+def parse_rockit(soup,base):
+    """Rock It Aalen uses 'Freitag, 13. November 2026' preceding its artist title."""
+    out=[]
+    text=soup.get_text('\n',strip=True)
+    lines=[clean_text(x) for x in text.splitlines() if clean_text(x)]
+    pat=re.compile(r'^(?:Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Samstag|Sonntag),?\s*(\d{1,2})\.\s*(Januar|Februar|März|April|Mai|Juni|Juli|August|September|Oktober|November|Dezember)\s+(20\d{2})',re.I)
+    for i,line in enumerate(lines):
+        m=pat.match(line)
+        if not m:continue
+        try:date=dt.date(int(m[3]),FULL_MONTHS_DE[m[2].lower()],int(m[1])).isoformat()
+        except ValueError:continue
+        title=next((x for x in lines[i+1:i+5] if len(x)>=5 and not re.match(r'^(Einlass|Beginn|mehr Infos|Image|Alle Events|Tickets)',x,re.I)), '')
+        if not title:continue
+        ev=record(date,title,'Rock It Aalen',base)
+        if ev:out.append(ev)
+    return out
+
+
+def parse_fiddlers(soup,base):
+    """The public programme uses table rows and a heading 'November 2026'.
+    Only live music, folk sessions, jam sessions, karaoke and explicitly named
+    shows are included (not pub quizzes, tastings, children's sessions, etc.).
+    """
+    out=[]
+    page_text=soup.get_text(' ',strip=True)
+    ym=re.search(r'(Januar|Februar|März|April|Mai|Juni|Juli|August|September|Oktober|November|Dezember)\s+(20\d{2})',page_text,re.I)
+    if not ym:return out
+    month=FULL_MONTHS_DE[ym[1].lower()];year=int(ym[2]);last_day=None
+    for tr in soup.find_all('tr'):
+        cells=[clean_text(c.get_text(' ',strip=True)) for c in tr.find_all(['td','th'],recursive=False)]
+        if not cells:continue
+        first=' '.join(cells[:2]); dm=re.search(r'\b(?:Mo|Di|Mi|Do|Fr|Sa|So)\.\s*(\d{1,2})\b',first,re.I)
+        if dm:last_day=int(dm[1])
+        if last_day is None:continue
+        # The event type and time are in their own cells.
+        clock=next((re.search(r'\b(\d{1,2}:\d{2})\b',c).group(1) for c in cells if re.search(r'\b\d{1,2}:\d{2}\b',c)), '')
+        if not clock:continue
+        entries=[c for c in cells if c and not re.fullmatch(r'(?:Mo|Di|Mi|Do|Fr|Sa|So)\.\s*\d{1,2}',c,re.I) and c!=clock and not re.fullmatch(r'(?:\d+[,.]\d+\s*€|Hut|Frei)',c,re.I)]
+        if not entries:continue
+        title=entries[0]
+        if title.lower() in ('live-musik','irish folk session','ukulele') and len(entries)>1:title=entries[1]
+        if not re.search(r'live-musik|irish folk|session|jam night|karaoke|konzert', ' '.join(entries),re.I):continue
+        if re.search(r'kids|kinder|ukulele probe|pubquiz',title,re.I):continue
+        try:date=dt.date(year,month,last_day).isoformat()
+        except ValueError:continue
+        a=tr.find('a',href=True)
+        url=urljoin(base,a['href']) if a else base
+        ev=record(date,title,"Fiddlers Green Pub",url,clock)
+        if ev:out.append(ev)
+    return out
+
+
+
+
+def parse_kultur_in_ulm(soup,base):
+    """Public kultur-in-ulm events: each h4 title is followed by a venue and DD.MM.YYYY.
+    It generally lists one day at a time; do not invent future dates.
+    Use real venue in 'place' to help catch duplicates with direct providers.
+    """
+    lines=[clean_text(x) for x in soup.get_text('\n',strip=True).splitlines()]
+    lines=[x for x in lines if x]
+    headings={clean_text(h.get_text(' ',strip=True)):h for h in soup.find_all(['h4'])}
+    out=[]
+    for i,txt in enumerate(lines):
+        h=headings.get(txt)
+        if h is None or len(txt)<4 or len(txt)>150:continue
+        nearby=lines[i+1:i+9]
+        date_idx=next((j for j,x in enumerate(nearby) if re.fullmatch(r'\d{2}\.\d{2}\.20\d{2}',x)),None)
+        if date_idx is None or date_idx<1:continue
+        m=re.fullmatch(r'(\d{2})\.(\d{2})\.(20\d{2})',nearby[date_idx])
+        try:date=dt.date(int(m[3]),int(m[2]),int(m[1])).isoformat()
+        except ValueError:continue
+        venue=nearby[0]
+        # 'Image' and links should not be misinterpreted as venues.
+        if not 3<=len(venue)<=90 or venue.lower().startswith(('image','mehr infos')):continue
+        if re.search(r'kino|xinedome|filmvorführung|filmpremiere|kinder|kids|kasperle|puppen',txt+' '+venue,re.I):continue
+        clock=''
+        for candidate in nearby[date_idx+1:date_idx+3]:
+            mt=re.search(r'\b(\d{1,2}:\d{2})\b',candidate)
+            if mt:clock=mt[1];break
+        # Keep original event portal as link if no trustworthy event detail URL.
+        ev=record(date,txt,venue,base,clock)
+        if ev:out.append(ev)
+        if len(out)>=200:break
+    return out
+
+
+def parse_kreuz(soup,base):
+    """Event titles on the Kreuz calendar include an explicit DD.MM.YYYY."""
+    out=[]
+    for h in soup.find_all(['h2','h3']):
+        title=clean_text(h.get_text(' ',strip=True))
+        m=re.search(r'(\d{2})\.(\d{2})\.(20\d{2})\s*$',title)
+        if not m:continue
+        try:date=dt.date(int(m[3]),int(m[2]),int(m[1])).isoformat()
+        except ValueError:continue
+        title=re.sub(r'\s*[–—-]\s*\d{2}\.\d{2}\.20\d{2}\s*$','',title).strip()
+        link=h.find('a',href=True)
+        if link is None and h.parent:link=h.parent.find('a',href=True)
+        url=urljoin(base,link['href']) if link else base
+        ev=record(date,title,'Kreuz Obermarchtal',url)
+        if ev:out.append(ev)
+    return out
+
+
 def run():
  report=[];found=[]
  for name,url in load_sources():
@@ -384,6 +555,8 @@ def run():
     urls=['https://www.theater-ulm.de/spielplan']
    if name=='Pfleghof Langenau':
     urls=['https://www.langenau.de/de/erleben/pfleghof/veranstaltung']
+   if name=='Kultur in Ulm':
+    urls=['https://www.kultur-in-ulm.de/events/']
    if name=='Villa Rot':
     urls=['https://villa-rot.de/programm/ausstellungen/','https://villa-rot.de/programm/konzerte/','https://villa-rot.de/programm/veranstaltungen/']
    if name=='Birkenried':
@@ -411,7 +584,7 @@ def run():
      raise
     results+=ld_events(soup,name,u)
     if name=='GOLD':results+=parse_gold(soup,u)
-    elif name=='Pfleghof Langenau':results+=parse_pfleghof(soup,u)
+    elif name=='Pfleghof Langenau':results+=parse_pfleghof_v2(soup,u)
     elif name=='Theater Ulm':results+=parse_theater_ulm(soup,u)
     elif name=='Bonanzbar':results+=parse_bonanz(soup,u)
     elif name=='Stellwerk Schelklingen':results+=parse_stellwerk(soup,u)
@@ -422,6 +595,11 @@ def run():
     elif name=='Rausgegangen Ulm':results+=parse_rausgegangen(soup,u)
     elif name=='Livegigs Ulm':results+=parse_livegigs(soup,u)
     elif name=='Birkenried':results+=parse_birkenried(soup,u)
+    elif name=='Hemperium Ulm':results+=parse_hemperium(soup,u)
+    elif name=='Rock It Aalen':results+=parse_rockit(soup,u)
+    elif name=='Fiddlers Green Pub':results+=parse_fiddlers(soup,u)
+    elif name=='Kultur in Ulm':results+=parse_kultur_in_ulm(soup,u)
+    elif name=='Kreuz Obermarchtal':results+=parse_kreuz(soup,u)
     elif name=='Pauluskirche':
      match=re.search(r'month=(\d{4})(\d{2})',u)
      if match:results+=parse_paulus(soup,u,int(match[1]),int(match[2]))

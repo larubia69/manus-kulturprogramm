@@ -148,5 +148,10 @@
     "name": "Rock It Aalen",
     "url": "https://www.rockitaalen.de/events.php",
     "enabled": true
+  },
+  {
+    "name": "Kreuz Obermarchtal",
+    "url": "https://kreuz-obermarchtal.de/veranstaltungen/",
+    "enabled": true
   }
 ]
