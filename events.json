@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T06:17:11.803719+00:00",
+  "generatedAt": "2026-11-13T13:27:21.134439+00:00",
   "events": [
     {
       "id": "3b6420856d972235",
@@ -13,14 +13,256 @@
       "end": "2027-02-07"
     },
     {
+      "id": "760977619952c563",
+      "date": "2026-11-13",
+      "title": "TANZEN BITTE! Schlager | Discofox",
+      "place": "Kreuz Obermarchtal",
+      "genre": "Club",
+      "time": "",
+      "url": "https://kreuz-obermarchtal.de/mehr-infos/tanzen-bitte-schlager-discofox-13-11-2026/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "386d2c7e2cd6d4b6",
+      "date": "2026-11-13",
+      "title": "Zwischen Berlin und Tbilissi. Junge Fotograf*innen schauen auf ihre Welt",
+      "place": "Stadthaus Ulm",
+      "genre": "Konzerte",
+      "time": "10:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "3070b4703f2cd656",
+      "date": "2026-11-13",
+      "title": "Ausstellung \"Hochschule für Gestaltung Ulm. Von der Stunde Null bis 1968\"",
+      "place": "HfG-Archiv Ulm",
+      "genre": "Kunst",
+      "time": "11:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "cb067f03f5672258",
+      "date": "2026-11-13",
+      "title": "Die Einsteins - Museum einer Ulmer Familie",
+      "place": "Museum „Die Einsteins“",
+      "genre": "Konzerte",
+      "time": "11:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "4d1cbb7ead7c91c2",
+      "date": "2026-11-13",
+      "title": "Neue Ausstellung „Vom Logo zur Identität: Visuelle Erscheinungsbilder der Bundesrepublik“",
+      "place": "HfG-Archiv Ulm",
+      "genre": "Kunst",
+      "time": "11:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "8229956bd3dba2bd",
+      "date": "2026-11-13",
+      "title": "Stadtgeschichtliche Dauerausstellung",
+      "place": "Haus der Stadtgeschichte / Stadtarchiv Ulm",
+      "genre": "Kunst",
+      "time": "11:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "fac300faf45edb83",
+      "date": "2026-11-13",
+      "title": "Facettenreich",
+      "place": "Business Center Ulm GmbH & Co. KG",
+      "genre": "Konzerte",
+      "time": "13:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "223ab03871a06045",
+      "date": "2026-11-13",
+      "title": "Siegfried Kreitner",
+      "place": "Galerie Tobias Schrade",
+      "genre": "Konzerte",
+      "time": "13:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "f802461a0d6fb897",
+      "date": "2026-11-13",
+      "title": "40 Jahre Bananensprayer",
+      "place": "Galerie am Saumarkt, Ulm",
+      "genre": "Konzerte",
+      "time": "14:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "4668b071067c9b7b",
+      "date": "2026-11-13",
+      "title": "Mobilität im Wandel",
+      "place": "m25",
+      "genre": "Konzerte",
+      "time": "14:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "50ed940e37d45027",
+      "date": "2026-11-13",
+      "title": "Norbert Klaus: Von Chaos und Ordnung",
+      "place": "Galerie im Kornhauskeller",
+      "genre": "Konzerte",
+      "time": "14:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "e38d8b5d4916d2e8",
+      "date": "2026-11-13",
+      "title": "Traces in a Sandbox — Julius Bobke / Wolfgang Günther",
+      "place": "Kunstverein Ulm",
+      "genre": "Konzerte",
+      "time": "14:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "5f0de7d43c41fe52",
+      "date": "2026-11-13",
+      "title": "Otl Aicher, Erscheinungsbilder",
+      "place": "HfG-Archiv Ulm",
+      "genre": "Konzerte",
+      "time": "15:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "d73f6ceb978aea78",
+      "date": "2026-11-13",
+      "title": "„Kiste auf“ im HfG-Archiv – neue Spezialführung",
+      "place": "HfG-Archiv Ulm",
+      "genre": "Konzerte",
+      "time": "15:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
       "id": "0c4a0e12578ce404",
       "date": "2026-11-13",
       "title": "Juden und Christen in Ulm",
       "place": "Theater Ulm",
-      "genre": "Konzerte",
+      "genre": "Bühne",
       "time": "16:00",
       "url": "https://www.theater-ulm.de/spielplan/stuecke/juden-und-christen-in-ulm",
       "details": "",
+      "end": null
+    },
+    {
+      "id": "9fb06093ee877c22",
+      "date": "2026-11-13",
+      "title": "Linie - Struktur - Natur",
+      "place": "Galerie auf der Insel",
+      "genre": "Konzerte",
+      "time": "16:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "db64df0748664ee6",
+      "date": "2026-11-13",
+      "title": "Teatro Offener Treff",
+      "place": "Bürgerhaus Mitte",
+      "genre": "Konzerte",
+      "time": "17:30",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "4b1a1ccf4ae90425",
+      "date": "2026-11-13",
+      "title": "Vernissage \"Louise Stomps. Konturen des Inneren\"",
+      "place": "Edwin Scharff Museum",
+      "genre": "Kunst",
+      "time": "18:30",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "e011cd02be6d96b4",
+      "date": "2026-11-13",
+      "title": "Barhopping für Singles in Ulm seit 2013",
+      "place": "Innenstadt Ulm",
+      "genre": "Konzerte",
+      "time": "19:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "7a5ecc90fa8e1c45",
+      "date": "2026-11-13",
+      "title": "Bhakti Wochenende",
+      "place": "Sri Neem Karoli Baba Mandir",
+      "genre": "Konzerte",
+      "time": "19:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "3daf6d3db1821879",
+      "date": "2026-11-13",
+      "title": "Hach, bin ich wieder ein Schelm",
+      "place": "Theater Neu-Ulm",
+      "genre": "Konzerte",
+      "time": "19:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "fb71b4b8f215d13a",
+      "date": "2026-11-13",
+      "title": "Omi Alarm",
+      "place": "Theaterei Herrlingen",
+      "genre": "Konzerte",
+      "time": "19:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "67bc4ea81734c266",
+      "date": "2026-11-13",
+      "title": "TANZEN BITTE! Schlager | Discofox – 13.11.2026",
+      "place": "Kreuz Obermarchtal",
+      "genre": "Club",
+      "time": "19:00",
+      "url": "https://kreuz-obermarchtal.de/mehr-infos/tanzen-bitte-schlager-discofox-13-11-2026/",
+      "details": "​DIE Party-Reihe im KREUZ: Jeden zweiten Freitag und vierten Samstag im Monat",
       "end": null
     },
     {
@@ -30,7 +272,62 @@
       "place": "Theater Ulm",
       "genre": "Bühne",
       "time": "19:30",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/ball-im-savoy",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "04417506c218312c",
+      "date": "2026-11-13",
+      "title": "Wahnsinn - Die Show 2026",
+      "place": "ratiopharm arena",
+      "genre": "Konzerte",
+      "time": "19:30",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "9f1b354b873be4a8",
+      "date": "2026-11-13",
+      "title": "Wer kann der darf!",
+      "place": "Zum fröhlichen Nix - Kleinkunst-Cafe",
+      "genre": "Konzerte",
+      "time": "19:30",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "e46149ed7f872c25",
+      "date": "2026-11-13",
+      "title": "7 Years Bad Luck, Morgan Pines, Soapbox Radio + Captain Asshole im Club Schilli, Ulm",
+      "place": "Club Schilli",
+      "genre": "Konzerte",
+      "time": "20:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "4f6a72ed27d8cbb3",
+      "date": "2026-11-13",
+      "title": "Caligula",
+      "place": "theaterWerkstatt Ulm e.V.",
+      "genre": "Konzerte",
+      "time": "20:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "01a44b8b85936edf",
+      "date": "2026-11-13",
+      "title": "El Flecha Negra",
+      "place": "ROXY Ulm",
+      "genre": "Konzerte",
+      "time": "20:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
       "details": "",
       "end": null
     },
@@ -46,6 +343,50 @@
       "end": null
     },
     {
+      "id": "8b89aeb1e077257c",
+      "date": "2026-11-13",
+      "title": "Heiteres mit Musik - \"g'zupft, g'songa ond g'lesa",
+      "place": "Museum Ulm",
+      "genre": "Konzerte",
+      "time": "20:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "36ffd14a3a434e8a",
+      "date": "2026-11-13",
+      "title": "Jan Klare KIND",
+      "place": "Jazzkeller Sauschdall",
+      "genre": "Konzerte",
+      "time": "20:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "8115e6937db39672",
+      "date": "2026-11-13",
+      "title": "Steffen Möller",
+      "place": "Stadthaus Ulm",
+      "genre": "Konzerte",
+      "time": "20:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "119e7726a51c63c0",
+      "date": "2026-11-13",
+      "title": "dIRE sTRATS - Dire Straits-Tribute-Band",
+      "place": "Kulturzentrum Wolfgang-Eychmüller-Haus",
+      "genre": "Konzerte",
+      "time": "20:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
       "id": "f54a1ed1f683eb84",
       "date": "2026-11-13",
       "title": "LITTLE BARRIE (UK) – Support: 250cc",
@@ -57,13 +398,244 @@
       "end": null
     },
     {
+      "id": "6e6b50d74429122e",
+      "date": "2026-11-13",
+      "title": "FREE LIVE CONCERT: THE BLUES MOTHERS + ROGER & THE TINWHISTLES",
+      "place": "Studentencafé",
+      "genre": "Konzerte",
+      "time": "21:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "a2a3bd0312df4a6d",
+      "date": "2026-11-13",
+      "title": "Flashback 2010er Party",
+      "place": "Cocomo Club Ulm",
+      "genre": "Club",
+      "time": "21:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "ceb4a9e86fc49d81",
+      "date": "2026-11-13",
+      "title": "The Blues Mothers LIVE",
+      "place": "Studentencafé",
+      "genre": "Konzerte",
+      "time": "21:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "833d032016479989",
+      "date": "2026-11-13",
+      "title": "Habibiparty",
+      "place": "Cabaret Eden",
+      "genre": "Club",
+      "time": "22:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
       "id": "b9b8154e423f4c8e",
       "date": "2026-11-14",
       "title": "Vorschau für Max und Moritz",
       "place": "Theater Ulm",
-      "genre": "Konzerte",
+      "genre": "Bühne",
       "time": "09:45",
       "url": "https://www.theater-ulm.de/spielplan/stuecke/vorschau-fuer-max-und-moritz",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "7fac8d5934f9c754",
+      "date": "2026-11-14",
+      "title": "40 Jahre Bananensprayer",
+      "place": "Galerie am Saumarkt, Ulm",
+      "genre": "Konzerte",
+      "time": "10:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "5a0555b8bb120e8f",
+      "date": "2026-11-14",
+      "title": "Bhakti Wochenende",
+      "place": "Sri Neem Karoli Baba Mandir",
+      "genre": "Konzerte",
+      "time": "10:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "c561c749d061f2b8",
+      "date": "2026-11-14",
+      "title": "Dein Einstieg: Radio-Baukasten bei Radio free FM - Redaktion/Recherche, Moderation/Interview",
+      "place": "Radio freeFM",
+      "genre": "Konzerte",
+      "time": "10:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "917e9eed33910acc",
+      "date": "2026-11-14",
+      "title": "Louise Stomps. Konturen des Inneren",
+      "place": "Edwin Scharff Museum",
+      "genre": "Konzerte",
+      "time": "10:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "e8036d90e1fd2d01",
+      "date": "2026-11-14",
+      "title": "Mobilität im Wandel",
+      "place": "m25",
+      "genre": "Konzerte",
+      "time": "10:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "592fa37226d8aa54",
+      "date": "2026-11-14",
+      "title": "Zwischen Berlin und Tbilissi. Junge Fotograf*innen schauen auf ihre Welt",
+      "place": "Stadthaus Ulm",
+      "genre": "Konzerte",
+      "time": "10:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "8caff3e457849ee4",
+      "date": "2026-11-14",
+      "title": "Ausstellung \"Hochschule für Gestaltung Ulm. Von der Stunde Null bis 1968\"",
+      "place": "HfG-Archiv Ulm",
+      "genre": "Kunst",
+      "time": "11:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "f7a376038dd47410",
+      "date": "2026-11-14",
+      "title": "Die Einsteins - Museum einer Ulmer Familie",
+      "place": "Museum „Die Einsteins“",
+      "genre": "Konzerte",
+      "time": "11:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "eb9f7c1e9ad3f830",
+      "date": "2026-11-14",
+      "title": "Neue Ausstellung „Vom Logo zur Identität: Visuelle Erscheinungsbilder der Bundesrepublik“",
+      "place": "HfG-Archiv Ulm",
+      "genre": "Kunst",
+      "time": "11:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "2bad34712329520f",
+      "date": "2026-11-14",
+      "title": "Norbert Klaus: Von Chaos und Ordnung",
+      "place": "Galerie im Kornhauskeller",
+      "genre": "Konzerte",
+      "time": "11:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "95e5ac441bb45d83",
+      "date": "2026-11-14",
+      "title": "Siegfried Kreitner",
+      "place": "Galerie Tobias Schrade",
+      "genre": "Konzerte",
+      "time": "11:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "889fb39c1d1cdc1c",
+      "date": "2026-11-14",
+      "title": "Stadtgeschichtliche Dauerausstellung",
+      "place": "Haus der Stadtgeschichte / Stadtarchiv Ulm",
+      "genre": "Kunst",
+      "time": "11:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "21b4a63d4e704ad8",
+      "date": "2026-11-14",
+      "title": "Traces in a Sandbox — Julius Bobke / Wolfgang Günther",
+      "place": "Kunstverein Ulm",
+      "genre": "Konzerte",
+      "time": "11:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "5f1c845cefce657a",
+      "date": "2026-11-14",
+      "title": "Menschen am Fluss",
+      "place": "Donauschwäbisches Zentralmuseum",
+      "genre": "Konzerte",
+      "time": "14:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "17bb87e8e666392c",
+      "date": "2026-11-14",
+      "title": "Linie - Struktur - Natur",
+      "place": "Galerie auf der Insel",
+      "genre": "Konzerte",
+      "time": "16:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "1921b433d539f241",
+      "date": "2026-11-14",
+      "title": "Eisdisco - Der coolste Samstagabend!",
+      "place": "Eissportanlage des Donaubad",
+      "genre": "Club",
+      "time": "19:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "1c7f43a59fcd33ba",
+      "date": "2026-11-14",
+      "title": "Hach, bin ich wieder ein Schelm",
+      "place": "Theater Neu-Ulm",
+      "genre": "Konzerte",
+      "time": "19:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
       "details": "",
       "end": null
     },
@@ -74,7 +646,18 @@
       "place": "Theater Ulm",
       "genre": "Bühne",
       "time": "19:00",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/kipppunkte",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "9404000630e29047",
+      "date": "2026-11-14",
+      "title": "Brokof (Berlin)",
+      "place": "Café Aegis",
+      "genre": "Konzerte",
+      "time": "19:30",
+      "url": "https://www.kultur-in-ulm.de/events/",
       "details": "",
       "end": null
     },
@@ -85,7 +668,18 @@
       "place": "Theater Ulm",
       "genre": "Bühne",
       "time": "19:30",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/die-schoenste-version",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "fb32425a8669323a",
+      "date": "2026-11-14",
+      "title": "Caligula",
+      "place": "theaterWerkstatt Ulm e.V.",
+      "genre": "Konzerte",
+      "time": "20:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
       "details": "",
       "end": null
     },
@@ -101,6 +695,39 @@
       "end": null
     },
     {
+      "id": "72fc3b15a1357fcf",
+      "date": "2026-11-14",
+      "title": "Omi Alarm",
+      "place": "Theaterei Herrlingen",
+      "genre": "Konzerte",
+      "time": "20:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "9d2d39cd90a56e86",
+      "date": "2026-11-14",
+      "title": "Philip Bölter",
+      "place": "Zum fröhlichen Nix - Kleinkunst-Cafe",
+      "genre": "Konzerte",
+      "time": "20:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "270ca99a2b0c1b47",
+      "date": "2026-11-14",
+      "title": "Poetry Slam",
+      "place": "ROXY Ulm",
+      "genre": "Bühne",
+      "time": "20:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
       "id": "58978cfff30a6075",
       "date": "2026-11-14",
       "title": "Poetry Slam — Moderiert von Ko Bylanzky Große Worte auf der großen Bühne",
@@ -108,6 +735,17 @@
       "genre": "Bühne",
       "time": "20:00",
       "url": "https://www.roxy.ulm.de/programm/programm.php?m=11&j=2026&vid=5509",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "8a336fdcfe33ea6f",
+      "date": "2026-11-14",
+      "title": "Sirius Quartet (New York) - Incantations",
+      "place": "Kunstverein Ulm",
+      "genre": "Konzerte",
+      "time": "20:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
       "details": "",
       "end": null
     },
@@ -134,6 +772,17 @@
       "end": null
     },
     {
+      "id": "6f924619e674eff5",
+      "date": "2026-11-14",
+      "title": "Manyakz",
+      "place": "Cocomo Club Ulm",
+      "genre": "Konzerte",
+      "time": "22:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
       "id": "3aca8996f473f5af",
       "date": "2026-11-15",
       "title": "Ulmer Kantorei Johannes Brahms: Ein deutsches Requiem",
@@ -149,7 +798,7 @@
       "date": "2026-11-15",
       "title": "2. Kammerkonzert 2026",
       "place": "Theater Ulm",
-      "genre": "Konzerte",
+      "genre": "Bühne",
       "time": "11:00",
       "url": "https://www.theater-ulm.de/spielplan/stuecke/2-kammerkonzert-2026",
       "details": "",
@@ -237,7 +886,7 @@
       "date": "2026-11-18",
       "title": "Sonderkonzert 2026",
       "place": "Theater Ulm",
-      "genre": "Konzerte",
+      "genre": "Bühne",
       "time": "20:00",
       "url": "https://www.theater-ulm.de/spielplan/stuecke/sonderkonzert-2026",
       "details": "",
@@ -288,6 +937,17 @@
       "end": null
     },
     {
+      "id": "191af50d5d2bf5c4",
+      "date": "2026-11-20",
+      "title": "ab 06:00 Uhr",
+      "place": "Hemperium Ulm",
+      "genre": "Konzerte",
+      "time": "",
+      "url": "https://www.hemperium.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
       "id": "a71c9f872fbfd591",
       "date": "2026-11-20",
       "title": "Jan Philipp Zymny Illegale Straßentherapie",
@@ -321,6 +981,28 @@
       "end": null
     },
     {
+      "id": "bf0a58d7cdf5c3dc",
+      "date": "2026-11-21",
+      "title": "ZOOROPA",
+      "place": "Kreuz Obermarchtal",
+      "genre": "Konzerte",
+      "time": "",
+      "url": "https://kreuz-obermarchtal.de/mehr-infos/zooropa-30-05-2026/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "62a70a4c845e2430",
+      "date": "2026-11-21",
+      "title": "ab 06:00 Uhr",
+      "place": "Hemperium Ulm",
+      "genre": "Konzerte",
+      "time": "",
+      "url": "https://www.hemperium.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
       "id": "5ca5c287bc6632c0",
       "date": "2026-11-21",
       "title": "| DOORS 19:00",
@@ -336,7 +1018,7 @@
       "date": "2026-11-21",
       "title": "Hinter den Kulissen",
       "place": "Theater Ulm",
-      "genre": "Konzerte",
+      "genre": "Bühne",
       "time": "15:00",
       "url": "https://www.theater-ulm.de/spielplan/stuecke/hinter-den-kulissen",
       "details": "",
@@ -351,6 +1033,17 @@
       "time": "19:00",
       "url": "https://www.theater-ulm.de/spielplan/stuecke/kipppunkte",
       "details": "",
+      "end": null
+    },
+    {
+      "id": "9fc9875976147fb7",
+      "date": "2026-11-21",
+      "title": "ZOOROPA – 21.11.2026",
+      "place": "Kreuz Obermarchtal",
+      "genre": "Konzerte",
+      "time": "19:00",
+      "url": "https://kreuz-obermarchtal.de/mehr-infos/zooropa-30-05-2026/",
+      "details": "Support: The Renegades (aus Riedlingen) Einlass 19 Uhr, Beginn um 20.00 Uhr",
       "end": null
     },
     {
@@ -512,7 +1205,7 @@
       "date": "2026-11-26",
       "title": "Max und Moritz",
       "place": "Theater Ulm",
-      "genre": "Konzerte",
+      "genre": "Bühne",
       "time": "13:30",
       "url": "https://www.theater-ulm.de/spielplan/stuecke/max-und-moritz",
       "details": "",
@@ -563,6 +1256,28 @@
       "end": null
     },
     {
+      "id": "4e856c91d8f7226e",
+      "date": "2026-11-27",
+      "title": "ab 06:00 Uhr",
+      "place": "Hemperium Ulm",
+      "genre": "Konzerte",
+      "time": "",
+      "url": "https://www.hemperium.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "1f88eed2d2443823",
+      "date": "2026-11-27",
+      "title": "Ü40 Party 44 & MORE – DIE Party ab Mitte 30 mit DJ OLI E.",
+      "place": "Kreuz Obermarchtal",
+      "genre": "Club",
+      "time": "",
+      "url": "https://kreuz-obermarchtal.de/mehr-infos/44-more-die-party-ab-mitte-30-mit-dj-oli-e-27-11-2026/",
+      "details": "",
+      "end": null
+    },
+    {
       "id": "ca3231151d815427",
       "date": "2026-11-27",
       "title": "RIAN — AUSVERKAUFT BLUMENDISKO TOUR 2026",
@@ -596,6 +1311,17 @@
       "end": null
     },
     {
+      "id": "f514cf649a63e431",
+      "date": "2026-11-27",
+      "title": "Ü40 Party 44 & MORE – DIE Party ab Mitte 30 mit DJ OLI E. – 27.11.2026",
+      "place": "Kreuz Obermarchtal",
+      "genre": "Club",
+      "time": "20:00",
+      "url": "https://kreuz-obermarchtal.de/mehr-infos/44-more-die-party-ab-mitte-30-mit-dj-oli-e-27-11-2026/",
+      "details": "Freitag, 27.11.202620 UhrDIE Party-Reihe im KREUZ Obermarchtal!Jede 5er-Frauengruppe erhält eine Flasche Sekt gratis!Jeden vierten Freitag im Monat ab 20 Uhr:44 & MORE - DIE Party ab Mitte 30!*Rock *Pop *Soul...",
+      "end": null
+    },
+    {
       "id": "4ac97bdf5fb66d18",
       "date": "2026-11-28",
       "title": "Bläserphilharmonie Blaustein",
@@ -618,6 +1344,17 @@
       "end": null
     },
     {
+      "id": "026f30838c81d846",
+      "date": "2026-11-28",
+      "title": "TANZEN BITTE! Schlager | Discofox",
+      "place": "Kreuz Obermarchtal",
+      "genre": "Club",
+      "time": "",
+      "url": "https://kreuz-obermarchtal.de/mehr-infos/tanzen-bitte-schlager-discofox-28-11-2026/",
+      "details": "",
+      "end": null
+    },
+    {
       "id": "a79551f1f04903e6",
       "date": "2026-11-28",
       "title": "La Juive (Die Jüdin)",
@@ -626,6 +1363,17 @@
       "time": "19:00",
       "url": "https://www.theater-ulm.de/spielplan/stuecke/la-juive-die-juedin",
       "details": "",
+      "end": null
+    },
+    {
+      "id": "6a53e3cc899fe772",
+      "date": "2026-11-28",
+      "title": "TANZEN BITTE! Schlager | Discofox – 28.11.2026",
+      "place": "Kreuz Obermarchtal",
+      "genre": "Club",
+      "time": "19:00",
+      "url": "https://kreuz-obermarchtal.de/mehr-infos/tanzen-bitte-schlager-discofox-28-11-2026/",
+      "details": "​DIE Party-Reihe im KREUZ: Jeden zweiten Freitag und vierten Samstag im Monat",
       "end": null
     },
     {
@@ -655,7 +1403,7 @@
       "date": "2026-11-29",
       "title": "Max und Moritz",
       "place": "Theater Ulm",
-      "genre": "Konzerte",
+      "genre": "Bühne",
       "time": "13:00",
       "url": "https://www.theater-ulm.de/spielplan/stuecke/max-und-moritz",
       "details": "",
@@ -677,7 +1425,7 @@
       "date": "2026-11-30",
       "title": "Max und Moritz",
       "place": "Theater Ulm",
-      "genre": "Konzerte",
+      "genre": "Bühne",
       "time": "13:30",
       "url": "https://www.theater-ulm.de/spielplan/stuecke/max-und-moritz",
       "details": "",
@@ -699,7 +1447,7 @@
       "date": "2026-12-01",
       "title": "Generalprobe 2. Philharmonisches Konzert",
       "place": "Theater Ulm",
-      "genre": "Konzerte",
+      "genre": "Bühne",
       "time": "10:00",
       "url": "https://www.theater-ulm.de/spielplan/stuecke/generalprobe-2-philharmonisches-konzert",
       "details": "",
@@ -710,7 +1458,7 @@
       "date": "2026-12-01",
       "title": "Max und Moritz",
       "place": "Theater Ulm",
-      "genre": "Konzerte",
+      "genre": "Bühne",
       "time": "11:00",
       "url": "https://www.theater-ulm.de/spielplan/stuecke/max-und-moritz",
       "details": "",
@@ -721,7 +1469,7 @@
       "date": "2026-12-01",
       "title": "2. Philharmonisches Konzert 2026",
       "place": "Theater Ulm",
-      "genre": "Konzerte",
+      "genre": "Bühne",
       "time": "20:00",
       "url": "https://www.theater-ulm.de/spielplan/stuecke/2-philharmonisches-konzert-2026",
       "details": "",
@@ -732,7 +1480,7 @@
       "date": "2026-12-02",
       "title": "Max und Moritz",
       "place": "Theater Ulm",
-      "genre": "Konzerte",
+      "genre": "Bühne",
       "time": "11:00",
       "url": "https://www.theater-ulm.de/spielplan/stuecke/max-und-moritz",
       "details": "",
@@ -765,7 +1513,7 @@
       "date": "2026-12-03",
       "title": "Max und Moritz",
       "place": "Theater Ulm",
-      "genre": "Konzerte",
+      "genre": "Bühne",
       "time": "13:30",
       "url": "https://www.theater-ulm.de/spielplan/stuecke/max-und-moritz",
       "details": "",
@@ -798,7 +1546,7 @@
       "date": "2026-12-04",
       "title": "Max und Moritz",
       "place": "Theater Ulm",
-      "genre": "Konzerte",
+      "genre": "Bühne",
       "time": "11:00",
       "url": "https://www.theater-ulm.de/spielplan/stuecke/max-und-moritz",
       "details": "",
@@ -893,6 +1641,17 @@
       "end": null
     },
     {
+      "id": "1ddc0deb076ed830",
+      "date": "2026-12-05",
+      "title": "Crystal Ball",
+      "place": "Kreuz Obermarchtal",
+      "genre": "Konzerte",
+      "time": "",
+      "url": "https://kreuz-obermarchtal.de/mehr-infos/crystal-ball-05-12-2026/",
+      "details": "",
+      "end": null
+    },
+    {
       "id": "e096adc7e6d90083",
       "date": "2026-12-05",
       "title": "Manze",
@@ -930,7 +1689,7 @@
       "date": "2026-12-05",
       "title": "Workshop: Così fan tutte",
       "place": "Theater Ulm",
-      "genre": "Literatur",
+      "genre": "Bühne",
       "time": "17:00",
       "url": "https://www.theater-ulm.de/spielplan/stuecke/workshop-cosi-fan-tutte",
       "details": "",
@@ -945,6 +1704,17 @@
       "time": "19:00",
       "url": "https://www.theater-ulm.de/spielplan/stuecke/ball-im-savoy",
       "details": "",
+      "end": null
+    },
+    {
+      "id": "c080febb27f42cf5",
+      "date": "2026-12-05",
+      "title": "Crystal Ball – 05.12.2026",
+      "place": "Kreuz Obermarchtal",
+      "genre": "Konzerte",
+      "time": "19:00",
+      "url": "https://kreuz-obermarchtal.de/mehr-infos/crystal-ball-05-12-2026/",
+      "details": "Crystal Ball - 05.12.2026 -19 Uhr. Tickets im VVK für 26 € bei eventim.de",
       "end": null
     },
     {
@@ -985,7 +1755,7 @@
       "date": "2026-12-06",
       "title": "Max und Moritz",
       "place": "Theater Ulm",
-      "genre": "Konzerte",
+      "genre": "Bühne",
       "time": "16:00",
       "url": "https://www.theater-ulm.de/spielplan/stuecke/max-und-moritz",
       "details": "",
@@ -1051,10 +1821,32 @@
       "date": "2026-12-10",
       "title": "Unterm Junimond",
       "place": "Theater Ulm",
-      "genre": "Konzerte",
+      "genre": "Bühne",
       "time": "19:30",
       "url": "https://www.theater-ulm.de/spielplan/stuecke/unterm-junimond",
       "details": "",
+      "end": null
+    },
+    {
+      "id": "fd4d56c5bf96a887",
+      "date": "2026-12-11",
+      "title": "TANZEN BITTE! Schlager | Discofox",
+      "place": "Kreuz Obermarchtal",
+      "genre": "Club",
+      "time": "",
+      "url": "https://kreuz-obermarchtal.de/mehr-infos/tanzen-bitte-schlager-discofox-11-12-2026/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "09d72053d287031a",
+      "date": "2026-12-11",
+      "title": "TANZEN BITTE! Schlager | Discofox – 11.12.2026",
+      "place": "Kreuz Obermarchtal",
+      "genre": "Club",
+      "time": "19:00",
+      "url": "https://kreuz-obermarchtal.de/mehr-infos/tanzen-bitte-schlager-discofox-11-12-2026/",
+      "details": "​DIE Party-Reihe im KREUZ: Jeden zweiten Freitag und vierten Samstag im Monat",
       "end": null
     },
     {
@@ -1124,11 +1916,33 @@
       "end": null
     },
     {
+      "id": "d2a137b476f35920",
+      "date": "2026-12-12",
+      "title": "Hard Rock Disco | Greatest Ever Classics",
+      "place": "Kreuz Obermarchtal",
+      "genre": "Club",
+      "time": "",
+      "url": "https://kreuz-obermarchtal.de/mehr-infos/hard-rock-disco-greatest-ever-classics-12-12-2026/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "81d217696e7ef556",
+      "date": "2026-12-12",
+      "title": "ab 06:00 Uhr",
+      "place": "Hemperium Ulm",
+      "genre": "Konzerte",
+      "time": "",
+      "url": "https://www.hemperium.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
       "id": "107dfc68873a4448",
       "date": "2026-12-12",
       "title": "Workshop: Così fan tutte",
       "place": "Theater Ulm",
-      "genre": "Literatur",
+      "genre": "Bühne",
       "time": "09:45",
       "url": "https://www.theater-ulm.de/spielplan/stuecke/workshop-cosi-fan-tutte",
       "details": "",
@@ -1154,6 +1968,17 @@
       "time": "19:30",
       "url": "https://www.theater-ulm.de/spielplan/stuecke/die-schoenste-version",
       "details": "",
+      "end": null
+    },
+    {
+      "id": "e7e0d039481232b0",
+      "date": "2026-12-12",
+      "title": "Hard Rock Disco | Greatest Ever Classics – 12.12.2026",
+      "place": "Kreuz Obermarchtal",
+      "genre": "Club",
+      "time": "20:00",
+      "url": "https://kreuz-obermarchtal.de/mehr-infos/hard-rock-disco-greatest-ever-classics-12-12-2026/",
+      "details": "Hard Rock Disco mit DJ Andi P. Greatest Ever Classics 12. Dezember 2026, 20 Uhr.",
       "end": null
     },
     {
@@ -1194,7 +2019,7 @@
       "date": "2026-12-13",
       "title": "Matinée: Così fan tutte",
       "place": "Theater Ulm",
-      "genre": "Konzerte",
+      "genre": "Bühne",
       "time": "11:00",
       "url": "https://www.theater-ulm.de/spielplan/stuecke/matinee-cosi-fan-tutte",
       "details": "",
@@ -1205,7 +2030,7 @@
       "date": "2026-12-13",
       "title": "Singelingeling Die Weihnachtsshow",
       "place": "Theater Ulm",
-      "genre": "Konzerte",
+      "genre": "Bühne",
       "time": "18:00",
       "url": "https://www.theater-ulm.de/spielplan/stuecke/singelingeling-die-weihnachtsshow-260511-085108",
       "details": "",
@@ -1216,7 +2041,7 @@
       "date": "2026-12-13",
       "title": "3. Kammerkonzert 2026",
       "place": "Theater Ulm",
-      "genre": "Konzerte",
+      "genre": "Bühne",
       "time": "19:30",
       "url": "https://www.theater-ulm.de/spielplan/stuecke/3-kammerkonzert-2026",
       "details": "",
@@ -1227,7 +2052,7 @@
       "date": "2026-12-14",
       "title": "Max und Moritz",
       "place": "Theater Ulm",
-      "genre": "Konzerte",
+      "genre": "Bühne",
       "time": "13:30",
       "url": "https://www.theater-ulm.de/spielplan/stuecke/max-und-moritz",
       "details": "",
@@ -1249,7 +2074,7 @@
       "date": "2026-12-15",
       "title": "Max und Moritz",
       "place": "Theater Ulm",
-      "genre": "Konzerte",
+      "genre": "Bühne",
       "time": "11:00",
       "url": "https://www.theater-ulm.de/spielplan/stuecke/max-und-moritz",
       "details": "",
@@ -1282,7 +2107,7 @@
       "date": "2026-12-17",
       "title": "Max und Moritz",
       "place": "Theater Ulm",
-      "genre": "Konzerte",
+      "genre": "Bühne",
       "time": "13:00",
       "url": "https://www.theater-ulm.de/spielplan/stuecke/max-und-moritz",
       "details": "",
@@ -1315,7 +2140,7 @@
       "date": "2026-12-18",
       "title": "Max und Moritz",
       "place": "Theater Ulm",
-      "genre": "Konzerte",
+      "genre": "Bühne",
       "time": "11:00",
       "url": "https://www.theater-ulm.de/spielplan/stuecke/max-und-moritz",
       "details": "",
@@ -1425,7 +2250,7 @@
       "date": "2026-12-20",
       "title": "Max und Moritz",
       "place": "Theater Ulm",
-      "genre": "Konzerte",
+      "genre": "Bühne",
       "time": "11:00",
       "url": "https://www.theater-ulm.de/spielplan/stuecke/max-und-moritz",
       "details": "",
@@ -1447,7 +2272,7 @@
       "date": "2026-12-21",
       "title": "Max und Moritz",
       "place": "Theater Ulm",
-      "genre": "Konzerte",
+      "genre": "Bühne",
       "time": "11:00",
       "url": "https://www.theater-ulm.de/spielplan/stuecke/max-und-moritz",
       "details": "",
@@ -1458,7 +2283,7 @@
       "date": "2026-12-21",
       "title": "A Christmas Carol",
       "place": "Theater Ulm",
-      "genre": "Konzerte",
+      "genre": "Bühne",
       "time": "20:00",
       "url": "https://www.theater-ulm.de/spielplan/stuecke/a-christmas-carol-2026",
       "details": "",
@@ -1487,6 +2312,17 @@
       "end": null
     },
     {
+      "id": "273bb3b77751a46c",
+      "date": "2026-12-25",
+      "title": "Ü40 Party 44 & MORE – DIE Party ab Mitte 30 mit DJ OLI E.",
+      "place": "Kreuz Obermarchtal",
+      "genre": "Club",
+      "time": "",
+      "url": "https://kreuz-obermarchtal.de/mehr-infos/44-more-die-party-ab-mitte-30-mit-dj-oli-e-25-12-2026-2/",
+      "details": "",
+      "end": null
+    },
+    {
       "id": "035754c67452f4e7",
       "date": "2026-12-25",
       "title": "Kipppunkte",
@@ -1498,11 +2334,33 @@
       "end": null
     },
     {
+      "id": "52aecbce538ae4fe",
+      "date": "2026-12-25",
+      "title": "Ü40 Party 44 & MORE – DIE Party ab Mitte 30 mit DJ OLI E. – 25.12.2026",
+      "place": "Kreuz Obermarchtal",
+      "genre": "Club",
+      "time": "20:00",
+      "url": "https://kreuz-obermarchtal.de/mehr-infos/44-more-die-party-ab-mitte-30-mit-dj-oli-e-25-12-2026-2/",
+      "details": "Freitag, 25.12.202620 UhrDIE Party-Reihe im KREUZ Obermarchtal!Jede 5er-Frauengruppe erhält eine Flasche Sekt gratis!Jeden vierten Freitag im Monat ab 20 Uhr:44 & MORE - DIE Party ab Mitte 30!*Rock *Pop *Soul...",
+      "end": null
+    },
+    {
+      "id": "147b1ca4b30b4d94",
+      "date": "2026-12-26",
+      "title": "TANZEN BITTE! Schlager | Discofox",
+      "place": "Kreuz Obermarchtal",
+      "genre": "Club",
+      "time": "",
+      "url": "https://kreuz-obermarchtal.de/mehr-infos/tanzen-bitte-schlager-discofox-26-12-2026/",
+      "details": "",
+      "end": null
+    },
+    {
       "id": "a29a16f21f135f6c",
       "date": "2026-12-26",
       "title": "Max und Moritz",
       "place": "Theater Ulm",
-      "genre": "Konzerte",
+      "genre": "Bühne",
       "time": "13:00",
       "url": "https://www.theater-ulm.de/spielplan/stuecke/max-und-moritz",
       "details": "",
@@ -1517,6 +2375,28 @@
       "time": "19:00",
       "url": "https://www.theater-ulm.de/spielplan/stuecke/ball-im-savoy",
       "details": "",
+      "end": null
+    },
+    {
+      "id": "a6cece5851862416",
+      "date": "2026-12-26",
+      "title": "Schreyner Wild Christmas 2026",
+      "place": "Kreuz Obermarchtal",
+      "genre": "Konzerte",
+      "time": "19:00",
+      "url": "https://kreuz-obermarchtal.de/mehr-infos/schreyner-2026/",
+      "details": "Schreyner am 26.12.2026 ab 19.00 Uhr Karten bekommt ihr im Vorverkauf und/oder auf eventim.de.",
+      "end": null
+    },
+    {
+      "id": "6cbc0522b81e49c6",
+      "date": "2026-12-26",
+      "title": "TANZEN BITTE! Schlager | Discofox – 26.12.2026",
+      "place": "Kreuz Obermarchtal",
+      "genre": "Club",
+      "time": "19:00",
+      "url": "https://kreuz-obermarchtal.de/mehr-infos/tanzen-bitte-schlager-discofox-26-12-2026/",
+      "details": "​DIE Party-Reihe im KREUZ: Jeden zweiten Freitag und vierten Samstag im Monat",
       "end": null
     },
     {
@@ -1601,7 +2481,7 @@
       "date": "2027-01-01",
       "title": "Neujahrskonzert 2027",
       "place": "Theater Ulm",
-      "genre": "Konzerte",
+      "genre": "Bühne",
       "time": "18:00",
       "url": "https://www.theater-ulm.de/spielplan/stuecke/neujahrskonzert-2027",
       "details": "",
@@ -1645,10 +2525,32 @@
       "date": "2027-01-03",
       "title": "Neujahrskonzert 2027",
       "place": "Theater Ulm",
-      "genre": "Konzerte",
+      "genre": "Bühne",
       "time": "19:00",
       "url": "https://www.theater-ulm.de/spielplan/stuecke/neujahrskonzert-2027",
       "details": "",
+      "end": null
+    },
+    {
+      "id": "dc59b5f84cda2311",
+      "date": "2027-01-05",
+      "title": "NIGHT OF THE KINGS",
+      "place": "Kreuz Obermarchtal",
+      "genre": "Konzerte",
+      "time": "",
+      "url": "https://kreuz-obermarchtal.de/mehr-infos/night-of-the-kings-05-01-2027/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "e9bd557aa27efe49",
+      "date": "2027-01-05",
+      "title": "NIGHT OF THE KINGS – 05.01.2027",
+      "place": "Kreuz Obermarchtal",
+      "genre": "Konzerte",
+      "time": "19:00",
+      "url": "https://kreuz-obermarchtal.de/mehr-infos/night-of-the-kings-05-01-2027/",
+      "details": "Black & Damned | Then Comes The Night | Impuls MLBR",
       "end": null
     },
     {
@@ -1656,7 +2558,7 @@
       "date": "2027-01-05",
       "title": "Soirée: Die Ehebrecherinnen",
       "place": "Theater Ulm",
-      "genre": "Konzerte",
+      "genre": "Bühne",
       "time": "19:00",
       "url": "https://www.theater-ulm.de/spielplan/stuecke/soiree-die-ehebrecherinnen",
       "details": "",
@@ -1667,7 +2569,7 @@
       "date": "2027-01-06",
       "title": "Neujahrskonzert 2027",
       "place": "Theater Ulm",
-      "genre": "Konzerte",
+      "genre": "Bühne",
       "time": "19:00",
       "url": "https://www.theater-ulm.de/spielplan/stuecke/neujahrskonzert-2027",
       "details": "",
@@ -1700,7 +2602,7 @@
       "date": "2027-01-10",
       "title": "Matinée: Magic – die (fast) fantastischen Fünf",
       "place": "Theater Ulm",
-      "genre": "Konzerte",
+      "genre": "Bühne",
       "time": "11:00",
       "url": "https://www.theater-ulm.de/spielplan/stuecke/matinee-magic-die-fast-fantastischen-fuenf",
       "details": "",
@@ -1711,7 +2613,7 @@
       "date": "2027-01-10",
       "title": "Neujahrskonzert 2027",
       "place": "Theater Ulm",
-      "genre": "Konzerte",
+      "genre": "Bühne",
       "time": "15:00",
       "url": "https://www.theater-ulm.de/spielplan/stuecke/neujahrskonzert-2027",
       "details": "",
@@ -2070,6 +2972,28 @@
       "end": null
     },
     {
+      "id": "bbc32a988d5d477a",
+      "date": "2027-03-27",
+      "title": "COLDHEART – A Tribute to Rock Classics",
+      "place": "Kreuz Obermarchtal",
+      "genre": "Konzerte",
+      "time": "",
+      "url": "https://kreuz-obermarchtal.de/mehr-infos/coldheart-rock-classics-live-27-03-2027/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "3bc292b6699ba5e5",
+      "date": "2027-03-27",
+      "title": "COLDHEART – A Tribute to Rock Classics – 27.03.2027",
+      "place": "Kreuz Obermarchtal",
+      "genre": "Konzerte",
+      "time": "20:30",
+      "url": "https://kreuz-obermarchtal.de/mehr-infos/coldheart-rock-classics-live-27-03-2027/",
+      "details": "COLDHEART nimmt euch mit auf eine Zeitreise durch die goldene Ära des Rock.",
+      "end": null
+    },
+    {
       "id": "93d222b7b205ff6b",
       "date": "2027-04-02",
       "title": "FIONN REGAN (IRL)",
@@ -2100,6 +3024,17 @@
       "time": "",
       "url": "https://www.stellwerk-schelklingen.com/",
       "details": "",
+      "end": null
+    },
+    {
+      "id": "9d9da5fb3a9e6183",
+      "date": "2027-04-10",
+      "title": "THE SLOW SHOW (UK)",
+      "place": "Club Manufaktur",
+      "genre": "Konzerte",
+      "time": "20:30",
+      "url": "https://www.club-manufaktur.de/event/the-slow-show-uk/",
+      "details": "Die britische Band The Slow Show schlägt ein neues Kapitel auf: Mit „Call It All“ kündigt die Band ihr mittlerweile sechstes Studioalbum an. Gleichzeitig zeigt sie sich musikalisch so vielseitig und mutig wie nie zuvor.",
       "end": null
     },
     {
@@ -2221,17 +3156,6 @@
       "time": "20:30",
       "url": "https://www.club-manufaktur.de/event/dekker-usa-2/",
       "details": "Dekker ist das Soloprojekt des amerikanischen Songwriters Brookln Dekker, der heute im britischen Nottingham lebt.",
-      "end": null
-    },
-    {
-      "id": "4573c50bcc07b2dd",
-      "date": "2027-12-04",
-      "title": "CLAUDIA PICHLER – Kopfnuss und Konterbier – Kabarett aus Bayern",
-      "place": "Club Manufaktur",
-      "genre": "Bühne",
-      "time": "20:00",
-      "url": "https://www.club-manufaktur.de/event/claudia-pichler-kopfnuss-und-konterbier-kabarett-aus-bayern/",
-      "details": "Claudia Pichler ist ein Unikum: Die Münchnerin wirkt auf den ersten Blick so sanft und charmant wie ein Frühlingsmorgen, seziert in feiner Sprache mit bairischem Einschlag allzu menschliche Abgründe und beherrscht dabei …",
       "end": null
     }
   ],
@@ -2407,9 +3331,9 @@
     {
       "name": "Kultur in Ulm",
       "url": "https://www.kultur-in-ulm.de/",
-      "state": "needs_parser",
-      "count": 0,
-      "note": "Seite erreichbar, aber keine zuverlässig erkannten zukünftigen Termine"
+      "state": "ok",
+      "count": 61,
+      "note": ""
     },
     {
       "name": "UlmTickets",
@@ -2417,6 +3341,41 @@
       "state": "needs_parser",
       "count": 0,
       "note": "Seite erreichbar, aber keine zuverlässig erkannten zukünftigen Termine"
+    },
+    {
+      "name": "Hemperium Ulm",
+      "url": "https://www.hemperium.de/events/",
+      "state": "ok",
+      "count": 4,
+      "note": ""
+    },
+    {
+      "name": "franz.K Reutlingen",
+      "url": "https://www.franzk.net/",
+      "state": "needs_parser",
+      "count": 0,
+      "note": "Seite erreichbar, aber keine zuverlässig erkannten zukünftigen Termine"
+    },
+    {
+      "name": "Frapé Musikkneipe",
+      "url": "https://www.facebook.com/frapemusikkneipe/events",
+      "state": "needs_parser",
+      "count": 0,
+      "note": "Seite erreichbar, aber keine zuverlässig erkannten zukünftigen Termine"
+    },
+    {
+      "name": "Rock It Aalen",
+      "url": "https://www.rockitaalen.de/events.php",
+      "state": "error",
+      "count": 0,
+      "note": "HTTPSConnectionPool(host='www.rockitaalen.de', port=443): Max retries exceeded with url: /events.php (Caused by SSLError(SSLCertVerification"
+    },
+    {
+      "name": "Kreuz Obermarchtal",
+      "url": "https://kreuz-obermarchtal.de/veranstaltungen/",
+      "state": "ok",
+      "count": 23,
+      "note": ""
     }
   ]
 }
