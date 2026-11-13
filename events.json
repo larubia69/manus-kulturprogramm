@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-12T06:18:56.696772+00:00",
+  "generatedAt": "2026-11-13T06:17:11.803719+00:00",
   "events": [
     {
-      "id": "ce6468ccfcf50c56",
-      "date": "2026-11-12",
+      "id": "3b6420856d972235",
+      "date": "2026-11-13",
       "title": "Licht unter die Haut",
       "place": "Villa Rot",
       "genre": "Kunst",
@@ -11,17 +11,6 @@
       "url": "https://villa-rot.de/programm/ausstellungen/licht-unter-die-haut/",
       "details": "Ausstellung vom 25.10.2026 bis 07.02.2027; Öffnungszeiten auf der Originalseite.",
       "end": "2027-02-07"
-    },
-    {
-      "id": "84bc1581bdd5e601",
-      "date": "2026-11-12",
-      "title": "La Juive (Die Jüdin)",
-      "place": "Theater Ulm",
-      "genre": "Bühne",
-      "time": "20:00",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/la-juive-die-juedin",
-      "details": "",
-      "end": null
     },
     {
       "id": "0c4a0e12578ce404",
@@ -1773,6 +1762,17 @@
       "end": null
     },
     {
+      "id": "43a41521fbb4a5b7",
+      "date": "2027-01-15",
+      "title": "Ball im Savoy",
+      "place": "Theater Ulm",
+      "genre": "Bühne",
+      "time": "20:00",
+      "url": "https://www.theater-ulm.de/spielplan/stuecke/ball-im-savoy",
+      "details": "",
+      "end": null
+    },
+    {
       "id": "efb3d8e90a0a9600",
       "date": "2027-01-15",
       "title": "FRIEDEMANN WEISE – Satire suchen ein Zuhause – Kabarett",
@@ -2048,6 +2048,17 @@
       "end": null
     },
     {
+      "id": "8a33ada60387c40b",
+      "date": "2027-03-20",
+      "title": "DIE STERNE (D)",
+      "place": "Club Manufaktur",
+      "genre": "Konzerte",
+      "time": "20:30",
+      "url": "https://www.club-manufaktur.de/event/die-sterne-d-3/",
+      "details": "Das neue Album „Wenn es Liebe ist“ von Die Sterne versammelt vertraute Indiepop-Momente im typischen Sterne-Sound, aber auch unerwartete Neuerfindungen.",
+      "end": null
+    },
+    {
       "id": "352b0a378a64889e",
       "date": "2027-03-25",
       "title": "DESPERATE JOURNALIST (UK)",
@@ -2257,7 +2268,7 @@
       "name": "Club Manufaktur",
       "url": "https://www.club-manufaktur.de/kategorie/alle-events/",
       "state": "ok",
-      "count": 33,
+      "count": 34,
       "note": ""
     },
     {
