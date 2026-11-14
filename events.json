@@ -1,336 +1,6 @@
 {
-  "generatedAt": "2026-11-13T13:27:21.134439+00:00",
+  "generatedAt": "2026-11-14T06:04:15.793476+00:00",
   "events": [
-    {
-      "id": "3b6420856d972235",
-      "date": "2026-11-13",
-      "title": "Licht unter die Haut",
-      "place": "Villa Rot",
-      "genre": "Kunst",
-      "time": "",
-      "url": "https://villa-rot.de/programm/ausstellungen/licht-unter-die-haut/",
-      "details": "Ausstellung vom 25.10.2026 bis 07.02.2027; Öffnungszeiten auf der Originalseite.",
-      "end": "2027-02-07"
-    },
-    {
-      "id": "760977619952c563",
-      "date": "2026-11-13",
-      "title": "TANZEN BITTE! Schlager | Discofox",
-      "place": "Kreuz Obermarchtal",
-      "genre": "Club",
-      "time": "",
-      "url": "https://kreuz-obermarchtal.de/mehr-infos/tanzen-bitte-schlager-discofox-13-11-2026/",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "386d2c7e2cd6d4b6",
-      "date": "2026-11-13",
-      "title": "Zwischen Berlin und Tbilissi. Junge Fotograf*innen schauen auf ihre Welt",
-      "place": "Stadthaus Ulm",
-      "genre": "Konzerte",
-      "time": "10:00",
-      "url": "https://www.kultur-in-ulm.de/events/",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "3070b4703f2cd656",
-      "date": "2026-11-13",
-      "title": "Ausstellung \"Hochschule für Gestaltung Ulm. Von der Stunde Null bis 1968\"",
-      "place": "HfG-Archiv Ulm",
-      "genre": "Kunst",
-      "time": "11:00",
-      "url": "https://www.kultur-in-ulm.de/events/",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "cb067f03f5672258",
-      "date": "2026-11-13",
-      "title": "Die Einsteins - Museum einer Ulmer Familie",
-      "place": "Museum „Die Einsteins“",
-      "genre": "Konzerte",
-      "time": "11:00",
-      "url": "https://www.kultur-in-ulm.de/events/",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "4d1cbb7ead7c91c2",
-      "date": "2026-11-13",
-      "title": "Neue Ausstellung „Vom Logo zur Identität: Visuelle Erscheinungsbilder der Bundesrepublik“",
-      "place": "HfG-Archiv Ulm",
-      "genre": "Kunst",
-      "time": "11:00",
-      "url": "https://www.kultur-in-ulm.de/events/",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "8229956bd3dba2bd",
-      "date": "2026-11-13",
-      "title": "Stadtgeschichtliche Dauerausstellung",
-      "place": "Haus der Stadtgeschichte / Stadtarchiv Ulm",
-      "genre": "Kunst",
-      "time": "11:00",
-      "url": "https://www.kultur-in-ulm.de/events/",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "fac300faf45edb83",
-      "date": "2026-11-13",
-      "title": "Facettenreich",
-      "place": "Business Center Ulm GmbH & Co. KG",
-      "genre": "Konzerte",
-      "time": "13:00",
-      "url": "https://www.kultur-in-ulm.de/events/",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "223ab03871a06045",
-      "date": "2026-11-13",
-      "title": "Siegfried Kreitner",
-      "place": "Galerie Tobias Schrade",
-      "genre": "Konzerte",
-      "time": "13:00",
-      "url": "https://www.kultur-in-ulm.de/events/",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "f802461a0d6fb897",
-      "date": "2026-11-13",
-      "title": "40 Jahre Bananensprayer",
-      "place": "Galerie am Saumarkt, Ulm",
-      "genre": "Konzerte",
-      "time": "14:00",
-      "url": "https://www.kultur-in-ulm.de/events/",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "4668b071067c9b7b",
-      "date": "2026-11-13",
-      "title": "Mobilität im Wandel",
-      "place": "m25",
-      "genre": "Konzerte",
-      "time": "14:00",
-      "url": "https://www.kultur-in-ulm.de/events/",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "50ed940e37d45027",
-      "date": "2026-11-13",
-      "title": "Norbert Klaus: Von Chaos und Ordnung",
-      "place": "Galerie im Kornhauskeller",
-      "genre": "Konzerte",
-      "time": "14:00",
-      "url": "https://www.kultur-in-ulm.de/events/",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "e38d8b5d4916d2e8",
-      "date": "2026-11-13",
-      "title": "Traces in a Sandbox — Julius Bobke / Wolfgang Günther",
-      "place": "Kunstverein Ulm",
-      "genre": "Konzerte",
-      "time": "14:00",
-      "url": "https://www.kultur-in-ulm.de/events/",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "5f0de7d43c41fe52",
-      "date": "2026-11-13",
-      "title": "Otl Aicher, Erscheinungsbilder",
-      "place": "HfG-Archiv Ulm",
-      "genre": "Konzerte",
-      "time": "15:00",
-      "url": "https://www.kultur-in-ulm.de/events/",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "d73f6ceb978aea78",
-      "date": "2026-11-13",
-      "title": "„Kiste auf“ im HfG-Archiv – neue Spezialführung",
-      "place": "HfG-Archiv Ulm",
-      "genre": "Konzerte",
-      "time": "15:00",
-      "url": "https://www.kultur-in-ulm.de/events/",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "0c4a0e12578ce404",
-      "date": "2026-11-13",
-      "title": "Juden und Christen in Ulm",
-      "place": "Theater Ulm",
-      "genre": "Bühne",
-      "time": "16:00",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/juden-und-christen-in-ulm",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "9fb06093ee877c22",
-      "date": "2026-11-13",
-      "title": "Linie - Struktur - Natur",
-      "place": "Galerie auf der Insel",
-      "genre": "Konzerte",
-      "time": "16:00",
-      "url": "https://www.kultur-in-ulm.de/events/",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "db64df0748664ee6",
-      "date": "2026-11-13",
-      "title": "Teatro Offener Treff",
-      "place": "Bürgerhaus Mitte",
-      "genre": "Konzerte",
-      "time": "17:30",
-      "url": "https://www.kultur-in-ulm.de/events/",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "4b1a1ccf4ae90425",
-      "date": "2026-11-13",
-      "title": "Vernissage \"Louise Stomps. Konturen des Inneren\"",
-      "place": "Edwin Scharff Museum",
-      "genre": "Kunst",
-      "time": "18:30",
-      "url": "https://www.kultur-in-ulm.de/events/",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "e011cd02be6d96b4",
-      "date": "2026-11-13",
-      "title": "Barhopping für Singles in Ulm seit 2013",
-      "place": "Innenstadt Ulm",
-      "genre": "Konzerte",
-      "time": "19:00",
-      "url": "https://www.kultur-in-ulm.de/events/",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "7a5ecc90fa8e1c45",
-      "date": "2026-11-13",
-      "title": "Bhakti Wochenende",
-      "place": "Sri Neem Karoli Baba Mandir",
-      "genre": "Konzerte",
-      "time": "19:00",
-      "url": "https://www.kultur-in-ulm.de/events/",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "3daf6d3db1821879",
-      "date": "2026-11-13",
-      "title": "Hach, bin ich wieder ein Schelm",
-      "place": "Theater Neu-Ulm",
-      "genre": "Konzerte",
-      "time": "19:00",
-      "url": "https://www.kultur-in-ulm.de/events/",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "fb71b4b8f215d13a",
-      "date": "2026-11-13",
-      "title": "Omi Alarm",
-      "place": "Theaterei Herrlingen",
-      "genre": "Konzerte",
-      "time": "19:00",
-      "url": "https://www.kultur-in-ulm.de/events/",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "67bc4ea81734c266",
-      "date": "2026-11-13",
-      "title": "TANZEN BITTE! Schlager | Discofox – 13.11.2026",
-      "place": "Kreuz Obermarchtal",
-      "genre": "Club",
-      "time": "19:00",
-      "url": "https://kreuz-obermarchtal.de/mehr-infos/tanzen-bitte-schlager-discofox-13-11-2026/",
-      "details": "​DIE Party-Reihe im KREUZ: Jeden zweiten Freitag und vierten Samstag im Monat",
-      "end": null
-    },
-    {
-      "id": "5754414f7118bc3b",
-      "date": "2026-11-13",
-      "title": "Ball im Savoy",
-      "place": "Theater Ulm",
-      "genre": "Bühne",
-      "time": "19:30",
-      "url": "https://www.kultur-in-ulm.de/events/",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "04417506c218312c",
-      "date": "2026-11-13",
-      "title": "Wahnsinn - Die Show 2026",
-      "place": "ratiopharm arena",
-      "genre": "Konzerte",
-      "time": "19:30",
-      "url": "https://www.kultur-in-ulm.de/events/",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "9f1b354b873be4a8",
-      "date": "2026-11-13",
-      "title": "Wer kann der darf!",
-      "place": "Zum fröhlichen Nix - Kleinkunst-Cafe",
-      "genre": "Konzerte",
-      "time": "19:30",
-      "url": "https://www.kultur-in-ulm.de/events/",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "e46149ed7f872c25",
-      "date": "2026-11-13",
-      "title": "7 Years Bad Luck, Morgan Pines, Soapbox Radio + Captain Asshole im Club Schilli, Ulm",
-      "place": "Club Schilli",
-      "genre": "Konzerte",
-      "time": "20:00",
-      "url": "https://www.kultur-in-ulm.de/events/",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "4f6a72ed27d8cbb3",
-      "date": "2026-11-13",
-      "title": "Caligula",
-      "place": "theaterWerkstatt Ulm e.V.",
-      "genre": "Konzerte",
-      "time": "20:00",
-      "url": "https://www.kultur-in-ulm.de/events/",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "01a44b8b85936edf",
-      "date": "2026-11-13",
-      "title": "El Flecha Negra",
-      "place": "ROXY Ulm",
-      "genre": "Konzerte",
-      "time": "20:00",
-      "url": "https://www.kultur-in-ulm.de/events/",
-      "details": "",
-      "end": null
-    },
     {
       "id": "6bb44ed85f188853",
       "date": "2026-11-13",
@@ -343,103 +13,15 @@
       "end": null
     },
     {
-      "id": "8b89aeb1e077257c",
-      "date": "2026-11-13",
-      "title": "Heiteres mit Musik - \"g'zupft, g'songa ond g'lesa",
-      "place": "Museum Ulm",
-      "genre": "Konzerte",
-      "time": "20:00",
-      "url": "https://www.kultur-in-ulm.de/events/",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "36ffd14a3a434e8a",
-      "date": "2026-11-13",
-      "title": "Jan Klare KIND",
-      "place": "Jazzkeller Sauschdall",
-      "genre": "Konzerte",
-      "time": "20:00",
-      "url": "https://www.kultur-in-ulm.de/events/",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "8115e6937db39672",
-      "date": "2026-11-13",
-      "title": "Steffen Möller",
-      "place": "Stadthaus Ulm",
-      "genre": "Konzerte",
-      "time": "20:00",
-      "url": "https://www.kultur-in-ulm.de/events/",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "119e7726a51c63c0",
-      "date": "2026-11-13",
-      "title": "dIRE sTRATS - Dire Straits-Tribute-Band",
-      "place": "Kulturzentrum Wolfgang-Eychmüller-Haus",
-      "genre": "Konzerte",
-      "time": "20:00",
-      "url": "https://www.kultur-in-ulm.de/events/",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "f54a1ed1f683eb84",
-      "date": "2026-11-13",
-      "title": "LITTLE BARRIE (UK) – Support: 250cc",
-      "place": "Club Manufaktur",
-      "genre": "Konzerte",
-      "time": "20:30",
-      "url": "https://www.club-manufaktur.de/event/little-barrie-uk/",
-      "details": "Wer zunächst mit dem Bandnamen nichts anfangen kann, kennt Little Barrie sicherlich durch den prägnanten Titelsong zur Serie „Better Call Saul“, der ihren charakteristischen Sound eindrucksvoll auf den Punkt bringt.",
-      "end": null
-    },
-    {
-      "id": "6e6b50d74429122e",
-      "date": "2026-11-13",
-      "title": "FREE LIVE CONCERT: THE BLUES MOTHERS + ROGER & THE TINWHISTLES",
-      "place": "Studentencafé",
-      "genre": "Konzerte",
-      "time": "21:00",
-      "url": "https://www.kultur-in-ulm.de/events/",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "a2a3bd0312df4a6d",
-      "date": "2026-11-13",
-      "title": "Flashback 2010er Party",
-      "place": "Cocomo Club Ulm",
-      "genre": "Club",
-      "time": "21:00",
-      "url": "https://www.kultur-in-ulm.de/events/",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "ceb4a9e86fc49d81",
-      "date": "2026-11-13",
-      "title": "The Blues Mothers LIVE",
-      "place": "Studentencafé",
-      "genre": "Konzerte",
-      "time": "21:00",
-      "url": "https://www.kultur-in-ulm.de/events/",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "833d032016479989",
-      "date": "2026-11-13",
-      "title": "Habibiparty",
-      "place": "Cabaret Eden",
-      "genre": "Club",
-      "time": "22:00",
-      "url": "https://www.kultur-in-ulm.de/events/",
-      "details": "",
-      "end": null
+      "id": "7875c849398bbf34",
+      "date": "2026-11-14",
+      "title": "Licht unter die Haut",
+      "place": "Villa Rot",
+      "genre": "Kunst",
+      "time": "",
+      "url": "https://villa-rot.de/programm/ausstellungen/licht-unter-die-haut/",
+      "details": "Ausstellung vom 25.10.2026 bis 07.02.2027; Öffnungszeiten auf der Originalseite.",
+      "end": "2027-02-07"
     },
     {
       "id": "b9b8154e423f4c8e",
@@ -794,13 +376,233 @@
       "end": null
     },
     {
+      "id": "fc486cb402268700",
+      "date": "2026-11-15",
+      "title": "Bhakti Wochenende",
+      "place": "Sri Neem Karoli Baba Mandir",
+      "genre": "Konzerte",
+      "time": "10:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "5de752c0556225c6",
+      "date": "2026-11-15",
+      "title": "Louise Stomps. Konturen des Inneren",
+      "place": "Edwin Scharff Museum",
+      "genre": "Konzerte",
+      "time": "10:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
       "id": "7a0b0b23edc8a183",
       "date": "2026-11-15",
       "title": "2. Kammerkonzert 2026",
       "place": "Theater Ulm",
       "genre": "Bühne",
       "time": "11:00",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/2-kammerkonzert-2026",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "452ac3ff758d707c",
+      "date": "2026-11-15",
+      "title": "Ausstellung \"Hochschule für Gestaltung Ulm. Von der Stunde Null bis 1968\"",
+      "place": "HfG-Archiv Ulm",
+      "genre": "Kunst",
+      "time": "11:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "885181edec693212",
+      "date": "2026-11-15",
+      "title": "Die Einsteins - Museum einer Ulmer Familie",
+      "place": "Museum „Die Einsteins“",
+      "genre": "Konzerte",
+      "time": "11:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "da5bf1f7c827a471",
+      "date": "2026-11-15",
+      "title": "Neue Ausstellung „Vom Logo zur Identität: Visuelle Erscheinungsbilder der Bundesrepublik“",
+      "place": "HfG-Archiv Ulm",
+      "genre": "Kunst",
+      "time": "11:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "27d2d2202e5c332d",
+      "date": "2026-11-15",
+      "title": "Stadtgeschichtliche Dauerausstellung",
+      "place": "Haus der Stadtgeschichte / Stadtarchiv Ulm",
+      "genre": "Kunst",
+      "time": "11:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "92fdbb5730d915d0",
+      "date": "2026-11-15",
+      "title": "Traces in a Sandbox — Julius Bobke / Wolfgang Günther",
+      "place": "Kunstverein Ulm",
+      "genre": "Konzerte",
+      "time": "11:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "44ccd7f679eb702c",
+      "date": "2026-11-15",
+      "title": "Zwischen Berlin und Tbilissi. Junge Fotograf*innen schauen auf ihre Welt",
+      "place": "Stadthaus Ulm",
+      "genre": "Konzerte",
+      "time": "11:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "908244c8e7cbde21",
+      "date": "2026-11-15",
+      "title": "Stift & Kunst",
+      "place": "Museum Brot und Kunst",
+      "genre": "Kunst",
+      "time": "13:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "e030db1f696ffe9f",
+      "date": "2026-11-15",
+      "title": "Mobilität im Wandel",
+      "place": "m25",
+      "genre": "Konzerte",
+      "time": "14:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "618d8be26ef4376e",
+      "date": "2026-11-15",
+      "title": "Märchen und Schatzsuche",
+      "place": "Stadthaus Ulm",
+      "genre": "Konzerte",
+      "time": "14:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "001987f0a39bb393",
+      "date": "2026-11-15",
+      "title": "Das Grüffelokind",
+      "place": "Altes Theater Ulm",
+      "genre": "Konzerte",
+      "time": "15:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "b9a38efbbaacf3fc",
+      "date": "2026-11-15",
+      "title": "Gerda gackert für Gerechtigkeit",
+      "place": "Theater Mücke",
+      "genre": "Konzerte",
+      "time": "15:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "b925dadc0e44bfd9",
+      "date": "2026-11-15",
+      "title": "VER-BLENDUNG",
+      "place": "Basilika St. Martin in Ulm Wiblingen",
+      "genre": "Konzerte",
+      "time": "15:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "2073695fb5e02c3b",
+      "date": "2026-11-15",
+      "title": "Hach, bin ich wieder ein Schelm",
+      "place": "Theater Neu-Ulm",
+      "genre": "Konzerte",
+      "time": "16:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "c0bd88c0b4739442",
+      "date": "2026-11-15",
+      "title": "Linie - Struktur - Natur",
+      "place": "Galerie auf der Insel",
+      "genre": "Konzerte",
+      "time": "16:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "8dc086bea1cc1866",
+      "date": "2026-11-15",
+      "title": "Omi Alarm",
+      "place": "Theaterei Herrlingen",
+      "genre": "Konzerte",
+      "time": "17:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "a0ddae96671d4088",
+      "date": "2026-11-15",
+      "title": "Ulmer Kantorei und Konstantin Krimmel: Brahms Requiem",
+      "place": "Ev. Pauluskirche",
+      "genre": "Konzerte",
+      "time": "17:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "dde5ba34774ed05f",
+      "date": "2026-11-15",
+      "title": "VERDI - REQUIEM",
+      "place": "Petruskirche",
+      "genre": "Konzerte",
+      "time": "17:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "86fbcf7f2538ff95",
+      "date": "2026-11-15",
+      "title": "Hagen Rether",
+      "place": "ROXY Ulm",
+      "genre": "Konzerte",
+      "time": "18:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
       "details": "",
       "end": null
     },
@@ -812,6 +614,28 @@
       "genre": "Bühne",
       "time": "18:00",
       "url": "https://www.roxy.ulm.de/programm/programm.php?m=11&j=2026&vid=5498",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "c9f84ede937a54c3",
+      "date": "2026-11-15",
+      "title": "Herbstkonzert des Orchestervereins Ulm/Neu-Ulm",
+      "place": "Kornhaus",
+      "genre": "Konzerte",
+      "time": "18:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "9ff5d2debd537823",
+      "date": "2026-11-15",
+      "title": "Silent Book Club in der Stadtteilbibliothek Böfingen",
+      "place": "Stadtteilbibliothek Böfingen",
+      "genre": "Konzerte",
+      "time": "18:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
       "details": "",
       "end": null
     },
@@ -833,7 +657,29 @@
       "place": "Theater Ulm",
       "genre": "Bühne",
       "time": "19:00",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/ball-im-savoy",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "417864deeec4d3c4",
+      "date": "2026-11-15",
+      "title": "SCHUKRAFTS WUNDERTÜTE",
+      "place": "Gasthaus zum Lamm",
+      "genre": "Konzerte",
+      "time": "19:30",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "e56f1358daff9623",
+      "date": "2026-11-15",
+      "title": "Union Duke",
+      "place": "Fiddler’s Green Irish Pub",
+      "genre": "Konzerte",
+      "time": "19:30",
+      "url": "https://www.kultur-in-ulm.de/events/",
       "details": "",
       "end": null
     },
@@ -2697,6 +2543,28 @@
       "end": null
     },
     {
+      "id": "74aa157661a8f383",
+      "date": "2027-01-16",
+      "title": "Così fan tutte",
+      "place": "Theater Ulm",
+      "genre": "Bühne",
+      "time": "19:00",
+      "url": "https://www.theater-ulm.de/spielplan/stuecke/cosi-fan-tutte",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "b1dd339192aa1d70",
+      "date": "2027-01-16",
+      "title": "Die Ehebrecherinnen",
+      "place": "Theater Ulm",
+      "genre": "Bühne",
+      "time": "19:30",
+      "url": "https://www.theater-ulm.de/spielplan/stuecke/die-ehebrecherinnen",
+      "details": "",
+      "end": null
+    },
+    {
       "id": "042b701071270531",
       "date": "2027-01-16",
       "title": "Poetry Slam — Moderiert von Ko Bylanzky Große Worte auf der großen Bühne",
@@ -3027,6 +2895,28 @@
       "end": null
     },
     {
+      "id": "15211d3d1046d55e",
+      "date": "2027-04-10",
+      "title": "THE POLICY",
+      "place": "Kreuz Obermarchtal",
+      "genre": "Konzerte",
+      "time": "",
+      "url": "https://kreuz-obermarchtal.de/mehr-infos/the-policy-10-04-2027/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "68b7eacd275cdfe1",
+      "date": "2027-04-10",
+      "title": "THE POLICY – 10.04.2027",
+      "place": "Kreuz Obermarchtal",
+      "genre": "Konzerte",
+      "time": "19:00",
+      "url": "https://kreuz-obermarchtal.de/mehr-infos/the-policy-10-04-2027/",
+      "details": "A Tribute to The Police & Sting",
+      "end": null
+    },
+    {
       "id": "9d9da5fb3a9e6183",
       "date": "2027-04-10",
       "title": "THE SLOW SHOW (UK)",
@@ -3157,6 +3047,17 @@
       "url": "https://www.club-manufaktur.de/event/dekker-usa-2/",
       "details": "Dekker ist das Soloprojekt des amerikanischen Songwriters Brookln Dekker, der heute im britischen Nottingham lebt.",
       "end": null
+    },
+    {
+      "id": "4573c50bcc07b2dd",
+      "date": "2027-12-04",
+      "title": "CLAUDIA PICHLER – Kopfnuss und Konterbier – Kabarett aus Bayern",
+      "place": "Club Manufaktur",
+      "genre": "Bühne",
+      "time": "20:00",
+      "url": "https://www.club-manufaktur.de/event/claudia-pichler-kopfnuss-und-konterbier-kabarett-aus-bayern/",
+      "details": "Claudia Pichler ist ein Unikum: Die Münchnerin wirkt auf den ersten Blick so sanft und charmant wie ein Frühlingsmorgen, seziert in feiner Sprache mit bairischem Einschlag allzu menschliche Abgründe und beherrscht dabei …",
+      "end": null
     }
   ],
   "sources": [
@@ -3240,9 +3141,9 @@
     {
       "name": "Was geht?",
       "url": "https://www.wasgehtapp.de/index.php?radius=20&select_ort=1&ort=Ulm&x=9.98489&y=48.3917&region=01",
-      "state": "needs_parser",
+      "state": "error",
       "count": 0,
-      "note": "Seite erreichbar, aber keine zuverlässig erkannten zukünftigen Termine"
+      "note": "403 Client Error: Forbidden for url: https://www.wasgehtapp.de/index.php?radius=20&select_ort=1&ort=Ulm&x=9.98489&y=48.3917&region=01"
     },
     {
       "name": "GOLD",
@@ -3332,7 +3233,7 @@
       "name": "Kultur in Ulm",
       "url": "https://www.kultur-in-ulm.de/",
       "state": "ok",
-      "count": 61,
+      "count": 53,
       "note": ""
     },
     {
