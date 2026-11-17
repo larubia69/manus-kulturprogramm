@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T19:26:45.664197+00:00",
+  "generatedAt": "2026-11-17T20:08:35.259489+00:00",
   "events": [
     {
       "id": "e072d6ebf82d4411",
@@ -2059,6 +2059,28 @@
       "end": null
     },
     {
+      "id": "32d673b212a600a6",
+      "date": "2027-01-09",
+      "title": "Nachtumzug | Party mit DJ Markus",
+      "place": "Kreuz Obermarchtal",
+      "genre": "Club",
+      "time": "",
+      "url": "https://kreuz-obermarchtal.de/mehr-infos/nachtumzug-party-mit-dj-markus-09-01-2027/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "e151c2c790a97f3c",
+      "date": "2027-01-09",
+      "title": "Nachtumzug | Party mit DJ Markus – 09.01.2027",
+      "place": "Kreuz Obermarchtal",
+      "genre": "Club",
+      "time": "21:00",
+      "url": "https://kreuz-obermarchtal.de/mehr-infos/nachtumzug-party-mit-dj-markus-09-01-2027/",
+      "details": "Party mit DJ Markus nach dem Nachtumzug am 9. Januar 2027 ab 21 Uhr.",
+      "end": null
+    },
+    {
       "id": "6381c6417eb7c5ae",
       "date": "2027-01-10",
       "title": "Matinée: Magic – die (fast) fantastischen Fünf",
@@ -2510,28 +2532,6 @@
       "end": null
     },
     {
-      "id": "6526ba853bfdbe53",
-      "date": "2027-03-27",
-      "title": "COLDHEART – A Tribute to Rock Classics",
-      "place": "Kreuz Obermarchtal",
-      "genre": "Konzerte",
-      "time": "",
-      "url": "https://kreuz-obermarchtal.de/mehr-infos/coldheart-rock-classics-live-27-03-2027/",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "8607ba3628144774",
-      "date": "2027-03-27",
-      "title": "COLDHEART – A Tribute to Rock Classics – 27.03.2027",
-      "place": "Kreuz Obermarchtal",
-      "genre": "Konzerte",
-      "time": "20:30",
-      "url": "https://kreuz-obermarchtal.de/mehr-infos/coldheart-rock-classics-live-27-03-2027/",
-      "details": "COLDHEART nimmt euch mit auf eine Zeitreise durch die goldene Ära des Rock.",
-      "end": null
-    },
-    {
       "id": "80840c86141a2f23",
       "date": "2027-04-02",
       "title": "FIONN REGAN (IRL)",
@@ -2831,9 +2831,9 @@
     {
       "name": "Veranstaltungskalender Ulm/Neu-Ulm",
       "url": "https://veranstaltungen.ulm.de/leoonline/portals/ulm/veranstaltungen/",
-      "state": "error",
+      "state": "needs_parser",
       "count": 0,
-      "note": "HTTPSConnectionPool(host='veranstaltungen.ulm.de', port=443): Read timed out. (read timeout=9)"
+      "note": "Seite erreichbar, aber keine zuverlässig erkannten zukünftigen Termine"
     },
     {
       "name": "Stadt Ulm Veranstaltungskalender",
