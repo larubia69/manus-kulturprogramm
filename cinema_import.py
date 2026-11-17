@@ -1,127 +1,112 @@
 #!/usr/bin/env python3
-"""Conservative cinema schedule importer: only Mephisto and Obscura (Ulm).
-Writes events.json and reports failure without deleting existing entries.
+"""Mephisto / Obscura importer via cinema.de.
+
+This currently imports the date explicitly printed on each cinema.de page.
+It does not claim to import the full cinema week. Keeps prior data when a
+request or parsing fails. Never imports other cinemas.
 """
 import datetime as dt
 import hashlib
 import json
 import re
 from pathlib import Path
-from urllib.parse import urljoin
 
 import requests
-from bs4 import BeautifulSoup, NavigableString, Tag
+from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parent
-URL = 'https://www.cineplex.de/ulm/programm'
-VENUES = {'mephisto': 'Mephisto Ulm', 'obscura': 'Obscura Ulm'}
-DATE = re.compile(r'\b(?:MO|DI|MI|DO|FR|SA|SO)\s+(\d{1,2})\.(\d{1,2})\.?(?:\s*(20\d\d))?\b', re.I)
-CLOCK = re.compile(r'\b(?:2D|3D|OV|OmU|DF|\S+)?\s*(\d{1,2}:\d{2})\b', re.I)
+CINEMAS = {
+    'Mephisto Ulm': 'https://www.cinema.de/kino/kinoprogramm/ulm/mephisto',
+    'Obscura Ulm': 'https://www.cinema.de/kino/kinoprogramm/ulm/obscura',
+}
+SOURCE_NAME = 'cinema.de (Mephisto & Obscura)'
+DATE = re.compile(r'\bam\s+(\d{1,2})\.(\d{1,2})\.(20\d{2})\b', re.I)
+TIME = re.compile(r'^(?:[01]?\d|2[0-3]):[0-5]\d$')
 
 
-def date_iso(day, month, year=None, today=None):
+def parse_page(html, place, url, today=None):
+    """Use the page's explicit schedule date, theater section, movie/time rows."""
     today = today or dt.date.today()
-    if year:
-        return dt.date(int(year), int(month), int(day)).isoformat()
-    candidate = dt.date(today.year, int(month), int(day))
-    if candidate < today - dt.timedelta(days=14):
-        candidate = dt.date(today.year + 1, int(month), int(day))
-    return candidate.isoformat()
-
-
-def extract(html_text, today=None):
-    today = today or dt.date.today()
-    soup = BeautifulSoup(html_text, 'html.parser')
-    for tag in soup(['script', 'style', 'noscript']):
-        tag.decompose()
-    results = []
-    seen_movies = set()
-    film_links = soup.select('a[href*="/film/"]')
-    for anchor in film_links:
-        href = urljoin(URL, anchor.get('href', ''))
-        title = ' '.join(anchor.get_text(' ', strip=True).split())
-        # The main film header appears first, its detail/trailer links may repeat.
-        if not (3 <= len(title) <= 140) or not re.search('/film/', href):
+    soup = BeautifulSoup(html, 'html.parser')
+    for el in soup(['script', 'style', 'noscript', 'nav', 'footer']):
+        el.decompose()
+    root = soup.find('main') or soup.body or soup
+    strings = [s.strip() for s in root.stripped_strings if s.strip()]
+    text = ' '.join(strings[:160])
+    m = DATE.search(text)
+    if not m:
+        raise ValueError(f'Kein eindeutiges Programm-Datum auf {url}')
+    date = dt.date(int(m[3]), int(m[2]), int(m[1]))
+    if date < today or date > today + dt.timedelta(days=21):
+        raise ValueError(f'Programm-Datum {date} liegt außerhalb des erlaubten Zeitfensters')
+    expected = 'Mephisto' if place.startswith('Mephisto') else 'Obscura'
+    # Start at the venue name *after* the timetable column headings, never
+    # the venue label in page title or the search filter.
+    heading_index = next((i for i in range(len(strings)-3)
+                          if strings[i:i+4] == ['Kino','Film','Bewertung','Uhrzeit']), None)
+    if heading_index is None:
+        raise ValueError('Kinotabelle nicht gefunden (Seitenstruktur geändert)')
+    idx = next((i for i in range(heading_index+4, len(strings))
+                if strings[i].casefold() == expected.casefold()), None)
+    if idx is None:
+        raise ValueError(f'Keine {expected}-Einträge gefunden')
+    out = []
+    title = None
+    stop_names = {'Mephisto', 'Obscura', 'Xinedome', 'Donau Film und Sterne'}
+    for token in strings[idx+1:]:
+        if token in stop_names or token in ('Filter zurücksetzen','Suchen'):
+            break
+        if TIME.fullmatch(token):
+            if title:
+                clock = token if len(token) == 5 else '0'+token
+                key = f'{date}|{clock}|{place}|{title.casefold()}'
+                out.append(dict(id=hashlib.sha256(key.encode()).hexdigest()[:16],
+                                date=date.isoformat(), time=clock, title=title,
+                                place=place, genre='Kino', url=url,
+                                details='', end=None, source='cinema.de'))
             continue
-        # Film links can appear more than once (e.g. trailer), skip duplicates by URL.
-        if href in seen_movies:
-            continue
-        seen_movies.add(href)
-        tokens = []
-        # Walk the document after the film link until next different film's link.
-        # This avoids attaching screenings from neighbouring film cards.
-        for node in anchor.next_elements:
-            if isinstance(node, Tag) and node.name == 'a' and '/film/' in node.get('href', ''):
-                nxt = urljoin(URL, node.get('href', ''))
-                if nxt != href:
-                    break
-            if isinstance(node, NavigableString):
-                token = ' '.join(str(node).split())
-                if token:
-                    tokens.append(token)
-            if len(tokens) > 180:
-                break
-        curr_date = None
-        curr_venue = None
-        for token in tokens:
-            m = DATE.search(token)
-            if m:
-                try:
-                    curr_date = date_iso(m[1], m[2], m[3], today)
-                except ValueError:
-                    curr_date = None
-                curr_venue = None
-                continue
-            # Only literal auditorium names qualify. Other Cineplex venues are excluded.
-            vmatch = re.search(r'\bKino\s*\d+\s*,\s*(Mephisto|Obscura)\s+Ulm\b', token, re.I)
-            if vmatch:
-                curr_venue = VENUES[vmatch[1].lower()]
-                continue
-            if curr_date and curr_venue:
-                tm = CLOCK.search(token)
-                if not tm:
-                    continue
-                time = tm[1]
-                if not re.fullmatch(r'(?:[01]\d|2[0-3]):[0-5]\d', time):
-                    continue
-                if dt.date.fromisoformat(curr_date) < today - dt.timedelta(days=1):
-                    continue
-                key = '|'.join([curr_date, time, curr_venue, title.casefold()])
-                results.append(dict(
-                    id=hashlib.sha256(key.encode()).hexdigest()[:16],
-                    date=curr_date, time=time, title=title, place=curr_venue,
-                    genre='Kino', url=href, details='', end=None,
-                    source='Cineplex Ulm',
-                ))
-                curr_venue = None
-    return list({(x['date'], x['time'], x['place'], x['title']): x for x in results}.values())
+        # A movie title usually precedes one or more times. Ignore purely
+        # decorative fields, and do not silently guess if no film is present.
+        if token and not token.isdigit() and len(token) < 200:
+            title = token
+    return list({(x['date'], x['time'], x['place'], x['title']): x for x in out}.values())
 
 
 def run():
     path = ROOT / 'events.json'
     data = json.loads(path.read_text(encoding='utf-8'))
-    try:
-        resp = requests.get(URL, headers={'User-Agent': 'Mozilla/5.0 (compatible; ManusKulturprogramm/1.0)'}, timeout=20)
-        resp.raise_for_status()
-        movies = extract(resp.text)
-        if not movies:
-            raise ValueError('Keine vollständigen Kinovorstellungen erkannt; vorhandene Termine bleiben erhalten')
-        # Remove old cinema results only after receiving a valid new programme.
-        before = data.get('events', [])
-        data['events'] = [e for e in before if not (e.get('genre') == 'Kino' and e.get('place') in VENUES.values())] + movies
-        sources = [x for x in data.get('sources', []) if x.get('name') != 'Cineplex Ulm (Mephisto & Obscura)']
-        sources.append({'name': 'Cineplex Ulm (Mephisto & Obscura)', 'url': URL, 'state': 'ok', 'count': len(movies)})
-        data['sources'] = sources
-        path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding='utf-8')
-        print(f'Cineplex: {len(movies)} Vorstellungen in Mephisto/Obscura importiert')
-    except Exception as exc:
-        sources = [x for x in data.get('sources', []) if x.get('name') != 'Cineplex Ulm (Mephisto & Obscura)']
-        sources.append({'name': 'Cineplex Ulm (Mephisto & Obscura)', 'url': URL,
-                        'state': 'error', 'count': 0, 'note': str(exc)[:200]})
-        data['sources'] = sources
-        path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding='utf-8')
-        print(f'Cineplex-Import nicht bestätigt: {exc}')
-
+    collected = []
+    errors = []
+    today = dt.date.today()
+    for place, url in CINEMAS.items():
+        try:
+            resp = requests.get(url, timeout=18, headers={
+                'User-Agent':'Mozilla/5.0 (compatible; ManusKulturprogramm/1.0)'})
+            resp.raise_for_status()
+            events = parse_page(resp.text, place, url, today)
+            if not events:
+                raise ValueError('Keine Filmzeiten erkannt')
+            collected += events
+            print(f'{place}: {len(events)} Vorstellungen am {events[0]["date"]}')
+        except Exception as e:
+            errors.append(f'{place}: {type(e).__name__}: {e}')
+            print('Kinoquelle fehlgeschlagen:', errors[-1])
+    existing = data.get('events', [])
+    # Update only cinema dates/places actually retrieved; retain other venues
+    # and do not delete anything if both sites fail.
+    replaced = {(e['place'], e['date']) for e in collected}
+    data['events'] = [e for e in existing if (e.get('place'), e.get('date')) not in replaced] + collected
+    # Do not keep expired cinema screenings in current data.
+    data['events'] = [e for e in data['events'] if e.get('genre') != 'Kino' or
+                      (e.get('date') or '') >= today.isoformat()]
+    previous = data.get('sources', [])
+    old_names = {SOURCE_NAME, 'Cineplex Ulm (Mephisto & Obscura)'}
+    data['sources'] = [x for x in previous if x.get('name') not in old_names] + [{
+        'name':SOURCE_NAME, 'url':'https://www.cinema.de/kino/kinoprogramm/ulm',
+        'state':'ok' if collected and not errors else ('partial' if collected else 'error'),
+        'count':len(collected), 'note':'; '.join(errors)[:400]}]
+    path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding='utf-8')
+    print(f'Kinoimport cinema.de: {len(collected)} Vorstellungen, {len(errors)} Abruffehler')
 
 if __name__ == '__main__':
     run()
