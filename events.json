@@ -1,193 +1,6 @@
 {
-  "generatedAt": "2026-11-25T06:16:43.956404+00:00",
+  "generatedAt": "2026-11-26T15:24:58.073118+00:00",
   "events": [
-    {
-      "id": "ba8df1e9e20a25f6",
-      "date": "2026-11-25",
-      "title": "Licht unter die Haut",
-      "place": "Villa Rot",
-      "genre": "Kunst",
-      "time": "",
-      "url": "https://villa-rot.de/programm/ausstellungen/licht-unter-die-haut/",
-      "details": "Ausstellung vom 25.10.2026 bis 07.02.2027; Öffnungszeiten auf der Originalseite.",
-      "end": "2027-02-07"
-    },
-    {
-      "id": "d347297594306b01",
-      "date": "2026-11-25",
-      "title": "GRÜN kann ab und zu auch sehr skurril sein",
-      "place": "MSZU - Müller Schießzentrum Ulm",
-      "genre": "Konzerte",
-      "time": "10:00",
-      "url": "https://www.kultur-in-ulm.de/events/",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "5c8b175fe89b0d88",
-      "date": "2026-11-25",
-      "title": "Zwischen Berlin und Tbilissi. Junge Fotograf*innen schauen auf ihre Welt",
-      "place": "Stadthaus Ulm",
-      "genre": "Konzerte",
-      "time": "10:00",
-      "url": "https://www.kultur-in-ulm.de/events/",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "f375e7776b4841c1",
-      "date": "2026-11-25",
-      "title": "Ausstellung \"Hochschule für Gestaltung Ulm. Von der Stunde Null bis 1968\"",
-      "place": "HfG-Archiv Ulm",
-      "genre": "Kunst",
-      "time": "11:00",
-      "url": "https://www.kultur-in-ulm.de/events/",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "999cacce8dd8bb02",
-      "date": "2026-11-25",
-      "title": "Die Einsteins - Museum einer Ulmer Familie",
-      "place": "Museum „Die Einsteins“",
-      "genre": "Konzerte",
-      "time": "11:00",
-      "url": "https://www.kultur-in-ulm.de/events/",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "8dac1fafe8a69dda",
-      "date": "2026-11-25",
-      "title": "Neue Ausstellung „Vom Logo zur Identität: Visuelle Erscheinungsbilder der Bundesrepublik“",
-      "place": "HfG-Archiv Ulm",
-      "genre": "Kunst",
-      "time": "11:00",
-      "url": "https://www.kultur-in-ulm.de/events/",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "f0e7af8dab7d30c2",
-      "date": "2026-11-25",
-      "title": "Stadtgeschichtliche Dauerausstellung",
-      "place": "Haus der Stadtgeschichte / Stadtarchiv Ulm",
-      "genre": "Kunst",
-      "time": "11:00",
-      "url": "https://www.kultur-in-ulm.de/events/",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "bf5e8202e4b37ec5",
-      "date": "2026-11-25",
-      "title": "Louise Stomps. Konturen des Inneren",
-      "place": "Edwin Scharff Museum",
-      "genre": "Konzerte",
-      "time": "13:00",
-      "url": "https://www.kultur-in-ulm.de/events/",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "7b70aa14f0d587b2",
-      "date": "2026-11-25",
-      "title": "40 Jahre Bananensprayer",
-      "place": "Galerie am Saumarkt, Ulm",
-      "genre": "Konzerte",
-      "time": "14:00",
-      "url": "https://www.kultur-in-ulm.de/events/",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "2d84ec0f5a704a47",
-      "date": "2026-11-25",
-      "title": "Mobilität im Wandel",
-      "place": "m25",
-      "genre": "Konzerte",
-      "time": "14:00",
-      "url": "https://www.kultur-in-ulm.de/events/",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "62e2f26c16a4a625",
-      "date": "2026-11-25",
-      "title": "Die Jurte auf dem Weihnachtsmarkt",
-      "place": "Jurte auf dem Ulmer Weihnachtsmarkt",
-      "genre": "Konzerte",
-      "time": "16:30",
-      "url": "https://www.kultur-in-ulm.de/events/",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "d61972587f77649a",
-      "date": "2026-11-25",
-      "title": "Heimsuchung",
-      "place": "Altes Theater Ulm",
-      "genre": "Konzerte",
-      "time": "19:00",
-      "url": "https://www.kultur-in-ulm.de/events/",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "e4a34a6bbbc20e22",
-      "date": "2026-11-25",
-      "title": "Virtuoso!",
-      "place": "Musikschule der Stadt Ulm",
-      "genre": "Konzerte",
-      "time": "19:00",
-      "url": "https://www.kultur-in-ulm.de/events/",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "2eb43669ef314f83",
-      "date": "2026-11-25",
-      "title": "Brian Chartrand Trio",
-      "place": "Fiddler’s Green Irish Pub",
-      "genre": "Konzerte",
-      "time": "19:30",
-      "url": "https://www.kultur-in-ulm.de/events/",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "799a9046c33a801b",
-      "date": "2026-11-25",
-      "title": "Stehaufmädchen",
-      "place": "Theater Ulm",
-      "genre": "Bühne",
-      "time": "19:30",
-      "url": "https://www.kultur-in-ulm.de/events/",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "33d99f67df3f374f",
-      "date": "2026-11-25",
-      "title": "Sänger:innen willkommen - Ulmer Konzertchor S/A/T/B/m/w/d/LGTBQ+",
-      "place": "Kath. Pfarrheim",
-      "genre": "Konzerte",
-      "time": "19:30",
-      "url": "https://www.kultur-in-ulm.de/events/",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "68f84678ca649b54",
-      "date": "2026-11-25",
-      "title": "BOSSE",
-      "place": "ROXY Ulm",
-      "genre": "Konzerte",
-      "time": "20:00",
-      "url": "https://www.kultur-in-ulm.de/events/",
-      "details": "",
-      "end": null
-    },
     {
       "id": "7593de4e09105ab9",
       "date": "2026-11-25",
@@ -200,17 +13,6 @@
       "end": null
     },
     {
-      "id": "8a6f3239c8f6e4eb",
-      "date": "2026-11-25",
-      "title": "Wie es euch gefällt",
-      "place": "Theater Ulm",
-      "genre": "Bühne",
-      "time": "20:00",
-      "url": "https://www.kultur-in-ulm.de/events/",
-      "details": "",
-      "end": null
-    },
-    {
       "id": "5b8770ae8cfd4a98",
       "date": "2026-11-26",
       "title": "Between the Bars",
@@ -218,8 +20,19 @@
       "genre": "Konzerte",
       "time": "",
       "url": "https://dasgold.org/konzert/between-the-bars-3/",
-      "details": "26.11.2026 | | Bar",
+      "details": "26.11.2026 | Bar",
       "end": null
+    },
+    {
+      "id": "53ed86d40f844b60",
+      "date": "2026-11-26",
+      "title": "Licht unter die Haut",
+      "place": "Villa Rot",
+      "genre": "Kunst",
+      "time": "",
+      "url": "https://villa-rot.de/programm/ausstellungen/licht-unter-die-haut/",
+      "details": "Ausstellung vom 25.10.2026 bis 07.02.2027; Öffnungszeiten auf der Originalseite.",
+      "end": "2027-02-07"
     },
     {
       "id": "6d660f2f05517914",
@@ -317,17 +130,6 @@
       "genre": "Konzerte",
       "time": "13:00",
       "url": "https://www.kultur-in-ulm.de/events/",
-      "details": "",
-      "end": null
-    },
-    {
-      "id": "dc74b54e45b2439e",
-      "date": "2026-11-26",
-      "title": "Max und Moritz",
-      "place": "Theater Ulm",
-      "genre": "Bühne",
-      "time": "13:30",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/max-und-moritz",
       "details": "",
       "end": null
     },
@@ -497,14 +299,14 @@
       "end": null
     },
     {
-      "id": "8df2c3d8ef7ad9e8",
+      "id": "da666c2f435022f1",
       "date": "2026-11-27",
-      "title": "Yes, I’m Very Tired Now",
+      "title": "Yes, I’m Very Tired Now + Support: Mamari",
       "place": "GOLD",
       "genre": "Konzerte",
       "time": "",
       "url": "https://dasgold.org/konzert/yes-im-very-tired-now/",
-      "details": "27.11.2026 | | Schweiz",
+      "details": "27.11.2026 | Schweiz",
       "end": null
     },
     {
@@ -530,13 +332,233 @@
       "end": null
     },
     {
-      "id": "93416fc052ebeed8",
+      "id": "68e07e2adaa23028",
       "date": "2026-11-27",
-      "title": "RIAN — AUSVERKAUFT BLUMENDISKO TOUR 2026",
+      "title": "GRÜN kann ab und zu auch sehr skurril sein",
+      "place": "MSZU - Müller Schießzentrum Ulm",
+      "genre": "Konzerte",
+      "time": "10:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "7ca7602a77709648",
+      "date": "2026-11-27",
+      "title": "Zwischen Berlin und Tbilissi. Junge Fotograf*innen schauen auf ihre Welt",
+      "place": "Stadthaus Ulm",
+      "genre": "Konzerte",
+      "time": "10:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "9ae43bc91624ac45",
+      "date": "2026-11-27",
+      "title": "Ausstellung \"Hochschule für Gestaltung Ulm. Von der Stunde Null bis 1968\"",
+      "place": "HfG-Archiv Ulm",
+      "genre": "Kunst",
+      "time": "11:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "e3c034136c58ba29",
+      "date": "2026-11-27",
+      "title": "Die Einsteins - Museum einer Ulmer Familie",
+      "place": "Museum „Die Einsteins“",
+      "genre": "Konzerte",
+      "time": "11:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "ac35d419dc2b294f",
+      "date": "2026-11-27",
+      "title": "Neue Ausstellung „Vom Logo zur Identität: Visuelle Erscheinungsbilder der Bundesrepublik“",
+      "place": "HfG-Archiv Ulm",
+      "genre": "Kunst",
+      "time": "11:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "367dc7763247194b",
+      "date": "2026-11-27",
+      "title": "Stadtgeschichtliche Dauerausstellung",
+      "place": "Haus der Stadtgeschichte / Stadtarchiv Ulm",
+      "genre": "Kunst",
+      "time": "11:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "af18fa9b144a2783",
+      "date": "2026-11-27",
+      "title": "Louise Stomps. Konturen des Inneren",
+      "place": "Edwin Scharff Museum",
+      "genre": "Konzerte",
+      "time": "13:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "5446df9582d539e7",
+      "date": "2026-11-27",
+      "title": "40 Jahre Bananensprayer",
+      "place": "Galerie am Saumarkt, Ulm",
+      "genre": "Konzerte",
+      "time": "14:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "fc8ccebd28eebd50",
+      "date": "2026-11-27",
+      "title": "Mobilität im Wandel",
+      "place": "m25",
+      "genre": "Konzerte",
+      "time": "14:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "9ffc044779864083",
+      "date": "2026-11-27",
+      "title": "Die Jurte auf dem Weihnachtsmarkt",
+      "place": "Jurte auf dem Ulmer Weihnachtsmarkt",
+      "genre": "Konzerte",
+      "time": "16:30",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "c016b5937b57d046",
+      "date": "2026-11-27",
+      "title": "Teatro Offener Treff",
+      "place": "Bürgerhaus Mitte",
+      "genre": "Konzerte",
+      "time": "17:30",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "229ada58d5f6d82c",
+      "date": "2026-11-27",
+      "title": "Benyamin Reich Jerusalem Berlin Buchpräsentation und Ausstellungseröffnung",
+      "place": "Café Aegis",
+      "genre": "Kunst",
+      "time": "18:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "a8569171ffd4a52b",
+      "date": "2026-11-27",
+      "title": "RIAN — Support: COSMÓ BLUMENDISKO TOUR 2026",
       "place": "ROXY Ulm",
       "genre": "Konzerte",
       "time": "18:45",
       "url": "https://www.roxy.ulm.de/programm/programm.php?m=11&j=2026&vid=5469",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "7de42a344010352a",
+      "date": "2026-11-27",
+      "title": "Bhakti Wochenende",
+      "place": "Sri Neem Karoli Baba Mandir",
+      "genre": "Konzerte",
+      "time": "19:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "bf38e9fd55d6195c",
+      "date": "2026-11-27",
+      "title": "Ein Leben im Fluss: 50 Jahre - 50 Länder",
+      "place": "Bootshaus Ulmer Paddler e.V.",
+      "genre": "Konzerte",
+      "time": "19:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "b3410c80417a244c",
+      "date": "2026-11-27",
+      "title": "Hach, bin ich wieder ein Schelm",
+      "place": "Theater Neu-Ulm",
+      "genre": "Konzerte",
+      "time": "19:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "3021211d54febd5b",
+      "date": "2026-11-27",
+      "title": "Konzert – Peter Pan Soundwerkstatt",
+      "place": "EinsteinHaus - Ulmer Volkshochschule",
+      "genre": "Konzerte",
+      "time": "19:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "cfb324e4c65acd12",
+      "date": "2026-11-27",
+      "title": "Omi Alarm",
+      "place": "Theaterei Herrlingen",
+      "genre": "Konzerte",
+      "time": "19:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "ff6570433287d47e",
+      "date": "2026-11-27",
+      "title": "Ulrike v. Quast - Paula Schmidt: \"ATEM\"",
+      "place": "Galerie im Kornhauskeller",
+      "genre": "Konzerte",
+      "time": "19:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "21c2b0736ad4e708",
+      "date": "2026-11-27",
+      "title": "Abendjurte für Erwachsene",
+      "place": "Jurte auf dem Ulmer Weihnachtsmarkt",
+      "genre": "Konzerte",
+      "time": "19:30",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "09360110b4efdc39",
+      "date": "2026-11-27",
+      "title": "Ave Maria – Jahreszeitliche A-cappella-Chormusik von Monteverdi bis Verdi",
+      "place": "Felix Fabri-Saal Ulm",
+      "genre": "Konzerte",
+      "time": "19:30",
+      "url": "https://www.kultur-in-ulm.de/events/",
       "details": "",
       "end": null
     },
@@ -547,7 +569,7 @@
       "place": "Theater Ulm",
       "genre": "Bühne",
       "time": "19:30",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/die-schoenste-version",
+      "url": "https://www.kultur-in-ulm.de/events/",
       "details": "",
       "end": null
     },
@@ -558,7 +580,40 @@
       "place": "Theater Ulm",
       "genre": "Bühne",
       "time": "20:00",
-      "url": "https://www.theater-ulm.de/spielplan/stuecke/ball-im-savoy",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "92dff3cf70261edc",
+      "date": "2026-11-27",
+      "title": "Caligula",
+      "place": "theaterWerkstatt Ulm e.V.",
+      "genre": "Konzerte",
+      "time": "20:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "5ff6a9439660436a",
+      "date": "2026-11-27",
+      "title": "Emanzenpanzer & the LoveBites",
+      "place": "Hemperium",
+      "genre": "Konzerte",
+      "time": "20:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "2e8cb2b379405ada",
+      "date": "2026-11-27",
+      "title": "Shokee & Sands",
+      "place": "Autohaus Schall",
+      "genre": "Konzerte",
+      "time": "20:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
       "details": "",
       "end": null
     },
@@ -571,6 +626,28 @@
       "time": "20:00",
       "url": "https://kreuz-obermarchtal.de/mehr-infos/44-more-die-party-ab-mitte-30-mit-dj-oli-e-27-11-2026/",
       "details": "Freitag, 27.11.202620 UhrDIE Party-Reihe im KREUZ Obermarchtal!Jede 5er-Frauengruppe erhält eine Flasche Sekt gratis!Jeden vierten Freitag im Monat ab 20 Uhr:44 & MORE - DIE Party ab Mitte 30!*Rock *Pop *Soul...",
+      "end": null
+    },
+    {
+      "id": "3b3fe6918243a0cf",
+      "date": "2026-11-27",
+      "title": "#love90’s",
+      "place": "Cocomo Club Ulm",
+      "genre": "Club",
+      "time": "21:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "4a3476af5e2e35a8",
+      "date": "2026-11-27",
+      "title": "FREE LIVE CONCERT: BEVOR + MY MEMORIAL",
+      "place": "Studentencafé",
+      "genre": "Konzerte",
+      "time": "21:00",
+      "url": "https://www.kultur-in-ulm.de/events/",
+      "details": "",
       "end": null
     },
     {
@@ -637,6 +714,17 @@
       "time": "20:00",
       "url": "https://dasgold.org/konzert/vanta/",
       "details": "28.11.2026 | 20h",
+      "end": null
+    },
+    {
+      "id": "9df95c0c7c68547f",
+      "date": "2026-11-28",
+      "title": "80er-90er-2000er-2010er Party feat. DJ Major Tom",
+      "place": "Club Manufaktur",
+      "genre": "Club",
+      "time": "22:00",
+      "url": "https://www.club-manufaktur.de/event/80er-90er-2000er-2010er-party-feat-dj-major-tom-2/2026-11-28/",
+      "details": "Einlass ab 22 Uhr! Einlass ab 18 Jahren!",
       "end": null
     },
     {
@@ -761,6 +849,17 @@
       "end": null
     },
     {
+      "id": "fa4dc677dfed0042",
+      "date": "2026-12-03",
+      "title": "Michael Kraske und Dirk Laabs | Lesung und Diskussion | Widersetzt euch!",
+      "place": "Club Manufaktur",
+      "genre": "Literatur",
+      "time": "19:30",
+      "url": "https://www.club-manufaktur.de/event/michael-kraske-und-dirk-laabs-lesung-und-diskussion-widersetzt-euch/",
+      "details": "Wie wir gemeinsam den neuen Faschismus besiegen Wie wir den Aufstieg der Rechten stoppen – eine praktische Anleitung für alle.",
+      "end": null
+    },
+    {
       "id": "cf648b3ccdd2d254",
       "date": "2026-12-03",
       "title": "Nightwash Live — AUSVERKAUFT",
@@ -849,9 +948,20 @@
       "end": null
     },
     {
-      "id": "c7b7846169a7ba4a",
+      "id": "542e329721e62393",
+      "date": "2026-12-04",
+      "title": "SHAKING HAND (UK)",
+      "place": "Club Manufaktur",
+      "genre": "Konzerte",
+      "time": "20:30",
+      "url": "https://www.club-manufaktur.de/event/shaking-hand-uk/",
+      "details": "Die britische Newcomer Post-Rock Band Shaking Hand aus Manchester spielt im November und Dezember ihre ersten Deutschland-Konzerte.",
+      "end": null
+    },
+    {
+      "id": "316f670f959308fb",
       "date": "2026-12-05",
-      "title": "Anders feat. Choriosity A-cappella-Pop",
+      "title": "Anders feat. Choriosity — AUSVERKAUFT A-cappella-Pop",
       "place": "ROXY Ulm",
       "genre": "Konzerte",
       "time": "",
@@ -959,6 +1069,28 @@
       "end": null
     },
     {
+      "id": "5d477bc219318866",
+      "date": "2026-12-05",
+      "title": "WaveTanzen in der Manufaktur – Tanze deine Welle!",
+      "place": "Club Manufaktur",
+      "genre": "Club",
+      "time": "20:00",
+      "url": "https://www.club-manufaktur.de/event/wavetanzen-in-der-manufaktur-tanze-deine-welle-3/2026-12-05/",
+      "details": "WaveTanzen gibt dir die Möglichkeit, den ganzen Körper intensiv zu bewegen und dabei emotionale und mentale Anspannung loszulassen.",
+      "end": null
+    },
+    {
+      "id": "bbcd7b0e538373d7",
+      "date": "2026-12-05",
+      "title": "BURNOUT OSTWEST (D) – Support: JULIO LOVETRAIN (D)",
+      "place": "Club Manufaktur",
+      "genre": "Konzerte",
+      "time": "20:30",
+      "url": "https://www.club-manufaktur.de/event/burnout-ostwest-d/",
+      "details": "\"Eingängige Gitarrenriffs, schneidende Synthies, hoher Mitgrölfaktor – die Ingredienzien aller Burnout-Ostwest-Songs\", schrieb die taz anlässlich der ersten Burnout Ostwest-Veröffentlichung vor fünf Jahren.",
+      "end": null
+    },
+    {
       "id": "fbd1594d1b10ac8f",
       "date": "2026-12-06",
       "title": "Max und Moritz",
@@ -992,14 +1124,36 @@
       "end": null
     },
     {
-      "id": "7ef0a61e136a4faa",
+      "id": "edabbb411a976311",
+      "date": "2026-12-09",
+      "title": "MAUSTETYTÖT (FIN) – Itken jos mua huvittaa Tour 2026",
+      "place": "Club Manufaktur",
+      "genre": "Konzerte",
+      "time": "20:30",
+      "url": "https://www.club-manufaktur.de/event/maustetytoet-fin-2/",
+      "details": "Maustetytöt kreieren einen unverwechselbaren Sound, der unwiderstehlich eingängige Melodien mit eindrucksvoll realistischen, emotional berührenden Texten verbindet.",
+      "end": null
+    },
+    {
+      "id": "7cf77661b21ef7f8",
       "date": "2026-12-10",
-      "title": "AVATAR Don’t Go In The Forest `26",
+      "title": "AVATAR — fast ausverkauft! Don’t Go In The Forest `26",
       "place": "ROXY Ulm",
       "genre": "Konzerte",
       "time": "19:30",
       "url": "https://www.roxy.ulm.de/programm/programm.php?m=12&j=2026&vid=5660",
       "details": "",
+      "end": null
+    },
+    {
+      "id": "502e043a007c44a2",
+      "date": "2026-12-10",
+      "title": "Jörg Kronauer liest aus und diskutiert über: „Die Brandleger – Der Vormarsch der transatlantischen Rechten“",
+      "place": "Club Manufaktur",
+      "genre": "Konzerte",
+      "time": "19:30",
+      "url": "https://www.club-manufaktur.de/event/joerg-kronauer-liest-aus-und-diskutiert-ueber-die-brandleger-der-vormarsch-der-transatlantischen-rechten/",
+      "details": "„Keinen Platz für Brandmauern\" dürfe es in Europa mehr geben, stärkte US-Vizepräsident JD Vance Anfang 2025 der AfD den Rücken.",
       "end": null
     },
     {
@@ -1011,6 +1165,17 @@
       "time": "19:30",
       "url": "https://www.theater-ulm.de/spielplan/stuecke/unterm-junimond",
       "details": "",
+      "end": null
+    },
+    {
+      "id": "a2e2e35db26eb876",
+      "date": "2026-12-11",
+      "title": "SOUL FUNKATION",
+      "place": "GOLD",
+      "genre": "Konzerte",
+      "time": "",
+      "url": "https://dasgold.org/konzert/soul-funkation/",
+      "details": "11.12.2026 | DJ",
       "end": null
     },
     {
@@ -1076,6 +1241,17 @@
       "genre": "Konzerte",
       "time": "20:00",
       "url": "https://www.roxy.ulm.de/programm/programm.php?m=12&j=2026&vid=5525",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "1b55f50c922a7dda",
+      "date": "2026-12-11",
+      "title": "Friday, I'm in Love",
+      "place": "Theater Ulm",
+      "genre": "Bühne",
+      "time": "22:00",
+      "url": "https://www.theater-ulm.de/spielplan/stuecke/friday-i-m-in-love-26-27",
       "details": "",
       "end": null
     },
@@ -1296,7 +1472,7 @@
       "genre": "Konzerte",
       "time": "",
       "url": "https://dasgold.org/konzert/jazz-jam-4/",
-      "details": "17.12.2026 | | Jam Session",
+      "details": "17.12.2026 | Jam Session",
       "end": null
     },
     {
@@ -1432,6 +1608,17 @@
       "end": null
     },
     {
+      "id": "644fb46e32e586c4",
+      "date": "2026-12-19",
+      "title": "Zoro & Myron",
+      "place": "GOLD",
+      "genre": "Konzerte",
+      "time": "",
+      "url": "https://dasgold.org/konzert/zoro-myron/",
+      "details": "19.12.2026 | Freiburg",
+      "end": null
+    },
+    {
       "id": "481c50401bceb4db",
       "date": "2026-12-19",
       "title": "Kipppunkte",
@@ -1440,6 +1627,17 @@
       "time": "19:00",
       "url": "https://www.theater-ulm.de/spielplan/stuecke/kipppunkte",
       "details": "",
+      "end": null
+    },
+    {
+      "id": "ad70b16265c78926",
+      "date": "2026-12-19",
+      "title": "DIE HOCHSTAPLER (F/I/D) – Jazz",
+      "place": "Club Manufaktur",
+      "genre": "Konzerte",
+      "time": "20:30",
+      "url": "https://www.club-manufaktur.de/event/die-hochstapler-f-i-d-jazz-2/",
+      "details": "Pierre Borel - Saxophon Antonio Borghini - Kontrabass Louis Laurain - Trompete Hannes Lingens - Schlagzeug Seit 2011 arbeiten Pierre Borel, Louis Laurain, Antonio Borghini und Hannes Lingens als Die Hochstapler zusammen.",
       "end": null
     },
     {
@@ -1516,7 +1714,7 @@
       "genre": "Konzerte",
       "time": "",
       "url": "https://dasgold.org/konzert/between-the-bars-x-gold-x-mas/",
-      "details": "23.12.2026 | | Bar",
+      "details": "23.12.2026 | Bar",
       "end": null
     },
     {
@@ -1971,6 +2169,17 @@
       "end": null
     },
     {
+      "id": "02c4c9170c865baa",
+      "date": "2027-01-15",
+      "title": "FRIEDEMANN WEISE – Satire suchen ein Zuhause – Kabarett",
+      "place": "Club Manufaktur",
+      "genre": "Bühne",
+      "time": "20:00",
+      "url": "https://www.club-manufaktur.de/event/friedemann-weise-satire-suchen-ein-zuhause-kabarett/",
+      "details": "Satire darf alles. Außer sterben! Wenn die Satire stirbt, hat der Mensch nur noch vier Jahre zu leben“, sagte Albert Einstein mit einem Kaffee in der Hand zu seiner Katze.",
+      "end": null
+    },
+    {
       "id": "62332f00a92277be",
       "date": "2027-01-15",
       "title": "Science Slam Wissenschaft unterhaltsam!",
@@ -2012,6 +2221,17 @@
       "time": "20:00",
       "url": "https://www.roxy.ulm.de/programm/programm.php?m=1&j=2027&vid=5742",
       "details": "",
+      "end": null
+    },
+    {
+      "id": "6ffa29d46fcd43eb",
+      "date": "2027-01-16",
+      "title": "SIGRID AFTRET’S JET TRIO – SIGRID AFTRET – TOM BOIZOT – LOUP GODFROY (NOR/FR) – Jazz",
+      "place": "Club Manufaktur",
+      "genre": "Konzerte",
+      "time": "20:30",
+      "url": "https://www.club-manufaktur.de/event/sigrid-aftrets-jet-trio-sigrid-aftret-tom-boizot-loup-godfroy-nor-fr-jazz/",
+      "details": "Sigrid Aftret - Kompositionen, Tenorsaxophon, Flöte und Elektronik Tom Boizot - Kontrabass Loup Godfroy - Schlagzeug und Volca (Synthesizer) Das JET TRIO ist eine französisch-norwegische Jazzband um die Saxophonistin …",
       "end": null
     },
     {
@@ -2224,6 +2444,17 @@
       "end": null
     },
     {
+      "id": "4ea8d76c139fd3fe",
+      "date": "2027-01-28",
+      "title": "WOLFGANG SCHORLAU liest aus „Das kalte Werk“",
+      "place": "Club Manufaktur",
+      "genre": "Konzerte",
+      "time": "20:00",
+      "url": "https://www.club-manufaktur.de/event/wolfgang-schorlau-liest-aus-das-kalte-werk/",
+      "details": "Wolfgang Schorlaus neuer Roman handelt von der Frage, was für uns alle auf dem Spiel steht, von den Schatten der Vergangenheit und von den brutalen Arbeitsbedingungen der Zukunft – oder ist es längst die Gegenwart?",
+      "end": null
+    },
+    {
       "id": "a01c9a711868fd48",
       "date": "2027-01-29",
       "title": "Die Ehebrecherinnen",
@@ -2232,6 +2463,17 @@
       "time": "19:30",
       "url": "https://www.theater-ulm.de/spielplan/stuecke/die-ehebrecherinnen",
       "details": "",
+      "end": null
+    },
+    {
+      "id": "dcedd1ccd1f26213",
+      "date": "2027-01-29",
+      "title": "Let’s Dance 80’s",
+      "place": "GOLD",
+      "genre": "Club",
+      "time": "20:00",
+      "url": "https://dasgold.org/konzert/lets-dance-80s-2/",
+      "details": "29.01.2027 | 20h | DJ",
       "end": null
     },
     {
@@ -2290,6 +2532,17 @@
       "end": null
     },
     {
+      "id": "9085e0fd0d7eb4e5",
+      "date": "2027-01-30",
+      "title": "Together in Motion",
+      "place": "Theater Ulm",
+      "genre": "Bühne",
+      "time": "19:30",
+      "url": "https://www.theater-ulm.de/spielplan/stuecke/together-in-motion-tanz",
+      "details": "",
+      "end": null
+    },
+    {
       "id": "c290748e1c6b5836",
       "date": "2027-01-31",
       "title": "Physik-Event Die einzige Physikshow in 4D",
@@ -2297,6 +2550,17 @@
       "genre": "Bühne",
       "time": "14:00",
       "url": "https://www.roxy.ulm.de/programm/programm.php?m=1&j=2027&vid=5587",
+      "details": "",
+      "end": null
+    },
+    {
+      "id": "5ca5b71374fb1340",
+      "date": "2027-01-31",
+      "title": "Neujahrskonzert 2027",
+      "place": "Theater Ulm",
+      "genre": "Bühne",
+      "time": "19:00",
+      "url": "https://www.theater-ulm.de/spielplan/stuecke/neujahrskonzert-2027",
       "details": "",
       "end": null
     },
@@ -2312,6 +2576,17 @@
       "end": null
     },
     {
+      "id": "29aa2fbdfa73e939",
+      "date": "2027-02-05",
+      "title": "GET WELL SOON (D)",
+      "place": "Club Manufaktur",
+      "genre": "Konzerte",
+      "time": "20:30",
+      "url": "https://www.club-manufaktur.de/event/get-well-soon-d-2/",
+      "details": "Auf seinem zweiten Album im Jahr 2026 unternimmt Konstantin Gropper aka. Get Well Soon den Versuch, KI in den künstlerischen Schaffensprozess zu integrieren, statt sie nur pauschal zu verteufeln.",
+      "end": null
+    },
+    {
       "id": "8a8a784af9eec193",
       "date": "2027-02-06",
       "title": "Lemony Rug",
@@ -2320,6 +2595,17 @@
       "time": "20:00",
       "url": "https://dasgold.org/konzert/lemony-rug/",
       "details": "06.02.2027 | 20h | Hamburg",
+      "end": null
+    },
+    {
+      "id": "853c301fd1ec7a42",
+      "date": "2027-02-06",
+      "title": "MOTHER’S CAKE (A) – Support: Yeast Machine (D)",
+      "place": "Club Manufaktur",
+      "genre": "Konzerte",
+      "time": "20:30",
+      "url": "https://www.club-manufaktur.de/event/mothers-cake-a-support-yeast-machine-d/",
+      "details": "Es gibt Bands, die verwalten ihr Erbe. Und dann gibt es Mother’s Cake. Für diese Band ist Stillstand kein Zustand, sondern ein künstlerischer Verrat.",
       "end": null
     },
     {
@@ -2334,6 +2620,17 @@
       "end": null
     },
     {
+      "id": "c41886d51631e022",
+      "date": "2027-02-19",
+      "title": "JOAN AS POLICE WOMAN (USA) – 20 Years of Real Life Tour",
+      "place": "Club Manufaktur",
+      "genre": "Konzerte",
+      "time": "20:30",
+      "url": "https://www.club-manufaktur.de/event/joan-as-police-woman-usa-2/",
+      "details": "New York Citys beste Musikerin feiert das 20-jährige Jubiläum ihres beeindruckenden Debütalbums „Real Life“ aus dem Jahr 2006 mit exklusiven Trio-Konzerten.",
+      "end": null
+    },
+    {
       "id": "e083f4cc515accf5",
       "date": "2027-02-20",
       "title": "GenYXb",
@@ -2342,6 +2639,17 @@
       "time": "",
       "url": "https://www.stellwerk-schelklingen.com/",
       "details": "",
+      "end": null
+    },
+    {
+      "id": "7f7e009992260bb7",
+      "date": "2027-02-25",
+      "title": "THE KLITTENS (NL)",
+      "place": "Club Manufaktur",
+      "genre": "Konzerte",
+      "time": "20:30",
+      "url": "https://www.club-manufaktur.de/event/the-klittens-nl/",
+      "details": "The Klittens sind eine fünfköpfige all female Band, die ihre Liebe zur Popmusik mit düsteren Klängen und einer Punk-Attitüde verbindet.",
       "end": null
     },
     {
@@ -2367,6 +2675,50 @@
       "end": null
     },
     {
+      "id": "45c8b2e08e279464",
+      "date": "2027-03-13",
+      "title": "DE STAAT (NL)",
+      "place": "Club Manufaktur",
+      "genre": "Konzerte",
+      "time": "20:30",
+      "url": "https://www.club-manufaktur.de/event/de-staat-nl/",
+      "details": "De Staat hat sich einen Ruf als eine der innovativsten und mutigsten Live-Bands Europas erarbeitet. Die Band hat immer wieder die Grenzen dessen verschoben, was eine Rockband sein kann.",
+      "end": null
+    },
+    {
+      "id": "04f93e8da531cea2",
+      "date": "2027-03-19",
+      "title": "BIRD CALLS (D/FR/NOR) – Matthias Müller – Laure Boer – Paal Nilssen-Love – Jazz",
+      "place": "Club Manufaktur",
+      "genre": "Konzerte",
+      "time": "20:30",
+      "url": "https://www.club-manufaktur.de/event/bird-calls-d-fr-nor-matthias-mueller-laure-boer-paal-nilssen-love-jazz/",
+      "details": "Matthias Müller – Posaune Laure Boer – Dan Bau (vietnamesisches Monochord), Elektronik Paal Nilssen-Love – Schlagzeug, Gongs, Percussion Mit dem für seine außergewöhnlichen Spieltechniken bekannten Berliner Posaunist …",
+      "end": null
+    },
+    {
+      "id": "e0b19d1f170d88de",
+      "date": "2027-03-20",
+      "title": "DIE STERNE (D)",
+      "place": "Club Manufaktur",
+      "genre": "Konzerte",
+      "time": "20:30",
+      "url": "https://www.club-manufaktur.de/event/die-sterne-d-3/",
+      "details": "Das neue Album „Wenn es Liebe ist“ von Die Sterne versammelt vertraute Indiepop-Momente im typischen Sterne-Sound, aber auch unerwartete Neuerfindungen.",
+      "end": null
+    },
+    {
+      "id": "4daa3797c40987f9",
+      "date": "2027-03-25",
+      "title": "DESPERATE JOURNALIST (UK)",
+      "place": "Club Manufaktur",
+      "genre": "Konzerte",
+      "time": "20:30",
+      "url": "https://www.club-manufaktur.de/event/desperate-journalist-uk/",
+      "details": "Desperate Journalist haben sich mit ihrer unverwechselbaren Mischung aus Post-Punk und modernem Indie-Rock inzwischen eine treue Fangemeinde aufgebaut.",
+      "end": null
+    },
+    {
       "id": "6526ba853bfdbe53",
       "date": "2027-03-27",
       "title": "COLDHEART – A Tribute to Rock Classics",
@@ -2386,6 +2738,17 @@
       "time": "20:30",
       "url": "https://kreuz-obermarchtal.de/mehr-infos/coldheart-rock-classics-live-27-03-2027/",
       "details": "COLDHEART nimmt euch mit auf eine Zeitreise durch die goldene Ära des Rock.",
+      "end": null
+    },
+    {
+      "id": "80840c86141a2f23",
+      "date": "2027-04-02",
+      "title": "FIONN REGAN (IRL)",
+      "place": "Club Manufaktur",
+      "genre": "Konzerte",
+      "time": "20:30",
+      "url": "https://www.club-manufaktur.de/event/fionn-regan-irl/",
+      "details": "Fionn Regan gehört zu den eigenständigsten Singer-Songwritern der irischen Musikszene. Seit seinem 2006 erschienenen Debüt „The End of History“, das für den Mercury Prize nominiert wurde, entwickelt er eine Musik, die …",
       "end": null
     },
     {
@@ -2411,6 +2774,17 @@
       "end": null
     },
     {
+      "id": "57cbe720cb54f0f6",
+      "date": "2027-04-10",
+      "title": "THE SLOW SHOW (UK)",
+      "place": "Club Manufaktur",
+      "genre": "Konzerte",
+      "time": "20:30",
+      "url": "https://www.club-manufaktur.de/event/the-slow-show-uk/",
+      "details": "Die britische Band The Slow Show schlägt ein neues Kapitel auf: Mit „Call It All“ kündigt die Band ihr mittlerweile sechstes Studioalbum an. Gleichzeitig zeigt sie sich musikalisch so vielseitig und mutig wie nie zuvor.",
+      "end": null
+    },
+    {
       "id": "6ded1e4194ed363b",
       "date": "2027-04-17",
       "title": "Wild Gunman",
@@ -2422,6 +2796,17 @@
       "end": null
     },
     {
+      "id": "434263706c6ac8ad",
+      "date": "2027-04-23",
+      "title": "NICHTSEATTLE (D) – Große Liebe Tour 2027",
+      "place": "Club Manufaktur",
+      "genre": "Konzerte",
+      "time": "20:30",
+      "url": "https://www.club-manufaktur.de/event/nichtseattle-d/",
+      "details": "Sie ist eine der außergewöhnlichsten Songschreiberinnen unserer Zeit und spätestens seit ihrem im April 2024 erschienen Doppelalbum „HAUS“ nicht mehr aus der Kulturlandschaft wegzudenken: Katharina Kollmann aka …",
+      "end": null
+    },
+    {
       "id": "239d7626a9d102b7",
       "date": "2027-04-24",
       "title": "Don't Eat Cats",
@@ -2430,6 +2815,28 @@
       "time": "",
       "url": "https://www.stellwerk-schelklingen.com/",
       "details": "",
+      "end": null
+    },
+    {
+      "id": "ad1f867491cdab1d",
+      "date": "2027-04-24",
+      "title": "MOTORPSYCHO (NOR)",
+      "place": "Club Manufaktur",
+      "genre": "Konzerte",
+      "time": "20:30",
+      "url": "https://www.club-manufaktur.de/event/motorpsycho-nor-3/",
+      "details": "Meine Damen und Herren – macht euch bereit für die Show! Im März und April nächsten Jahres ist es wieder so weit: Wir schminken uns die Gesichter, polieren unsere Schuhe und gehen erneut auf Tour!",
+      "end": null
+    },
+    {
+      "id": "d061cf88124899c8",
+      "date": "2027-04-30",
+      "title": "MOOP MAMA (D) – Musik mit Maschine Tour 2027",
+      "place": "Club Manufaktur",
+      "genre": "Konzerte",
+      "time": "20:30",
+      "url": "https://www.club-manufaktur.de/event/moop-mama-d-musik-mit-maschine-tour-2027/",
+      "details": "Hey, wir sind Moop Mama. Die Band, die Mutter des „Urban Brass“. Ihr kennt uns von Anfang an? Vergesst alles! Ihr seid ganz neu dazugekommen? Vergesst alles! Ihr habt keine Ahnung? Seid gespannt... Wir gehen auf Tour.",
       "end": null
     },
     {
@@ -2455,6 +2862,28 @@
       "end": null
     },
     {
+      "id": "10c53c05f45f6664",
+      "date": "2027-05-21",
+      "title": "THE OUTSKIRTS + MARTA WARELIS – Dave Rempis, Ingebrigt Håker-Flaten, Frank Rosaly, Marta Warelis (USA/NOR/PL) – Jazz",
+      "place": "Club Manufaktur",
+      "genre": "Konzerte",
+      "time": "20:30",
+      "url": "https://www.club-manufaktur.de/event/the-outskirts-marta-warelis-dave-rempis-ingebrigt-haker-flaten-frank-rosaly-marta-warelis-usa-nor-pl-jazz/",
+      "details": "Dave Rempis – Saxophone Ingebrigt Håker-Flaten – Kontrabass Frank Rosaly – Schlagzeug Marta Warelis - Klavier The Outskirts ist mehr als eine Band: Sie sind eine Gemeinschaft von Gleichgesinnten, die über Jahrzehnte …",
+      "end": null
+    },
+    {
+      "id": "c8f789a1e4d0954b",
+      "date": "2027-05-28",
+      "title": "HYPOMANIAC (ARG/PT/F) – CAMILA NEBBIA – GONÇALO ALMEIDA – SYLVAIN DARRIFOURCQ – Jazz",
+      "place": "Club Manufaktur",
+      "genre": "Konzerte",
+      "time": "20:30",
+      "url": "https://www.club-manufaktur.de/event/hypomaniac-arg-pt-f/",
+      "details": "Camila Nebbia – Tenorsaxophon Gonçalo Almeida – Kontrabass Sylvain Darrifourcq – Schlagzeug Wenn drei einzigartige Stimmen im unberechenbaren Terrain des Free Jazz aufeinandertreffen, lösen sich Grenzen auf und rohe …",
+      "end": null
+    },
+    {
       "id": "b3e5ce0dde0d38e4",
       "date": "2027-06-05",
       "title": "Gentle Minds",
@@ -2463,6 +2892,39 @@
       "time": "",
       "url": "https://www.stellwerk-schelklingen.com/",
       "details": "",
+      "end": null
+    },
+    {
+      "id": "7802a18bcb8e6347",
+      "date": "2027-06-19",
+      "title": "DAN MANGAN (CAN)",
+      "place": "Club Manufaktur",
+      "genre": "Konzerte",
+      "time": "20:30",
+      "url": "https://www.club-manufaktur.de/event/dan-mangan-can-2/",
+      "details": "Dan Mangan ist ein vielfach ausgezeichneter Musiker und Songwriter, der bereits zweimal mit dem JUNO Award geehrt und dreimal für den renommierten Polaris Music Prize nominiert wurde.",
+      "end": null
+    },
+    {
+      "id": "c62bcb88f9594b5f",
+      "date": "2027-10-16",
+      "title": "DEKKER (USA)",
+      "place": "Club Manufaktur",
+      "genre": "Konzerte",
+      "time": "20:30",
+      "url": "https://www.club-manufaktur.de/event/dekker-usa-2/",
+      "details": "Dekker ist das Soloprojekt des amerikanischen Songwriters Brookln Dekker, der heute im britischen Nottingham lebt.",
+      "end": null
+    },
+    {
+      "id": "92ec8b92c716b59d",
+      "date": "2027-12-04",
+      "title": "CLAUDIA PICHLER – Kopfnuss und Konterbier – Kabarett aus Bayern",
+      "place": "Club Manufaktur",
+      "genre": "Bühne",
+      "time": "20:00",
+      "url": "https://www.club-manufaktur.de/event/claudia-pichler-kopfnuss-und-konterbier-kabarett-aus-bayern/",
+      "details": "Claudia Pichler ist ein Unikum: Die Münchnerin wirkt auf den ersten Blick so sanft und charmant wie ein Frühlingsmorgen, seziert in feiner Sprache mit bairischem Einschlag allzu menschliche Abgründe und beherrscht dabei …",
       "end": null
     }
   ],
@@ -2498,9 +2960,9 @@
     {
       "name": "Club Manufaktur",
       "url": "https://www.club-manufaktur.de/kategorie/alle-events/",
-      "state": "error",
-      "count": 0,
-      "note": "HTTPSConnectionPool(host='www.club-manufaktur.de', port=443): Read timed out. (read timeout=9)"
+      "state": "ok",
+      "count": 31,
+      "note": ""
     },
     {
       "name": "Birkenried",
@@ -2547,15 +3009,15 @@
     {
       "name": "Was geht?",
       "url": "https://www.wasgehtapp.de/index.php?radius=20&select_ort=1&ort=Ulm&x=9.98489&y=48.3917&region=01",
-      "state": "needs_parser",
+      "state": "error",
       "count": 0,
-      "note": "Seite erreichbar, aber keine zuverlässig erkannten zukünftigen Termine"
+      "note": "403 Client Error: Forbidden for url: https://www.wasgehtapp.de/index.php?radius=20&select_ort=1&ort=Ulm&x=9.98489&y=48.3917&region=01"
     },
     {
       "name": "GOLD",
       "url": "https://dasgold.org/programm/",
       "state": "ok",
-      "count": 11,
+      "count": 14,
       "note": ""
     },
     {
@@ -2639,7 +3101,7 @@
       "name": "Kultur in Ulm",
       "url": "https://www.kultur-in-ulm.de/",
       "state": "ok",
-      "count": 42,
+      "count": 51,
       "note": ""
     },
     {
